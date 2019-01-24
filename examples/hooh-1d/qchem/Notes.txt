@@ -1,0 +1,1 @@
+QChem's native optimizer fails to converage at -165 degree -> 180 degree step.

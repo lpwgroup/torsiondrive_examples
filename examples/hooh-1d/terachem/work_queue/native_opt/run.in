@@ -1,0 +1,9 @@
+coordinates start.xyz
+run minimize
+basis 6-31g*
+method rb3lyp
+charge 0
+spinmult 1
+dispersion yes
+scf diis+a
+maxit 50

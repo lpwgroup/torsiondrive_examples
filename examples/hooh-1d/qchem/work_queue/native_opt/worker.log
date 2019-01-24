@@ -1,0 +1,774 @@
+2019/01/24 12:52:07.95 work_queue_python[13469] tcp: listening on port 50124
+2019/01/24 12:52:07.95 work_queue_python[13469] wq: Using default fast abort multiplier for 'default'.
+2019/01/24 12:52:07.95 work_queue_python[13469] wq: workers status -- total: 0, active: 0, available: 0.
+2019/01/24 12:52:07.95 work_queue_python[13469] wq: Work Queue is listening on port 50124.
+Work Queue listening on 50124
+2019/01/24 12:52:07.95 work_queue_python[13469] wq: Task 1 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:07.95 work_queue_python[13469] wq: workers status -- total: 0, active: 0, available: 0.
+warning: this work queue master is visible to the public.
+warning: you should set a password with the --password option.
+2019/01/24 12:52:07.95 work_queue_python[13469] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2019/01/24 12:52:07.95 work_queue_python[13469] debug: compressed update message from 2022 to 748 bytes
+2019/01/24 12:52:07.95 work_queue_python[13469] dns: looking up name catalog.cse.nd.edu
+2019/01/24 12:52:07.95 work_queue_python[13469] dns: catalog.cse.nd.edu is 129.74.152.177
+2019/01/24 12:52:07.95 work_queue_python[13469] debug: sending update to catalog.cse.nd.edu(129.74.152.177):9097
+2019/01/24 12:52:07.95 work_queue_python[13469] dns: looking up name backup-catalog.cse.nd.edu
+2019/01/24 12:52:07.95 work_queue_python[13469] dns: backup-catalog.cse.nd.edu is 129.74.247.43
+2019/01/24 12:52:07.95 work_queue_python[13469] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+Thu Jan 24 12:52:08 2019: 0/0 workers busy; 0/0 jobs complete
+2019/01/24 12:52:24.85 work_queue_python[13469] tcp: got connection from 127.0.0.1 port 43632
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: worker 127.0.0.1:43632 connected
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: 1 workers are connected in total now
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: workers status -- total: 1, active: 0, available: 0.
+Thu Jan 24 12:52:24 2019: 0/1 workers busy; 0/0 jobs complete
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from unknown (127.0.0.1:43632): workqueue 7 skyholder Linux x86_64 6.2.10
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) running CCTools version 6.2.10 on Linux (operating system) with architecture x86_64 is ready
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info worker-id worker-95cfa7072a94763978a8c0210ece36f3
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): alive
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): resource workers 1 1 1
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): resource disk 20761 20761 20761
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): resource memory 64285 64285 64285
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): resource gpus 0 0 0
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): resource cores 1 1 1
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): resource tag 0
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/1/qc.in bytes 0:482 as 'file-1-b764a60892c9ff0eec4dab8a989df941-qc.in'
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): put file-1-b764a60892c9ff0eec4dab8a989df941-qc.in 482 0664 0
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) received 0.00 MB in 0.00s (10.26s MB/s) average 10.26s MB/s
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): task 1
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): cmd 32
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): category default
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): cores 1
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): memory 64285
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): disk 20761
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): gpus 0
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): end_time 18446744073709551615
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): wall_time 18446744073709551615
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): infile file-1-b764a60892c9ff0eec4dab8a989df941-qc.in qc.in 0
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): outfile file-2-96ca11797b0a43456e576a6b55861679-qc.out qc.out 0
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): outfile file-3-146fa8d5a700f86c8ef4c618361614ef-qc.log qc.log 0
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: Task 1 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: workers status -- total: 1, active: 1, available: 1.
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info end_of_resource_update 0
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info tasks_running 0
+2019/01/24 12:52:24.85 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info tasks_running 1
+2019/01/24 12:52:24.86 work_queue_python[13469] tcp: got connection from 127.0.0.1 port 43634
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: worker 127.0.0.1:43634 connected
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: 2 workers are connected in total now
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from unknown (127.0.0.1:43634): workqueue 7 skyholder Linux x86_64 6.2.10
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) running CCTools version 6.2.10 on Linux (operating system) with architecture x86_64 is ready
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info worker-id worker-c7c48b83eba1d7cb6d7d6a90e6ba153d
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): alive
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): resource workers 1 1 1
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): resource disk 20761 20761 20761
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): resource memory 64285 64285 64285
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): resource gpus 0 0 0
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): resource cores 1 1 1
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): resource tag 0
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info end_of_resource_update 0
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info tasks_running 0
+2019/01/24 12:52:24.86 work_queue_python[13469] tcp: got connection from 127.0.0.1 port 43636
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: worker 127.0.0.1:43636 connected
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: 3 workers are connected in total now
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from unknown (127.0.0.1:43636): workqueue 7 skyholder Linux x86_64 6.2.10
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) running CCTools version 6.2.10 on Linux (operating system) with architecture x86_64 is ready
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): info worker-id worker-384e918ebd3d54e0c9e36ca98b8aa85f
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): alive
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): resource workers 1 1 1
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): resource disk 20761 20761 20761
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): resource memory 64285 64285 64285
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): resource gpus 0 0 0
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): resource cores 1 1 1
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): resource tag 0
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): info end_of_resource_update 0
+2019/01/24 12:52:24.86 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): info tasks_running 0
+2019/01/24 12:52:25.86 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): available_results
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): send_results -1
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43632)
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): result 0 0 0 3292954 1
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: Task 1 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info tasks_running 0
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sending back file-2-96ca11797b0a43456e576a6b55861679-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/1/qc.out
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): get file-2-96ca11797b0a43456e576a6b55861679-qc.out 1
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): file file-2-96ca11797b0a43456e576a6b55861679-qc.out 61756
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.06 MB file.
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/1/qc.out (size: 61756 bytes) from 127.0.0.1:43632 (skyholder) ...
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sent 0.06 MB in 0.00s (450.77s MB/s) average 338.25s MB/s
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sending back file-3-146fa8d5a700f86c8ef4c618361614ef-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/1/qc.log
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): get file-3-146fa8d5a700f86c8ef4c618361614ef-qc.log 1
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): file file-3-146fa8d5a700f86c8ef4c618361614ef-qc.log 1103
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/1/qc.log (size: 1103 bytes) from 127.0.0.1:43632 (skyholder) ...
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sent 0.00 MB in 0.00s (11.49s MB/s) average 226.22s MB/s
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): kill 1
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-1-b764a60892c9ff0eec4dab8a989df941-qc.in
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-2-96ca11797b0a43456e576a6b55861679-qc.out
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-3-146fa8d5a700f86c8ef4c618361614ef-qc.log
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: Task 1 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) done in 3.29s total tasks 1 average 3.29s
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: Task 1 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:28.15 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 1) finished successfully on host skyholder (3 seconds)
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: Task 2 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: Task 3 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/1/qc.in bytes 0:482 as 'file-4-bbfa596fa953612f7dc0c66fb8ddf259-qc.in'
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): put file-4-bbfa596fa953612f7dc0c66fb8ddf259-qc.in 482 0664 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) received 0.00 MB in 0.00s (8.46s MB/s) average 8.46s MB/s
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): task 2
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): cmd 32
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): category default
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): cores 1
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): memory 64285
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): disk 20761
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): gpus 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): end_time 18446744073709551615
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): wall_time 18446744073709551615
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): infile file-4-bbfa596fa953612f7dc0c66fb8ddf259-qc.in qc.in 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): outfile file-5-0b5238b30b9f66c3cca5f04feae8ddc8-qc.out qc.out 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): outfile file-6-06173eb53b2a6e684b66ddca84daeddf-qc.log qc.log 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: Task 2 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/1/qc.in bytes 0:482 as 'file-7-0291967cf49e669f241fcd4dbe63dd21-qc.in'
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): put file-7-0291967cf49e669f241fcd4dbe63dd21-qc.in 482 0664 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) received 0.00 MB in 0.00s (13.39s MB/s) average 13.39s MB/s
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): task 3
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): cmd 32
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): category default
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): cores 1
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): memory 64285
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): disk 20761
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): gpus 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): end_time 18446744073709551615
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): wall_time 18446744073709551615
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): infile file-7-0291967cf49e669f241fcd4dbe63dd21-qc.in qc.in 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): outfile file-8-d2f0b6641f435027aa846c2443cae9c2-qc.out qc.out 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): outfile file-9-ccbac7e28ef81f24662cb4896f0d4937-qc.log qc.log 0
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): end
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: Task 3 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info tasks_running 1
+2019/01/24 12:52:28.18 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): info tasks_running 1
+2019/01/24 12:52:29.18 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): available_results
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): send_results -1
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43634)
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): result 0 0 0 3427545 2
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: Task 2 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info tasks_running 0
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sending back file-5-0b5238b30b9f66c3cca5f04feae8ddc8-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/1/qc.out
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): get file-5-0b5238b30b9f66c3cca5f04feae8ddc8-qc.out 1
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): file file-5-0b5238b30b9f66c3cca5f04feae8ddc8-qc.out 62796
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.06 MB file.
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/1/qc.out (size: 62796 bytes) from 127.0.0.1:43634 (skyholder) ...
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sent 0.06 MB in 0.00s (410.43s MB/s) average 301.32s MB/s
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sending back file-6-06173eb53b2a6e684b66ddca84daeddf-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/1/qc.log
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): get file-6-06173eb53b2a6e684b66ddca84daeddf-qc.log 1
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): file file-6-06173eb53b2a6e684b66ddca84daeddf-qc.log 1103
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/1/qc.log (size: 1103 bytes) from 127.0.0.1:43634 (skyholder) ...
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sent 0.00 MB in 0.00s (11.03s MB/s) average 207.68s MB/s
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): kill 2
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-4-bbfa596fa953612f7dc0c66fb8ddf259-qc.in
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-5-0b5238b30b9f66c3cca5f04feae8ddc8-qc.out
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-6-06173eb53b2a6e684b66ddca84daeddf-qc.log
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: Task 2 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) done in 3.45s total tasks 1 average 3.43s
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: Task 2 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:31.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 2) finished successfully on host skyholder (3 seconds)
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): available_results
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): send_results -1
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43636)
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): result 0 0 0 3750340 3
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: Task 3 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): info tasks_running 0
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): end
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sending back file-8-d2f0b6641f435027aa846c2443cae9c2-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/1/qc.out
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): get file-8-d2f0b6641f435027aa846c2443cae9c2-qc.out 1
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): file file-8-d2f0b6641f435027aa846c2443cae9c2-qc.out 70305
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) will try up to 7200 seconds to transfer this 0.07 MB file.
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/1/qc.out (size: 70305 bytes) from 127.0.0.1:43636 (skyholder) ...
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): end
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sent 0.07 MB in 0.00s (433.98s MB/s) average 357.51s MB/s
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sending back file-9-ccbac7e28ef81f24662cb4896f0d4937-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/1/qc.log
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): get file-9-ccbac7e28ef81f24662cb4896f0d4937-qc.log 1
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): file file-9-ccbac7e28ef81f24662cb4896f0d4937-qc.log 1103
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/1/qc.log (size: 1103 bytes) from 127.0.0.1:43636 (skyholder) ...
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): end
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sent 0.00 MB in 0.00s (8.23s MB/s) average 216.54s MB/s
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): kill 3
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): unlink file-7-0291967cf49e669f241fcd4dbe63dd21-qc.in
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): unlink file-8-d2f0b6641f435027aa846c2443cae9c2-qc.out
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): unlink file-9-ccbac7e28ef81f24662cb4896f0d4937-qc.log
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: Task 3 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) done in 3.75s total tasks 1 average 3.75s
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: Task 3 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:31.93 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 3) finished successfully on host skyholder (3 seconds)
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: Task 4 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: Task 5 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: Task 6 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: Task 7 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/2/qc.in bytes 0:482 as 'file-10-f44261be557b23a044ef931a32abc7cf-qc.in'
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): put file-10-f44261be557b23a044ef931a32abc7cf-qc.in 482 0664 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) received 0.00 MB in 0.00s (9.27s MB/s) average 179.18s MB/s
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): task 4
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): cmd 32
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): category default
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): cores 1
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): memory 64285
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): disk 20761
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): gpus 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): end_time 18446744073709551615
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): wall_time 18446744073709551615
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): infile file-10-f44261be557b23a044ef931a32abc7cf-qc.in qc.in 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): outfile file-11-f194462628614d8220e4d49f7744a494-qc.out qc.out 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): outfile file-12-a43669f9453288b8278a74f32c8d32b0-qc.log qc.log 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: Task 4 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-090/1/qc.in bytes 0:481 as 'file-13-683c1b0c127948cfb618409565457e0a-qc.in'
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): put file-13-683c1b0c127948cfb618409565457e0a-qc.in 481 0664 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) received 0.00 MB in 0.00s (14.15s MB/s) average 203.25s MB/s
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): task 5
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): cmd 32
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): category default
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): cores 1
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): memory 64285
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): disk 20761
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): gpus 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): end_time 18446744073709551615
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): wall_time 18446744073709551615
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): infile file-13-683c1b0c127948cfb618409565457e0a-qc.in qc.in 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): outfile file-14-1b176993cbd46198ced363fb72cb87ea-qc.out qc.out 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): outfile file-15-293aafd2b3d0d3965a1cf87d4fa92b41-qc.log qc.log 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: Task 5 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info tasks_running 1
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-150/1/qc.in bytes 0:482 as 'file-16-41ca7ff3d4015daf3be59207e951cd95-qc.in'
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): put file-16-41ca7ff3d4015daf3be59207e951cd95-qc.in 482 0664 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) received 0.00 MB in 0.00s (12.36s MB/s) average 195.07s MB/s
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): task 6
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): cmd 32
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): category default
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): cores 1
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): memory 64285
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): disk 20761
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): gpus 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): end_time 18446744073709551615
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): wall_time 18446744073709551615
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): infile file-16-41ca7ff3d4015daf3be59207e951cd95-qc.in qc.in 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): outfile file-17-fe3bd820fa34457b7fa268276de2c9e6-qc.out qc.out 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): outfile file-18-d259e41fdd9b6cfdb3708b02cf93b4ab-qc.log qc.log 0
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): end
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: Task 6 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info tasks_running 1
+2019/01/24 12:52:32.00 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): info tasks_running 1
+2019/01/24 12:52:33.00 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+Thu Jan 24 12:52:35 2019: 3/3 workers busy; 3/6 jobs complete
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): available_results
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): send_results -1
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43632)
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): result 0 0 0 3792000 5
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: Task 5 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info tasks_running 0
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sending back file-14-1b176993cbd46198ced363fb72cb87ea-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-090/1/qc.out
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): get file-14-1b176993cbd46198ced363fb72cb87ea-qc.out 1
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): file file-14-1b176993cbd46198ced363fb72cb87ea-qc.out 70287
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.07 MB file.
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-090/1/qc.out (size: 70287 bytes) from 127.0.0.1:43632 (skyholder) ...
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sent 0.07 MB in 0.00s (390.48s MB/s) average 271.48s MB/s
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sending back file-15-293aafd2b3d0d3965a1cf87d4fa92b41-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-090/1/qc.log
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): get file-15-293aafd2b3d0d3965a1cf87d4fa92b41-qc.log 1
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): file file-15-293aafd2b3d0d3965a1cf87d4fa92b41-qc.log 1103
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-090/1/qc.log (size: 1103 bytes) from 127.0.0.1:43632 (skyholder) ...
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sent 0.00 MB in 0.00s (10.81s MB/s) average 226.87s MB/s
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): kill 5
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-13-683c1b0c127948cfb618409565457e0a-qc.in
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-14-1b176993cbd46198ced363fb72cb87ea-qc.out
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-15-293aafd2b3d0d3965a1cf87d4fa92b41-qc.log
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: Task 5 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) done in 3.79s total tasks 2 average 3.54s
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: Task 5 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 5) finished successfully on host skyholder (3 seconds)
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/3/qc.in bytes 0:482 as 'file-19-b331164d4a25aed890d6ed7f54c9ae00-qc.in'
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): put file-19-b331164d4a25aed890d6ed7f54c9ae00-qc.in 482 0664 0
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) received 0.00 MB in 0.00s (11.21s MB/s) average 212.35s MB/s
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): task 7
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): cmd 32
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): category default
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): cores 1
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): memory 64285
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): disk 20761
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): gpus 0
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): end_time 18446744073709551615
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): wall_time 18446744073709551615
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): infile file-19-b331164d4a25aed890d6ed7f54c9ae00-qc.in qc.in 0
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): outfile file-20-22ef934f55249babc0e5d9a83d609870-qc.out qc.out 0
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): outfile file-21-738ea6d2bc2f900b92bbe64bdd643bed-qc.log qc.log 0
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: Task 7 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:35.80 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info tasks_running 1
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): available_results
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): send_results -1
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43634)
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): result 0 0 0 3936232 4
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: Task 4 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info tasks_running 0
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sending back file-11-f194462628614d8220e4d49f7744a494-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/2/qc.out
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): get file-11-f194462628614d8220e4d49f7744a494-qc.out 1
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): file file-11-f194462628614d8220e4d49f7744a494-qc.out 70407
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.07 MB file.
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/2/qc.out (size: 70407 bytes) from 127.0.0.1:43634 (skyholder) ...
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sent 0.07 MB in 0.00s (384.74s MB/s) average 248.20s MB/s
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sending back file-12-a43669f9453288b8278a74f32c8d32b0-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/2/qc.log
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): get file-12-a43669f9453288b8278a74f32c8d32b0-qc.log 1
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): file file-12-a43669f9453288b8278a74f32c8d32b0-qc.log 1103
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/2/qc.log (size: 1103 bytes) from 127.0.0.1:43634 (skyholder) ...
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sent 0.00 MB in 0.00s (8.36s MB/s) average 201.44s MB/s
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): kill 4
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-10-f44261be557b23a044ef931a32abc7cf-qc.in
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-11-f194462628614d8220e4d49f7744a494-qc.out
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-12-a43669f9453288b8278a74f32c8d32b0-qc.log
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: Task 4 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) done in 3.94s total tasks 2 average 3.68s
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: Task 4 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:35.94 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 4) finished successfully on host skyholder (3 seconds)
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): available_results
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): send_results -1
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43636)
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): result 0 0 0 5347055 6
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: Task 6 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): info tasks_running 0
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): end
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sending back file-17-fe3bd820fa34457b7fa268276de2c9e6-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-150/1/qc.out
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): get file-17-fe3bd820fa34457b7fa268276de2c9e6-qc.out 1
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): file file-17-fe3bd820fa34457b7fa268276de2c9e6-qc.out 92681
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) will try up to 7200 seconds to transfer this 0.09 MB file.
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-150/1/qc.out (size: 92681 bytes) from 127.0.0.1:43636 (skyholder) ...
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): end
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sent 0.09 MB in 0.00s (465.73s MB/s) average 289.57s MB/s
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sending back file-18-d259e41fdd9b6cfdb3708b02cf93b4ab-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-150/1/qc.log
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): get file-18-d259e41fdd9b6cfdb3708b02cf93b4ab-qc.log 1
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): file file-18-d259e41fdd9b6cfdb3708b02cf93b4ab-qc.log 1103
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-150/1/qc.log (size: 1103 bytes) from 127.0.0.1:43636 (skyholder) ...
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): end
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sent 0.00 MB in 0.00s (11.61s MB/s) average 249.86s MB/s
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): kill 6
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): unlink file-16-41ca7ff3d4015daf3be59207e951cd95-qc.in
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): unlink file-17-fe3bd820fa34457b7fa268276de2c9e6-qc.out
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): unlink file-18-d259e41fdd9b6cfdb3708b02cf93b4ab-qc.log
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: Task 6 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) done in 5.35s total tasks 2 average 4.55s
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: Task 6 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:37.35 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 6) finished successfully on host skyholder (5 seconds)
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): available_results
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): send_results -1
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43632)
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): result 0 0 0 4914785 7
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: Task 7 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info tasks_running 0
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sending back file-20-22ef934f55249babc0e5d9a83d609870-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/3/qc.out
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): get file-20-22ef934f55249babc0e5d9a83d609870-qc.out 1
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): file file-20-22ef934f55249babc0e5d9a83d609870-qc.out 84932
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.08 MB file.
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/3/qc.out (size: 84932 bytes) from 127.0.0.1:43632 (skyholder) ...
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sent 0.08 MB in 0.00s (433.33s MB/s) average 264.22s MB/s
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sending back file-21-738ea6d2bc2f900b92bbe64bdd643bed-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/3/qc.log
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): get file-21-738ea6d2bc2f900b92bbe64bdd643bed-qc.log 1
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): file file-21-738ea6d2bc2f900b92bbe64bdd643bed-qc.log 1103
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-120/3/qc.log (size: 1103 bytes) from 127.0.0.1:43632 (skyholder) ...
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sent 0.00 MB in 0.00s (8.55s MB/s) average 230.01s MB/s
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): kill 7
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-19-b331164d4a25aed890d6ed7f54c9ae00-qc.in
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-20-22ef934f55249babc0e5d9a83d609870-qc.out
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-21-738ea6d2bc2f900b92bbe64bdd643bed-qc.log
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: Task 7 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) done in 4.93s total tasks 3 average 4.00s
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: Task 7 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:40.73 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 7) finished successfully on host skyholder (4 seconds)
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: Task 8 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: Task 9 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: Task 10 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: Task 11 state change: UNKNOWN (0) to WAITING (1)
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/2/qc.in bytes 0:482 as 'file-22-b2dd1fe94e697a9276ba0a02c4133803-qc.in'
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): put file-22-b2dd1fe94e697a9276ba0a02c4133803-qc.in 482 0664 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) received 0.00 MB in 0.00s (5.95s MB/s) average 212.64s MB/s
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): task 8
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): cmd 32
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): category default
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): cores 1
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): memory 64285
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): disk 20761
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): gpus 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): end_time 18446744073709551615
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): wall_time 18446744073709551615
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): infile file-22-b2dd1fe94e697a9276ba0a02c4133803-qc.in qc.in 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): outfile file-23-7025bbdfe9cfa528a645c52e9d6e53f2-qc.out qc.out 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): outfile file-24-b997c050f471b3916bdcad048a2c9fab-qc.log qc.log 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: Task 8 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-075/1/qc.in bytes 0:481 as 'file-25-77ae39c5d7ece97167edde2c1ab9432e-qc.in'
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): put file-25-77ae39c5d7ece97167edde2c1ab9432e-qc.in 481 0664 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) received 0.00 MB in 0.00s (8.91s MB/s) average 187.21s MB/s
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): task 9
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): cmd 32
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): category default
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): cores 1
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): memory 64285
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): disk 20761
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): gpus 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): end_time 18446744073709551615
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): wall_time 18446744073709551615
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): infile file-25-77ae39c5d7ece97167edde2c1ab9432e-qc.in qc.in 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): outfile file-26-0eccc812b4257f4ca31edc3e3e1a44c9-qc.out qc.out 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): outfile file-27-47c4db72bc8225195775673370dacaf1-qc.log qc.log 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: Task 9 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-165/1/qc.in bytes 0:482 as 'file-28-59e163dbe4517756bbf54aff2126f112-qc.in'
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): put file-28-59e163dbe4517756bbf54aff2126f112-qc.in 482 0664 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) received 0.00 MB in 0.00s (5.13s MB/s) average 219.55s MB/s
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): task 10
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): cmd 32
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): category default
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): cores 1
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): memory 64285
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): disk 20761
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): gpus 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): end_time 18446744073709551615
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): wall_time 18446744073709551615
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): infile file-28-59e163dbe4517756bbf54aff2126f112-qc.in qc.in 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): outfile file-29-efcf1c2a4d4d4712c6d9382f4d6fe585-qc.out qc.out 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): outfile file-30-e6e29209fab8f2a15407010355e22f9a-qc.log qc.log 0
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): end
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: Task 10 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info tasks_running 1
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info tasks_running 1
+2019/01/24 12:52:40.78 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): info tasks_running 1
+2019/01/24 12:52:41.78 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): available_results
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): send_results -1
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43634)
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): result 0 0 0 3847103 9
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: Task 9 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info tasks_running 0
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sending back file-26-0eccc812b4257f4ca31edc3e3e1a44c9-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-075/1/qc.out
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): get file-26-0eccc812b4257f4ca31edc3e3e1a44c9-qc.out 1
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): file file-26-0eccc812b4257f4ca31edc3e3e1a44c9-qc.out 70250
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.07 MB file.
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-075/1/qc.out (size: 70250 bytes) from 127.0.0.1:43634 (skyholder) ...
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sent 0.07 MB in 0.00s (390.28s MB/s) average 227.34s MB/s
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sending back file-27-47c4db72bc8225195775673370dacaf1-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-075/1/qc.log
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): get file-27-47c4db72bc8225195775673370dacaf1-qc.log 1
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): file file-27-47c4db72bc8225195775673370dacaf1-qc.log 1103
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-075/1/qc.log (size: 1103 bytes) from 127.0.0.1:43634 (skyholder) ...
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sent 0.00 MB in 0.00s (8.97s MB/s) average 201.36s MB/s
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): kill 9
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-25-77ae39c5d7ece97167edde2c1ab9432e-qc.in
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-26-0eccc812b4257f4ca31edc3e3e1a44c9-qc.out
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-27-47c4db72bc8225195775673370dacaf1-qc.log
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: Task 9 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) done in 3.85s total tasks 3 average 3.74s
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: Task 9 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 9) finished successfully on host skyholder (3 seconds)
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) needs file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/2/qc.in bytes 0:482 as 'file-31-7c106931249d165a7a09cda0a51c141c-qc.in'
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): put file-31-7c106931249d165a7a09cda0a51c141c-qc.in 482 0664 0
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) received 0.00 MB in 0.00s (9.09s MB/s) average 191.99s MB/s
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): task 11
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): cmd 32
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: qchem qc.in qc.out > qc.log 2>&1
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): category default
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): cores 1
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): memory 64285
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): disk 20761
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): gpus 0
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): end_time 18446744073709551615
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): wall_time 18446744073709551615
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): infile file-31-7c106931249d165a7a09cda0a51c141c-qc.in qc.in 0
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): outfile file-32-d5d2d870e618cb13a69abfba53a78231-qc.out qc.out 0
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): outfile file-33-026668607387c4a49a988436c0372fbd-qc.log qc.log 0
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) busy on 'qchem qc.in qc.out > qc.log 2>&1'
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: Task 11 state change: WAITING (1) to RUNNING (2)
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:44.63 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info tasks_running 1
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): available_results
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): send_results -1
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43632)
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): result 0 0 0 3924152 8
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: Task 8 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): info tasks_running 0
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sending back file-23-7025bbdfe9cfa528a645c52e9d6e53f2-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/2/qc.out
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): get file-23-7025bbdfe9cfa528a645c52e9d6e53f2-qc.out 1
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): file file-23-7025bbdfe9cfa528a645c52e9d6e53f2-qc.out 70406
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.07 MB file.
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/2/qc.out (size: 70406 bytes) from 127.0.0.1:43632 (skyholder) ...
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sent 0.07 MB in 0.00s (457.18s MB/s) average 244.05s MB/s
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sending back file-24-b997c050f471b3916bdcad048a2c9fab-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/2/qc.log
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): get file-24-b997c050f471b3916bdcad048a2c9fab-qc.log 1
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): file file-24-b997c050f471b3916bdcad048a2c9fab-qc.log 1103
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-105/2/qc.log (size: 1103 bytes) from 127.0.0.1:43632 (skyholder) ...
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43632): end
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) sent 0.00 MB in 0.00s (11.49s MB/s) average 226.81s MB/s
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): kill 8
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-22-b2dd1fe94e697a9276ba0a02c4133803-qc.in
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-23-7025bbdfe9cfa528a645c52e9d6e53f2-qc.out
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): unlink file-24-b997c050f471b3916bdcad048a2c9fab-qc.log
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: Task 8 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 0.
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: skyholder (127.0.0.1:43632) done in 3.93s total tasks 4 average 3.98s
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: Task 8 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:44.70 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 8) finished successfully on host skyholder (3 seconds)
+Thu Jan 24 12:52:45 2019: 2/3 workers busy; 9/11 jobs complete
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): available_results
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): send_results -1
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43634)
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): result 0 0 0 4798807 11
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: Task 11 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): info tasks_running 0
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sending back file-32-d5d2d870e618cb13a69abfba53a78231-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/2/qc.out
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): get file-32-d5d2d870e618cb13a69abfba53a78231-qc.out 1
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): file file-32-d5d2d870e618cb13a69abfba53a78231-qc.out 85102
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.09 MB file.
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/2/qc.out (size: 85102 bytes) from 127.0.0.1:43634 (skyholder) ...
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sent 0.09 MB in 0.00s (379.92s MB/s) average 224.10s MB/s
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sending back file-33-026668607387c4a49a988436c0372fbd-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/2/qc.log
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): get file-33-026668607387c4a49a988436c0372fbd-qc.log 1
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): file file-33-026668607387c4a49a988436c0372fbd-qc.log 1104
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-135/2/qc.log (size: 1104 bytes) from 127.0.0.1:43634 (skyholder) ...
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43634): end
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) sent 0.00 MB in 0.00s (7.12s MB/s) average 201.16s MB/s
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): kill 11
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-31-7c106931249d165a7a09cda0a51c141c-qc.in
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-32-d5d2d870e618cb13a69abfba53a78231-qc.out
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): unlink file-33-026668607387c4a49a988436c0372fbd-qc.log
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: Task 11 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 1.
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: skyholder (127.0.0.1:43634) done in 4.82s total tasks 4 average 4.00s
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: Task 11 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:52:49.45 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 11) finished successfully on host skyholder (4 seconds)
+Thu Jan 24 12:52:56 2019: 1/3 workers busy; 10/11 jobs complete
+2019/01/24 12:53:07.52 work_queue_python[13469] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2019/01/24 12:53:07.52 work_queue_python[13469] debug: compressed update message from 2117 to 844 bytes
+2019/01/24 12:53:07.52 work_queue_python[13469] debug: sending update to catalog.cse.nd.edu(129.74.152.177):9097
+2019/01/24 12:53:07.52 work_queue_python[13469] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): available_results
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): send_results -1
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: Reading result(s) from skyholder (127.0.0.1:43636)
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): result 0 0 0 47689352 10
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: Task 10 state change: RUNNING (2) to WAITING_RETRIEVAL (3)
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): info tasks_running 0
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): end
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sending back file-29-efcf1c2a4d4d4712c6d9382f4d6fe585-qc.out to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-165/1/qc.out
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): get file-29-efcf1c2a4d4d4712c6d9382f4d6fe585-qc.out 1
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): file file-29-efcf1c2a4d4d4712c6d9382f4d6fe585-qc.out 770222
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) will try up to 7200 seconds to transfer this 0.77 MB file.
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-165/1/qc.out (size: 770222 bytes) from 127.0.0.1:43636 (skyholder) ...
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): end
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sent 0.77 MB in 0.00s (1410.66s MB/s) average 717.90s MB/s
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sending back file-30-e6e29209fab8f2a15407010355e22f9a-qc.log to /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-165/1/qc.log
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): get file-30-e6e29209fab8f2a15407010355e22f9a-qc.log 1
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): file file-30-e6e29209fab8f2a15407010355e22f9a-qc.log 1104
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) using conservative default average transfer rate of 1.00 MB/s
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) will try up to 7200 seconds to transfer this 0.00 MB file.
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: Receiving file /home/qyd/codes/torsiondrive_examples/examples/hooh-1d/qchem/work_queue/native_opt/opt_tmp/gid_-165/1/qc.log (size: 1104 bytes) from 127.0.0.1:43636 (skyholder) ...
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: rx from skyholder (127.0.0.1:43636): end
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) sent 0.00 MB in 0.00s (8.30s MB/s) average 652.27s MB/s
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): kill 10
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): unlink file-28-59e163dbe4517756bbf54aff2126f112-qc.in
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): unlink file-29-efcf1c2a4d4d4712c6d9382f4d6fe585-qc.out
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): unlink file-30-e6e29209fab8f2a15407010355e22f9a-qc.log
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: Task 10 state change: WAITING_RETRIEVAL (3) to RETRIEVED (4)
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 2.
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: skyholder (127.0.0.1:43636) done in 47.69s total tasks 3 average 18.93s
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+Thu Jan 24 12:53:28 2019: 0/3 workers busy; 11/11 jobs complete
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: Task 10 state change: RETRIEVED (4) to DONE (5)
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+2019/01/24 12:53:28.47 work_queue_python[13469] wq: workers status -- total: 3, active: 3, available: 3.
+Command 'qchem qc.in qc.out > qc.log 2>&1' (task 10) finished successfully on host skyholder (47 seconds)
+ERROR:root:Calculation encountered a fatal error! (Maximum optimization cycles reached)
+
+Traceback (most recent call last):
+  File "/home/qyd/codes/anaconda3/envs/test_td/bin/torsiondrive-launch", line 11, in <module>
+    load_entry_point('torsiondrive==0.9.2', 'console_scripts', 'torsiondrive-launch')()
+  File "/home/qyd/codes/anaconda3/envs/test_td/lib/python3.6/site-packages/torsiondrive-0.9.2-py3.6.egg/torsiondrive/launch.py", line 117, in main
+    scanner.master()
+  File "/home/qyd/codes/anaconda3/envs/test_td/lib/python3.6/site-packages/torsiondrive-0.9.2-py3.6.egg/torsiondrive/dihedral_scanner.py", line 203, in master
+    self.wait_extract_finished_jobs()
+  File "/home/qyd/codes/anaconda3/envs/test_td/lib/python3.6/site-packages/torsiondrive-0.9.2-py3.6.egg/torsiondrive/dihedral_scanner.py", line 408, in wait_extract_finished_jobs
+    m = self.engine.load_task_result_m(job_path)
+  File "/home/qyd/codes/anaconda3/envs/test_td/lib/python3.6/site-packages/torsiondrive-0.9.2-py3.6.egg/torsiondrive/qm_engine.py", line 169, in load_task_result_m
+    m = self.load_native_output()
+  File "/home/qyd/codes/anaconda3/envs/test_td/lib/python3.6/site-packages/torsiondrive-0.9.2-py3.6.egg/torsiondrive/qm_engine.py", line 477, in load_native_output
+    m = Molecule(filename, ftype="qcout")[-1]
+  File "/home/qyd/codes/anaconda3/envs/test_td/lib/python3.6/site-packages/geometric-0.9.2-py3.6.egg/geometric/molecule.py", line 1160, in __init__
+  File "/home/qyd/codes/anaconda3/envs/test_td/lib/python3.6/site-packages/geometric-0.9.2-py3.6.egg/geometric/molecule.py", line 3383, in read_qcout
+RuntimeError
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43634): release
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: worker skyholder (127.0.0.1:43634) removed
+2019/01/24 12:53:28.83 work_queue_python[13469] tcp: disconnected from 127.0.0.1 port 43634
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: 2 workers are connected in total now
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43636): release
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: worker skyholder (127.0.0.1:43636) removed
+2019/01/24 12:53:28.83 work_queue_python[13469] tcp: disconnected from 127.0.0.1 port 43636
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: 1 workers are connected in total now
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: tx to skyholder (127.0.0.1:43632): release
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: worker skyholder (127.0.0.1:43632) removed
+2019/01/24 12:53:28.83 work_queue_python[13469] tcp: disconnected from 127.0.0.1 port 43632
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: 0 workers are connected in total now
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: workers status -- total: 0, active: 0, available: 0.
+2019/01/24 12:53:28.83 work_queue_python[13469] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2019/01/24 12:53:28.83 work_queue_python[13469] debug: compressed update message from 2091 to 803 bytes
+2019/01/24 12:53:28.83 work_queue_python[13469] debug: sending update to catalog.cse.nd.edu(129.74.152.177):9097
+2019/01/24 12:53:28.83 work_queue_python[13469] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097

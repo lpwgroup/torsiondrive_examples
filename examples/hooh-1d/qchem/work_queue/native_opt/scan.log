@@ -1,0 +1,39 @@
+/home/qyd/codes/anaconda3/envs/test_td/bin/torsiondrive-launch qc.in dihedrals.txt -g 15 -e qchem --native_opt --wq_port 50124 -v
+Master process started!
+1 initial tasks pushed to opt_queue
+Scan Status at 0 s
+ - - - [0;33m+[0m - - - - - - - - - - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_-120/1
+Find finished jobs: {'opt_tmp/gid_-120/1'}
+First energy for grid_id (-120,) = -151.170505
+Scan Status at 20 s
+ - - [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_-135/1
+Launching new job at opt_tmp/gid_-105/1
+Find finished jobs: {'opt_tmp/gid_-135/1', 'opt_tmp/gid_-105/1'}
+First energy for grid_id (-105,) = -151.170293
+First energy for grid_id (-135,) = -151.170287
+Scan Status at 24 s
+ - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_-120/2
+Launching new job at opt_tmp/gid_-090/1
+Launching new job at opt_tmp/gid_-150/1
+Launching new job at opt_tmp/gid_-120/3
+Find finished jobs: {'opt_tmp/gid_-090/1', 'opt_tmp/gid_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-120/3'}
+First energy for grid_id (-90,) = -151.169411
+First energy for grid_id (-150,) = -151.169903
+Scan Status at 32 s
+ [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_-105/2
+Launching new job at opt_tmp/gid_-075/1
+Launching new job at opt_tmp/gid_-165/1
+Launching new job at opt_tmp/gid_-135/2
+Find finished jobs: {'opt_tmp/gid_-075/1', 'opt_tmp/gid_-105/2'}
+Find finished jobs: {'opt_tmp/gid_-135/2'}
+Find finished jobs: {'opt_tmp/gid_-165/1'}
