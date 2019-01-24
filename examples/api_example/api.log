@@ -1,0 +1,927 @@
+/home/qyd/codes/anaconda3/envs/test_td/bin/torsiondrive-api current_state.json -v
+1 initial tasks pushed to opt_queue
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                                                 
+ 105                                                 
+  90                                                 
+  75                                                 
+  60                                                 
+  45                                                 
+  30                                                 
+  15                                                 
+   0                                                 
+ -15                       [1;41m><[0m                        
+ -30                                                 
+ -45                                                 
+ -60                                                 
+ -75                                                 
+ -90                                                 
+-105                                                 
+-120                                                 
+-135                                                 
+-150                                                 
+-165                                                 
+
+First energy for grid_id (0, -15) = -193.657703
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                                                 
+ 105                                                 
+  90                                                 
+  75                                                 
+  60                                                 
+  45                                                 
+  30                                                 
+  15                                                 
+   0                       [1;41m/\[0m                        
+ -15                     [1;41m＜[0m[44m--[0m[1;41m＞[0m                      
+ -30                       [1;41m\/[0m                        
+ -45                                                 
+ -60                                                 
+ -75                                                 
+ -90                                                 
+-105                                                 
+-120                                                 
+-135                                                 
+-150                                                 
+-165                                                 
+
+First energy for grid_id (0, 0) = -193.657149
+First energy for grid_id (0, -30) = -193.659044
+First energy for grid_id (15, -15) = -193.658709
+First energy for grid_id (-15, -15) = -193.658942
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                                                 
+ 105                                                 
+  90                                                 
+  75                                                 
+  60                                                 
+  45                                                 
+  30                                                 
+  15                       [1;41m/\[0m                        
+   0                     [41m／[0m[44m--[0m[41m＼[0m                      
+ -15                   [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m                    
+ -30                     [41m＼[0m[44m--[0m[41m／[0m                      
+ -45                       [1;41m\/[0m                        
+ -60                                                 
+ -75                                                 
+ -90                                                 
+-105                                                 
+-120                                                 
+-135                                                 
+-150                                                 
+-165                                                 
+
+First energy for grid_id (0, 15) = -193.657703
+First energy for grid_id (0, -45) = -193.660458
+First energy for grid_id (15, 0) = -193.658281
+First energy for grid_id (15, -30) = -193.660006
+First energy for grid_id (30, -15) = -193.661373
+First energy for grid_id (-15, 0) = -193.658281
+First energy for grid_id (-15, -30) = -193.660332
+First energy for grid_id (-30, -15) = -193.661872
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                                                 
+ 105                                                 
+  90                                                 
+  75                                                 
+  60                                                 
+  45                                                 
+  30                       [1;41m/\[0m                        
+  15                     [41m／[0m[44m--[0m[41m＼[0m                      
+   0                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+ -15                 [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m                  
+ -30                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+ -45                     [41m＼[0m[44m--[0m[41m／[0m                      
+ -60                       [1;41m\/[0m                        
+ -75                                                 
+ -90                                                 
+-105                                                 
+-120                                                 
+-135                                                 
+-150                                                 
+-165                                                 
+
+First energy for grid_id (0, 30) = -193.659044
+First energy for grid_id (0, -60) = -193.661324
+First energy for grid_id (15, 15) = -193.658942
+First energy for grid_id (15, -45) = -193.661450
+First energy for grid_id (30, 0) = -193.661098
+First energy for grid_id (30, -30) = -193.662553
+First energy for grid_id (45, -15) = -193.664318
+First energy for grid_id (-15, 15) = -193.658709
+First energy for grid_id (-15, -45) = -193.661823
+First energy for grid_id (-30, 0) = -193.661098
+First energy for grid_id (-30, -30) = -193.663368
+First energy for grid_id (-45, -15) = -193.665060
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                                                 
+ 105                                                 
+  90                                                 
+  75                                                 
+  60                                                 
+  45                       [1;41m/\[0m                        
+  30                     [41m／[0m[44m--[0m[41m＼[0m                      
+  15                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+   0                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+ -15               [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m                
+ -30                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+ -45                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+ -60                     [41m＼[0m[44m--[0m[41m／[0m                      
+ -75                       [1;41m\/[0m                        
+ -90                                                 
+-105                                                 
+-120                                                 
+-135                                                 
+-150                                                 
+-165                                                 
+
+First energy for grid_id (0, 45) = -193.660458
+First energy for grid_id (0, -75) = -193.661365
+First energy for grid_id (15, 30) = -193.660332
+First energy for grid_id (15, -60) = -193.662299
+First energy for grid_id (30, 15) = -193.661872
+First energy for grid_id (30, -45) = -193.664002
+First energy for grid_id (45, 0) = -193.664186
+First energy for grid_id (45, -30) = -193.665328
+First energy for grid_id (60, -15) = -193.666117
+First energy for grid_id (-15, 30) = -193.660006
+First energy for grid_id (-15, -60) = -193.662810
+First energy for grid_id (-30, 15) = -193.661373
+First energy for grid_id (-30, -45) = -193.664943
+First energy for grid_id (-45, 0) = -193.664186
+First energy for grid_id (-45, -30) = -193.666571
+First energy for grid_id (-60, -15) = -193.666792
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                                                 
+ 105                                                 
+  90                                                 
+  75                                                 
+  60                       [1;41m/\[0m                        
+  45                     [41m／[0m[44m--[0m[41m＼[0m                      
+  30                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+  15                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+   0               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+ -15             [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m              
+ -30               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+ -45                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+ -60                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+ -75                     [41m＼[0m[44m--[0m[41m／[0m                      
+ -90                       [1;41m\/[0m                        
+-105                                                 
+-120                                                 
+-135                                                 
+-150                                                 
+-165                                                 
+
+First energy for grid_id (0, 60) = -193.661324
+First energy for grid_id (0, -90) = -193.660685
+First energy for grid_id (15, 45) = -193.661823
+First energy for grid_id (15, -75) = -193.662251
+First energy for grid_id (30, 30) = -193.663368
+First energy for grid_id (30, -60) = -193.664942
+First energy for grid_id (45, 15) = -193.665060
+First energy for grid_id (45, -45) = -193.666662
+First energy for grid_id (60, 0) = -193.666025
+First energy for grid_id (60, -30) = -193.666985
+First energy for grid_id (75, -15) = -193.665833
+First energy for grid_id (-15, 45) = -193.661450
+First energy for grid_id (-15, -75) = -193.662925
+First energy for grid_id (-30, 30) = -193.662553
+First energy for grid_id (-30, -60) = -193.665898
+First energy for grid_id (-45, 15) = -193.664320
+First energy for grid_id (-45, -45) = -193.667989
+First energy for grid_id (-60, 0) = -193.666025
+First energy for grid_id (-60, -30) = -193.668036
+First energy for grid_id (-75, -15) = -193.665942
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                                                 
+ 105                                                 
+  90                                                 
+  75                       [1;41m/\[0m                        
+  60                     [41m／[0m[44m--[0m[41m＼[0m                      
+  45                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+  30                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+  15               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+   0             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+ -15           [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m            
+ -30             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+ -45               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+ -60                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+ -75                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+ -90                     [41m＼[0m[44m--[0m[41m／[0m                      
+-105                       [1;41m\/[0m                        
+-120                                                 
+-135                                                 
+-150                                                 
+-165                                                 
+
+First energy for grid_id (0, 75) = -193.661365
+First energy for grid_id (0, -105) = -193.659747
+First energy for grid_id (15, 60) = -193.662810
+First energy for grid_id (15, -90) = -193.661503
+First energy for grid_id (30, 45) = -193.664943
+First energy for grid_id (30, -75) = -193.664962
+First energy for grid_id (45, 30) = -193.666571
+First energy for grid_id (45, -60) = -193.667622
+First energy for grid_id (60, 15) = -193.666792
+First energy for grid_id (60, -45) = -193.668133
+First energy for grid_id (75, 0) = -193.665503
+First energy for grid_id (75, -30) = -193.666761
+First energy for grid_id (90, -15) = -193.663527
+First energy for grid_id (-15, 60) = -193.662299
+First energy for grid_id (-15, -90) = -193.662248
+First energy for grid_id (-30, 45) = -193.664002
+First energy for grid_id (-30, -75) = -193.665914
+First energy for grid_id (-45, 30) = -193.665328
+First energy for grid_id (-45, -60) = -193.668717
+First energy for grid_id (-60, 15) = -193.666117
+First energy for grid_id (-60, -45) = -193.669173
+First energy for grid_id (-75, 0) = -193.665503
+First energy for grid_id (-75, -30) = -193.666922
+First energy for grid_id (-90, -15) = -193.663219
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                                                 
+ 105                                                 
+  90                       [1;41m/\[0m                        
+  75                     [41m／[0m[44m--[0m[41m＼[0m                      
+  60                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+  45                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+  30               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+  15             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+   0           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+ -15         [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m          
+ -30           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+ -45             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+ -60               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+ -75                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+ -90                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+-105                     [41m＼[0m[44m--[0m[41m／[0m                      
+-120                       [1;41m\/[0m                        
+-135                                                 
+-150                                                 
+-165                                                 
+
+First energy for grid_id (0, 90) = -193.660685
+First energy for grid_id (0, -120) = -193.659153
+First energy for grid_id (15, 75) = -193.662925
+First energy for grid_id (15, -105) = -193.660574
+First energy for grid_id (30, 60) = -193.665898
+First energy for grid_id (30, -90) = -193.664234
+First energy for grid_id (45, 45) = -193.667989
+First energy for grid_id (45, -75) = -193.667766
+First energy for grid_id (60, 30) = -193.668036
+First energy for grid_id (60, -60) = -193.668966
+First energy for grid_id (75, 15) = -193.665942
+First energy for grid_id (75, -45) = -193.667814
+First energy for grid_id (90, 0) = -193.662957
+First energy for grid_id (90, -30) = -193.664664
+First energy for grid_id (105, -15) = -193.660835
+First energy for grid_id (-15, 75) = -193.662251
+First energy for grid_id (-15, -105) = -193.661276
+First energy for grid_id (-30, 60) = -193.664942
+First energy for grid_id (-30, -90) = -193.665174
+First energy for grid_id (-45, 45) = -193.666662
+First energy for grid_id (-45, -75) = -193.668580
+First energy for grid_id (-60, 30) = -193.666985
+First energy for grid_id (-60, -60) = -193.669721
+First energy for grid_id (-75, 15) = -193.665833
+First energy for grid_id (-75, -45) = -193.667925
+First energy for grid_id (-90, 0) = -193.662957
+First energy for grid_id (-90, -30) = -193.664132
+First energy for grid_id (-105, -15) = -193.660513
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                                                 
+ 105                       [1;41m/\[0m                        
+  90                     [41m／[0m[44m--[0m[41m＼[0m                      
+  75                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+  60                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+  45               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+  30             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+  15           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+   0         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+ -15       [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m        
+ -30         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+ -45           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+ -60             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+ -75               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+ -90                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+-105                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+-120                     [41m＼[0m[44m--[0m[41m／[0m                      
+-135                       [1;41m\/[0m                        
+-150                                                 
+-165                                                 
+
+First energy for grid_id (0, 105) = -193.659747
+First energy for grid_id (0, -135) = -193.659264
+First energy for grid_id (15, 90) = -193.662248
+First energy for grid_id (15, -120) = -193.660050
+First energy for grid_id (30, 75) = -193.665914
+First energy for grid_id (30, -105) = -193.663321
+First energy for grid_id (45, 60) = -193.668717
+First energy for grid_id (45, -90) = -193.667177
+First energy for grid_id (60, 45) = -193.669173
+First energy for grid_id (60, -75) = -193.669114
+First energy for grid_id (75, 30) = -193.666922
+First energy for grid_id (75, -60) = -193.668480
+First energy for grid_id (90, 15) = -193.663219
+First energy for grid_id (90, -45) = -193.665802
+First energy for grid_id (105, 0) = -193.660218
+First energy for grid_id (105, -30) = -193.662063
+First energy for grid_id (120, -15) = -193.659599
+First energy for grid_id (-15, 90) = -193.661503
+First energy for grid_id (-15, -120) = -193.660636
+First energy for grid_id (-30, 75) = -193.664962
+First energy for grid_id (-30, -105) = -193.664207
+First energy for grid_id (-45, 60) = -193.667622
+First energy for grid_id (-45, -90) = -193.667803
+First energy for grid_id (-60, 45) = -193.668133
+First energy for grid_id (-60, -75) = -193.669506
+First energy for grid_id (-75, 30) = -193.666761
+First energy for grid_id (-75, -60) = -193.668437
+First energy for grid_id (-90, 15) = -193.663529
+First energy for grid_id (-90, -45) = -193.665166
+First energy for grid_id (-105, 0) = -193.660218
+First energy for grid_id (-105, -30) = -193.661534
+First energy for grid_id (-120, -15) = -193.659603
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                                                 
+ 120                       [1;41m/\[0m                        
+ 105                     [41m／[0m[44m--[0m[41m＼[0m                      
+  90                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+  75                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+  60               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+  45             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+  30           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+  15         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+   0       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+ -15     [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m      
+ -30       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+ -45         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+ -60           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+ -75             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+ -90               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+-105                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+-120                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+-135                     [41m＼[0m[44m--[0m[41m／[0m                      
+-150                       [1;41m\/[0m                        
+-165                                                 
+
+First energy for grid_id (0, 120) = -193.659153
+First energy for grid_id (0, -150) = -193.659950
+First energy for grid_id (15, 105) = -193.661276
+First energy for grid_id (15, -135) = -193.660253
+First energy for grid_id (30, 90) = -193.665174
+First energy for grid_id (30, -120) = -193.662831
+First energy for grid_id (45, 75) = -193.668580
+First energy for grid_id (45, -105) = -193.666369
+First energy for grid_id (60, 60) = -193.669721
+First energy for grid_id (60, -90) = -193.668634
+First energy for grid_id (75, 45) = -193.667925
+First energy for grid_id (75, -75) = -193.668493
+First energy for grid_id (90, 30) = -193.664132
+First energy for grid_id (90, -60) = -193.666425
+First energy for grid_id (105, 15) = -193.660515
+First energy for grid_id (105, -45) = -193.663285
+First energy for grid_id (120, 0) = -193.659125
+First energy for grid_id (120, -30) = -193.660753
+First energy for grid_id (135, -15) = -193.660648
+First energy for grid_id (-15, 105) = -193.660574
+First energy for grid_id (-15, -135) = -193.660696
+First energy for grid_id (-30, 90) = -193.664234
+First energy for grid_id (-30, -120) = -193.663614
+First energy for grid_id (-45, 75) = -193.667766
+First energy for grid_id (-45, -105) = -193.666891
+First energy for grid_id (-60, 60) = -193.668966
+First energy for grid_id (-60, -90) = -193.668718
+First energy for grid_id (-75, 45) = -193.667814
+First energy for grid_id (-75, -75) = -193.668215
+First energy for grid_id (-90, 30) = -193.664664
+First energy for grid_id (-90, -60) = -193.665742
+First energy for grid_id (-105, 15) = -193.660834
+First energy for grid_id (-105, -45) = -193.662700
+First energy for grid_id (-120, 0) = -193.659125
+First energy for grid_id (-120, -30) = -193.660790
+First energy for grid_id (-135, -15) = -193.660984
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 165                                                 
+ 150                                                 
+ 135                       [1;41m/\[0m                        
+ 120                     [41m／[0m[44m--[0m[41m＼[0m                      
+ 105                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+  90                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+  75               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+  60             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+  45           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+  30         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+  15       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+   0     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+ -15   [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m    
+ -30     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+ -45       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+ -60         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+ -75           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+ -90             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+-105               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+-120                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+-135                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+-150                     [41m＼[0m[44m--[0m[41m／[0m                      
+-165                       [1;41m\/[0m                        
+
+First energy for grid_id (0, 135) = -193.659264
+First energy for grid_id (0, -165) = -193.660711
+First energy for grid_id (15, 120) = -193.660636
+First energy for grid_id (15, -150) = -193.661027
+First energy for grid_id (30, 105) = -193.664207
+First energy for grid_id (30, -135) = -193.663071
+First energy for grid_id (45, 90) = -193.667803
+First energy for grid_id (45, -120) = -193.665927
+First energy for grid_id (60, 75) = -193.669506
+First energy for grid_id (60, -105) = -193.667961
+First energy for grid_id (75, 60) = -193.668437
+First energy for grid_id (75, -90) = -193.667961
+First energy for grid_id (90, 45) = -193.665166
+First energy for grid_id (90, -75) = -193.666323
+First energy for grid_id (105, 30) = -193.661535
+First energy for grid_id (105, -60) = -193.663936
+First energy for grid_id (120, 15) = -193.659603
+First energy for grid_id (120, -45) = -193.661955
+First energy for grid_id (135, 0) = -193.660363
+First energy for grid_id (135, -30) = -193.661621
+First energy for grid_id (150, -15) = -193.663213
+First energy for grid_id (-15, 120) = -193.660050
+First energy for grid_id (-15, -150) = -193.661326
+First energy for grid_id (-30, 105) = -193.663321
+First energy for grid_id (-30, -135) = -193.663719
+First energy for grid_id (-45, 90) = -193.667177
+First energy for grid_id (-45, -120) = -193.666394
+First energy for grid_id (-60, 75) = -193.669114
+First energy for grid_id (-60, -105) = -193.667835
+First energy for grid_id (-75, 60) = -193.668480
+First energy for grid_id (-75, -90) = -193.667412
+First energy for grid_id (-90, 45) = -193.665802
+First energy for grid_id (-90, -75) = -193.665559
+First energy for grid_id (-105, 30) = -193.662063
+First energy for grid_id (-105, -60) = -193.663376
+First energy for grid_id (-120, 15) = -193.659599
+First energy for grid_id (-120, -45) = -193.662061
+First energy for grid_id (-135, 0) = -193.660363
+First energy for grid_id (-135, -30) = -193.662228
+First energy for grid_id (-150, -15) = -193.663611
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                       [1;41m\/[0m                        
+ 165                                                 
+ 150                       [1;41m/\[0m                        
+ 135                     [41m／[0m[44m--[0m[41m＼[0m                      
+ 120                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+ 105                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+  90               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+  75             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+  60           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+  45         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+  30       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+  15     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+   0   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+ -15 [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m  
+ -30   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+ -45     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+ -60       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+ -75         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+ -90           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+-105             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+-120               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+-135                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+-150                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+-165                     [41m＼[0m[44m--[0m[41m／[0m                      
+
+First energy for grid_id (0, 150) = -193.659950
+First energy for grid_id (0, 180) = -193.661035
+First energy for grid_id (15, 135) = -193.660696
+First energy for grid_id (15, -165) = -193.661871
+First energy for grid_id (30, 120) = -193.663614
+First energy for grid_id (30, -150) = -193.663878
+First energy for grid_id (45, 105) = -193.666891
+First energy for grid_id (45, -135) = -193.666155
+First energy for grid_id (60, 90) = -193.668718
+First energy for grid_id (60, -120) = -193.667617
+First energy for grid_id (75, 75) = -193.668215
+First energy for grid_id (75, -105) = -193.667309
+First energy for grid_id (90, 60) = -193.665742
+First energy for grid_id (90, -90) = -193.665671
+First energy for grid_id (105, 45) = -193.662700
+First energy for grid_id (105, -75) = -193.663797
+First energy for grid_id (120, 30) = -193.660790
+First energy for grid_id (120, -60) = -193.662595
+First energy for grid_id (135, 15) = -193.660984
+First energy for grid_id (135, -45) = -193.662694
+First energy for grid_id (150, 0) = -193.662998
+First energy for grid_id (150, -30) = -193.664062
+First energy for grid_id (165, -15) = -193.665673
+First energy for grid_id (-15, 135) = -193.660253
+First energy for grid_id (-15, -165) = -193.662024
+First energy for grid_id (-30, 120) = -193.662831
+First energy for grid_id (-30, -150) = -193.664358
+First energy for grid_id (-45, 105) = -193.666369
+First energy for grid_id (-45, -135) = -193.666581
+First energy for grid_id (-60, 90) = -193.668634
+First energy for grid_id (-60, -120) = -193.667388
+First energy for grid_id (-75, 75) = -193.668493
+First energy for grid_id (-75, -105) = -193.666513
+First energy for grid_id (-90, 60) = -193.666425
+First energy for grid_id (-90, -90) = -193.664760
+First energy for grid_id (-105, 45) = -193.663285
+First energy for grid_id (-105, -75) = -193.663246
+First energy for grid_id (-120, 30) = -193.660753
+First energy for grid_id (-120, -60) = -193.662782
+First energy for grid_id (-135, 15) = -193.660648
+First energy for grid_id (-135, -45) = -193.663482
+First energy for grid_id (-150, 0) = -193.662999
+First energy for grid_id (-150, -30) = -193.664783
+First energy for grid_id (-165, -15) = -193.665910
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                     [41m＼[0m[44m--[0m[41m／[0m                      
+ 165                       [1;41m><[0m                        
+ 150                     [41m／[0m[44m--[0m[41m＼[0m                      
+ 135                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+ 120                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+ 105               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+  90             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+  75           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+  60         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+  45       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+  30     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+  15   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+   0 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m  
+ -15 [44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m><[0m
+ -30 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m  
+ -45   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+ -60     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+ -75       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+ -90         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+-105           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+-120             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+-135               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+-150                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+-165                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+
+First energy for grid_id (0, 165) = -193.660711
+First energy for grid_id (15, 150) = -193.661326
+First energy for grid_id (15, 180) = -193.662274
+First energy for grid_id (30, 135) = -193.663719
+First energy for grid_id (30, -165) = -193.664756
+First energy for grid_id (45, 120) = -193.666394
+First energy for grid_id (45, -150) = -193.666905
+First energy for grid_id (60, 105) = -193.667835
+First energy for grid_id (60, -135) = -193.667864
+First energy for grid_id (75, 90) = -193.667412
+First energy for grid_id (75, -120) = -193.667024
+First energy for grid_id (90, 75) = -193.665559
+First energy for grid_id (90, -105) = -193.664929
+First energy for grid_id (105, 60) = -193.663376
+First energy for grid_id (105, -90) = -193.663064
+First energy for grid_id (120, 45) = -193.662061
+First energy for grid_id (120, -75) = -193.662425
+First energy for grid_id (135, 30) = -193.662228
+First energy for grid_id (135, -60) = -193.663258
+First energy for grid_id (150, 15) = -193.663612
+First energy for grid_id (150, -45) = -193.665000
+First energy for grid_id (165, 0) = -193.665398
+First energy for grid_id (165, -30) = -193.666520
+First energy for grid_id (180, -15) = -193.666719
+First energy for grid_id (-15, 150) = -193.661027
+First energy for grid_id (-15, 180) = -193.662274
+First energy for grid_id (-30, 135) = -193.663071
+First energy for grid_id (-30, -165) = -193.665020
+First energy for grid_id (-45, 120) = -193.665927
+First energy for grid_id (-45, -150) = -193.667256
+First energy for grid_id (-60, 105) = -193.667961
+First energy for grid_id (-60, -135) = -193.667631
+First energy for grid_id (-75, 90) = -193.667961
+First energy for grid_id (-75, -120) = -193.666075
+First energy for grid_id (-90, 75) = -193.666323
+First energy for grid_id (-90, -105) = -193.663854
+First energy for grid_id (-105, 60) = -193.663936
+First energy for grid_id (-105, -90) = -193.662466
+First energy for grid_id (-120, 45) = -193.661955
+First energy for grid_id (-120, -75) = -193.662674
+First energy for grid_id (-135, 30) = -193.661621
+First energy for grid_id (-135, -60) = -193.664163
+First energy for grid_id (-150, 15) = -193.663215
+First energy for grid_id (-150, -45) = -193.665934
+First energy for grid_id (-165, 0) = -193.665398
+First energy for grid_id (-165, -30) = -193.666958
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+ 165                     [1;41m><[0m[44m--[0m[1;41m><[0m                      
+ 150                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+ 135                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+ 120               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+ 105             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+  90           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+  75         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+  60       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+  45     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+  30   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+  15 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m  
+   0 [44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[1;41m><[0m
+ -15 [1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m
+ -30 [44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[1;41m><[0m
+ -45 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m  
+ -60   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+ -75     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+ -90       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+-105         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+-120           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+-135             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+-150               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+-165                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+
+First energy for grid_id (15, 165) = -193.662024
+First energy for grid_id (30, 150) = -193.664358
+First energy for grid_id (30, 180) = -193.665211
+First energy for grid_id (45, 135) = -193.666581
+First energy for grid_id (45, -165) = -193.667716
+First energy for grid_id (60, 120) = -193.667388
+First energy for grid_id (60, -150) = -193.668542
+First energy for grid_id (75, 105) = -193.666513
+First energy for grid_id (75, -135) = -193.667323
+First energy for grid_id (90, 90) = -193.664760
+First energy for grid_id (90, -120) = -193.664612
+First energy for grid_id (105, 75) = -193.663246
+First energy for grid_id (105, -105) = -193.662239
+First energy for grid_id (120, 60) = -193.662782
+First energy for grid_id (120, -90) = -193.661643
+First energy for grid_id (135, 45) = -193.663482
+First energy for grid_id (135, -75) = -193.663036
+First energy for grid_id (150, 30) = -193.664783
+First energy for grid_id (150, -60) = -193.665464
+First energy for grid_id (165, 15) = -193.665910
+First energy for grid_id (165, -45) = -193.667413
+First energy for grid_id (180, 0) = -193.666336
+First energy for grid_id (180, -30) = -193.667653
+First energy for grid_id (-15, 165) = -193.661871
+First energy for grid_id (-30, 150) = -193.663878
+First energy for grid_id (-30, 180) = -193.665211
+First energy for grid_id (-45, 135) = -193.666155
+First energy for grid_id (-45, -165) = -193.667922
+First energy for grid_id (-60, 120) = -193.667617
+First energy for grid_id (-60, -150) = -193.668374
+First energy for grid_id (-75, 105) = -193.667309
+First energy for grid_id (-75, -135) = -193.666376
+First energy for grid_id (-90, 90) = -193.665671
+First energy for grid_id (-90, -120) = -193.663429
+First energy for grid_id (-105, 75) = -193.663797
+First energy for grid_id (-105, -105) = -193.661561
+First energy for grid_id (-120, 60) = -193.662595
+First energy for grid_id (-120, -90) = -193.661910
+First energy for grid_id (-135, 45) = -193.662694
+First energy for grid_id (-135, -75) = -193.664037
+First energy for grid_id (-150, 30) = -193.664062
+First energy for grid_id (-150, -60) = -193.666530
+First energy for grid_id (-165, 15) = -193.665672
+First energy for grid_id (-165, -45) = -193.667990
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+ 165                   [1;41m><[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m><[0m                    
+ 150                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+ 135               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+ 120             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+ 105           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+  90         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+  75       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+  60     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+  45   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+  30 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m  
+  15 [44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[1;41m><[0m
+   0 [41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m
+ -15 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m
+ -30 [41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m
+ -45 [44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[1;41m><[0m
+ -60 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m  
+ -75   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+ -90     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+-105       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+-120         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+-135           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+-150             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+-165               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+
+First energy for grid_id (30, 165) = -193.665020
+First energy for grid_id (45, 150) = -193.667256
+First energy for grid_id (45, 180) = -193.668126
+First energy for grid_id (60, 135) = -193.667631
+First energy for grid_id (60, -165) = -193.669220
+First energy for grid_id (75, 120) = -193.666075
+First energy for grid_id (75, -150) = -193.668001
+First energy for grid_id (90, 105) = -193.663854
+First energy for grid_id (90, -135) = -193.664945
+First energy for grid_id (105, 90) = -193.662466
+First energy for grid_id (105, -120) = -193.661878
+First energy for grid_id (120, 75) = -193.662674
+First energy for grid_id (120, -105) = -193.660778
+First energy for grid_id (135, 60) = -193.664163
+First energy for grid_id (135, -90) = -193.662217
+First energy for grid_id (150, 45) = -193.665934
+First energy for grid_id (150, -75) = -193.665187
+First energy for grid_id (165, 30) = -193.666958
+First energy for grid_id (165, -60) = -193.667828
+First energy for grid_id (180, 15) = -193.666723
+First energy for grid_id (180, -45) = -193.668591
+First energy for grid_id (-30, 165) = -193.664756
+First energy for grid_id (-45, 150) = -193.666905
+First energy for grid_id (-45, 180) = -193.668126
+First energy for grid_id (-60, 135) = -193.667864
+First energy for grid_id (-60, -165) = -193.669136
+First energy for grid_id (-75, 120) = -193.667024
+First energy for grid_id (-75, -150) = -193.667235
+First energy for grid_id (-90, 105) = -193.664929
+First energy for grid_id (-90, -135) = -193.663785
+First energy for grid_id (-105, 90) = -193.663064
+First energy for grid_id (-105, -120) = -193.661134
+First energy for grid_id (-120, 75) = -193.662425
+First energy for grid_id (-120, -105) = -193.661009
+First energy for grid_id (-135, 60) = -193.663258
+First energy for grid_id (-135, -90) = -193.663283
+First energy for grid_id (-150, 45) = -193.665000
+First energy for grid_id (-150, -75) = -193.666362
+First energy for grid_id (-165, 30) = -193.666520
+First energy for grid_id (-165, -60) = -193.668496
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+ 165                 [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m                  
+ 150               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+ 135             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+ 120           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+ 105         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+  90       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+  75     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+  60   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+  45 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m  
+  30 [44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[1;41m><[0m
+  15 [41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m
+   0 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m\/[0m
+ -15 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m/\[0m
+ -45 [41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m
+ -60 [44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[1;41m><[0m
+ -75 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m  
+ -90   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+-105     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+-120       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+-135         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+-150           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+-165             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+
+Information for next set of jobs is dumped to next_jobs.json
+Number of jobs to run next for each grid id
+15,165                        1
+45,165                        3
+30,150                        2
+30,180                        2
+60,150                        2
+45,135                        2
+60,180                        2
+45,-165                       2
+75,135                        2
+60,120                        2
+75,-165                       2
+60,-150                       2
+90,120                        2
+75,105                        2
+90,-150                       2
+75,-135                       2
+105,105                       2
+90,90                         2
+105,-135                      2
+90,-120                       2
+120,90                        2
+105,75                        2
+120,-120                      2
+105,-105                      2
+135,75                        2
+120,60                        2
+135,-105                      2
+120,-90                       2
+150,60                        2
+135,45                        2
+150,-90                       2
+135,-75                       2
+165,45                        2
+150,30                        2
+165,-75                       2
+150,-60                       2
+180,30                        3
+165,15                        2
+180,-60                       3
+165,-45                       2
+-165,15                       2
+180,0                         1
+-165,-45                      2
+180,-30                       1
+-45,165                       3
+-15,165                       1
+-30,150                       2
+-30,180                       2
+-60,150                       2
+-45,135                       2
+-60,180                       2
+-45,-165                      2
+-75,135                       2
+-60,120                       2
+-75,-165                      2
+-60,-150                      2
+-90,120                       2
+-75,105                       2
+-90,-150                      2
+-75,-135                      2
+-105,105                      2
+-90,90                        2
+-105,-135                     2
+-90,-120                      2
+-120,90                       2
+-105,75                       2
+-120,-120                     2
+-105,-105                     2
+-135,75                       2
+-120,60                       2
+-135,-105                     2
+-120,-90                      2
+-150,60                       2
+-135,45                       2
+-150,-90                      2
+-135,-75                      2
+-165,45                       2
+-150,30                       2
+-165,-75                      2
+-150,-60                      2
