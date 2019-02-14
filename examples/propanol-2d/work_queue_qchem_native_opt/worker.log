@@ -1,0 +1,14 @@
+2019/02/14 12:14:13.17 work_queue_python[28852] tcp: listening on port 50124
+2019/02/14 12:14:13.17 work_queue_python[28852] wq: Using default fast abort multiplier for 'default'.
+2019/02/14 12:14:13.17 work_queue_python[28852] wq: workers status -- total: 0, active: 0, available: 0.
+2019/02/14 12:14:13.17 work_queue_python[28852] wq: Work Queue is listening on port 50124.
+Work Queue listening on 50124
+2019/02/14 12:14:15.67 work_queue_python[28852] wq: workers status -- total: 0, active: 0, available: 0.
+2019/02/14 12:14:15.67 work_queue_python[28852] wq: Advertising master status to the catalog server(s) at catalog.cse.nd.edu,backup-catalog.cse.nd.edu ...
+2019/02/14 12:14:15.67 work_queue_python[28852] debug: compressed update message from 1823 to 696 bytes
+2019/02/14 12:14:15.67 work_queue_python[28852] dns: looking up name catalog.cse.nd.edu
+2019/02/14 12:14:15.67 work_queue_python[28852] dns: catalog.cse.nd.edu is 129.74.152.177
+2019/02/14 12:14:15.67 work_queue_python[28852] debug: sending update to catalog.cse.nd.edu(129.74.152.177):9097
+2019/02/14 12:14:15.67 work_queue_python[28852] dns: looking up name backup-catalog.cse.nd.edu
+2019/02/14 12:14:15.67 work_queue_python[28852] dns: backup-catalog.cse.nd.edu is 129.74.247.43
+2019/02/14 12:14:15.67 work_queue_python[28852] debug: sending update to backup-catalog.cse.nd.edu(129.74.247.43):9097

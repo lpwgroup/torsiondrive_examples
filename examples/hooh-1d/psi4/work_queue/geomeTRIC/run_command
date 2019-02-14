@@ -1,1 +1,1 @@
-torsiondrive-launch input.dat dihedrals.txt -g 15 -e psi4 --wq_port 50124 -v 1>scan.log 2>worker.log
+torsiondrive-launch input.dat dihedrals.txt -g 15 -e psi4 --wq_port 50124 -v 2>worker.log
