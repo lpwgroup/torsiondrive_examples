@@ -1,0 +1,3186 @@
+/home/qyd/codes/anaconda3/envs/test_td/bin/torsiondrive-launch qc.in dihedrals.txt -g 15 30 -e qchem -v --wq_port 50124
+Master process started!
+1 initial tasks pushed to opt_queue
+Scan Status at 0 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 150                                                 
+ 120                                                 
+  90                                                 
+  60                                                 
+  30                                                 
+   0                                                 
+ -30                       [1;41m><[0m                        
+ -60                                                 
+ -90                                                 
+-120                                                 
+-150                                                 
+
+Launching new job at opt_tmp/gid_+000_-030/1
+Find finished jobs: {'opt_tmp/gid_+000_-030/1'}
+First energy for grid_id (0, -30) = -193.672307
+Scan Status at 66 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 150                                                 
+ 120                                                 
+  90                                                 
+  60                                                 
+  30                                                 
+   0                       [1;41m/\[0m                        
+ -30                     [1;41m＜[0m[44m--[0m[1;41m＞[0m                      
+ -60                       [1;41m\/[0m                        
+ -90                                                 
+-120                                                 
+-150                                                 
+
+Launching new job at opt_tmp/gid_-015_-030/1
+Launching new job at opt_tmp/gid_+015_-030/1
+Launching new job at opt_tmp/gid_+000_-060/1
+Launching new job at opt_tmp/gid_+000_+000/1
+Find finished jobs: {'opt_tmp/gid_+015_-030/1', 'opt_tmp/gid_-015_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+000/1'}
+First energy for grid_id (0, 0) = -193.670335
+First energy for grid_id (0, -60) = -193.674688
+First energy for grid_id (15, -30) = -193.673309
+First energy for grid_id (-15, -30) = -193.673686
+Scan Status at 141 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 150                                                 
+ 120                                                 
+  90                                                 
+  60                                                 
+  30                       [1;41m/\[0m                        
+   0                     [41m／[0m[44m--[0m[41m＼[0m                      
+ -30                   [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m                    
+ -60                     [41m＼[0m[44m--[0m[41m／[0m                      
+ -90                       [1;41m\/[0m                        
+-120                                                 
+-150                                                 
+
+Launching new job at opt_tmp/gid_-015_+000/1
+Launching new job at opt_tmp/gid_+015_+000/1
+Launching new job at opt_tmp/gid_+000_-030/2
+Launching new job at opt_tmp/gid_+000_+030/1
+Launching new job at opt_tmp/gid_-015_-060/1
+Launching new job at opt_tmp/gid_+015_-060/1
+Launching new job at opt_tmp/gid_+000_-090/1
+Launching new job at opt_tmp/gid_+000_-030/3
+Launching new job at opt_tmp/gid_+000_-030/4
+Launching new job at opt_tmp/gid_+030_-030/1
+Launching new job at opt_tmp/gid_+015_-060/2
+Launching new job at opt_tmp/gid_+015_+000/2
+Launching new job at opt_tmp/gid_-030_-030/1
+Launching new job at opt_tmp/gid_+000_-030/5
+Launching new job at opt_tmp/gid_-015_-060/2
+Launching new job at opt_tmp/gid_-015_+000/2
+Find finished jobs: {'opt_tmp/gid_+000_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+015_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-060/1', 'opt_tmp/gid_+015_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+000_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+030_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+015_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-030/5'}
+Find finished jobs: {'opt_tmp/gid_-015_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-015_+000/2'}
+First energy for grid_id (0, 30) = -193.672307
+First energy for grid_id (0, -90) = -193.674116
+First energy for grid_id (15, 0) = -193.671545
+First energy for grid_id (15, -60) = -193.675692
+First energy for grid_id (30, -30) = -193.675988
+First energy for grid_id (-15, 0) = -193.671545
+First energy for grid_id (-15, -60) = -193.676243
+First energy for grid_id (-30, -30) = -193.676859
+Scan Status at 363 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 150                                                 
+ 120                                                 
+  90                                                 
+  60                       [1;41m/\[0m                        
+  30                     [41m／[0m[44m--[0m[41m＼[0m                      
+   0                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+ -30                 [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m                  
+ -60                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+ -90                     [41m＼[0m[44m--[0m[41m／[0m                      
+-120                       [1;41m\/[0m                        
+-150                                                 
+
+Launching new job at opt_tmp/gid_-015_+030/1
+Launching new job at opt_tmp/gid_+015_+030/1
+Launching new job at opt_tmp/gid_+000_+000/2
+Launching new job at opt_tmp/gid_+000_+060/1
+Launching new job at opt_tmp/gid_-015_-090/1
+Launching new job at opt_tmp/gid_+015_-090/1
+Launching new job at opt_tmp/gid_+000_-120/1
+Launching new job at opt_tmp/gid_+000_-060/2
+Launching new job at opt_tmp/gid_+000_+000/3
+Launching new job at opt_tmp/gid_+030_+000/1
+Launching new job at opt_tmp/gid_+015_-030/2
+Launching new job at opt_tmp/gid_+015_+030/2
+Launching new job at opt_tmp/gid_+000_-060/3
+Launching new job at opt_tmp/gid_+030_-060/1
+Launching new job at opt_tmp/gid_+015_-090/2
+Launching new job at opt_tmp/gid_+015_-030/3
+Launching new job at opt_tmp/gid_+015_-030/4
+Launching new job at opt_tmp/gid_+045_-030/1
+Launching new job at opt_tmp/gid_+030_-060/2
+Launching new job at opt_tmp/gid_+030_+000/2
+Launching new job at opt_tmp/gid_-030_+000/1
+Launching new job at opt_tmp/gid_+000_+000/4
+Launching new job at opt_tmp/gid_-015_-030/2
+Launching new job at opt_tmp/gid_-015_+030/2
+Launching new job at opt_tmp/gid_-030_-060/1
+Launching new job at opt_tmp/gid_+000_-060/4
+Launching new job at opt_tmp/gid_-015_-090/2
+Launching new job at opt_tmp/gid_-015_-030/3
+Launching new job at opt_tmp/gid_-045_-030/1
+Launching new job at opt_tmp/gid_-015_-030/4
+Launching new job at opt_tmp/gid_-030_-060/2
+Launching new job at opt_tmp/gid_-030_+000/2
+Find finished jobs: {'opt_tmp/gid_+000_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-015_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-090/1', 'opt_tmp/gid_-015_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+000_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+015_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+000_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+030_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+045_-030/1', 'opt_tmp/gid_+015_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+030_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+030_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-030_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-015_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-015_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-090/2', 'opt_tmp/gid_+000_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-015_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-045_-030/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-030_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-030_+000/2'}
+First energy for grid_id (0, 60) = -193.674688
+First energy for grid_id (0, -120) = -193.672475
+First energy for grid_id (15, 30) = -193.673686
+First energy for grid_id (15, -90) = -193.674985
+First energy for grid_id (30, 0) = -193.674529
+First energy for grid_id (30, -60) = -193.678450
+First energy for grid_id (45, -30) = -193.678884
+First energy for grid_id (-15, 30) = -193.673309
+First energy for grid_id (-15, -90) = -193.675727
+First energy for grid_id (-30, 0) = -193.674529
+First energy for grid_id (-30, -60) = -193.679424
+First energy for grid_id (-45, -30) = -193.680103
+Scan Status at 857 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                                                 
+ 150                                                 
+ 120                                                 
+  90                       [1;41m/\[0m                        
+  60                     [41m／[0m[44m--[0m[41m＼[0m                      
+  30                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+   0                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+ -30               [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m                
+ -60                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+ -90                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+-120                     [41m＼[0m[44m--[0m[41m／[0m                      
+-150                       [1;41m\/[0m                        
+
+Launching new job at opt_tmp/gid_-015_+060/1
+Launching new job at opt_tmp/gid_+015_+060/1
+Launching new job at opt_tmp/gid_+000_+030/2
+Launching new job at opt_tmp/gid_+000_+090/1
+Launching new job at opt_tmp/gid_-015_-120/1
+Launching new job at opt_tmp/gid_+015_-120/1
+Launching new job at opt_tmp/gid_+000_-150/1
+Launching new job at opt_tmp/gid_+000_-090/2
+Launching new job at opt_tmp/gid_+000_+030/3
+Launching new job at opt_tmp/gid_+030_+030/1
+Launching new job at opt_tmp/gid_+015_+000/3
+Launching new job at opt_tmp/gid_+015_+060/2
+Launching new job at opt_tmp/gid_+000_-090/3
+Launching new job at opt_tmp/gid_+030_-090/1
+Launching new job at opt_tmp/gid_+015_-120/2
+Launching new job at opt_tmp/gid_+015_-060/3
+Launching new job at opt_tmp/gid_+015_+000/4
+Launching new job at opt_tmp/gid_+045_+000/1
+Launching new job at opt_tmp/gid_+030_-030/2
+Launching new job at opt_tmp/gid_+030_+030/2
+Launching new job at opt_tmp/gid_+015_-060/4
+Launching new job at opt_tmp/gid_+045_-060/1
+Launching new job at opt_tmp/gid_+030_-090/2
+Launching new job at opt_tmp/gid_+030_-030/3
+Launching new job at opt_tmp/gid_+030_-030/4
+Launching new job at opt_tmp/gid_+060_-030/1
+Launching new job at opt_tmp/gid_+045_-060/2
+Launching new job at opt_tmp/gid_+045_+000/2
+Launching new job at opt_tmp/gid_-030_+030/1
+Launching new job at opt_tmp/gid_+000_+030/4
+Launching new job at opt_tmp/gid_-015_+000/3
+Launching new job at opt_tmp/gid_-015_+060/2
+Launching new job at opt_tmp/gid_-030_-090/1
+Launching new job at opt_tmp/gid_+000_-090/4
+Launching new job at opt_tmp/gid_-015_-120/2
+Launching new job at opt_tmp/gid_-015_-060/3
+Launching new job at opt_tmp/gid_-045_+000/1
+Launching new job at opt_tmp/gid_-015_+000/4
+Launching new job at opt_tmp/gid_-030_-030/2
+Launching new job at opt_tmp/gid_-030_+030/2
+Launching new job at opt_tmp/gid_-045_-060/1
+Launching new job at opt_tmp/gid_-015_-060/4
+Launching new job at opt_tmp/gid_-030_-090/2
+Launching new job at opt_tmp/gid_-030_-030/3
+Launching new job at opt_tmp/gid_-060_-030/1
+Launching new job at opt_tmp/gid_-030_-030/4
+Launching new job at opt_tmp/gid_-045_-060/2
+Launching new job at opt_tmp/gid_-045_+000/2
+Find finished jobs: {'opt_tmp/gid_+000_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+015_+060/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-120/1', 'opt_tmp/gid_-015_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+000_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+000_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+030_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+030_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+030_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+045_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+030_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+030_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+030_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+060_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+045_+000/2'}
+Find finished jobs: {'opt_tmp/gid_+000_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-030_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-015_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-015_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-015_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-030_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-030_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-045_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-030_-090/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-060_-030/1'}
+Find finished jobs: {'opt_tmp/gid_-030_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-045_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-045_+000/2'}
+First energy for grid_id (0, 90) = -193.674116
+First energy for grid_id (0, -150) = -193.673055
+First energy for grid_id (15, 60) = -193.676243
+First energy for grid_id (15, -120) = -193.673468
+First energy for grid_id (30, 30) = -193.676860
+First energy for grid_id (30, -90) = -193.677835
+First energy for grid_id (45, 0) = -193.677730
+First energy for grid_id (45, -60) = -193.681235
+First energy for grid_id (60, -30) = -193.680540
+First energy for grid_id (-15, 60) = -193.675692
+First energy for grid_id (-15, -120) = -193.673996
+First energy for grid_id (-30, 30) = -193.675988
+First energy for grid_id (-30, -90) = -193.678750
+First energy for grid_id (-45, 0) = -193.677730
+First energy for grid_id (-45, -60) = -193.682292
+First energy for grid_id (-60, -30) = -193.681517
+Scan Status at 1570 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                       [1;41m\/[0m                        
+ 150                                                 
+ 120                       [1;41m/\[0m                        
+  90                     [41m／[0m[44m--[0m[41m＼[0m                      
+  60                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+  30                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+   0               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+ -30             [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m              
+ -60               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+ -90                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+-120                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+-150                     [41m＼[0m[44m--[0m[41m／[0m                      
+
+Launching new job at opt_tmp/gid_-015_+090/1
+Launching new job at opt_tmp/gid_+015_+090/1
+Launching new job at opt_tmp/gid_+000_+060/2
+Launching new job at opt_tmp/gid_+000_+120/1
+Launching new job at opt_tmp/gid_-015_-150/1
+Launching new job at opt_tmp/gid_+015_-150/1
+Launching new job at opt_tmp/gid_+000_+180/1
+Launching new job at opt_tmp/gid_+000_-120/2
+Launching new job at opt_tmp/gid_+000_+060/3
+Launching new job at opt_tmp/gid_+030_+060/1
+Launching new job at opt_tmp/gid_+015_+030/3
+Launching new job at opt_tmp/gid_+015_+090/2
+Launching new job at opt_tmp/gid_+000_-120/3
+Launching new job at opt_tmp/gid_+030_-120/1
+Launching new job at opt_tmp/gid_+015_-150/2
+Launching new job at opt_tmp/gid_+015_-090/3
+Launching new job at opt_tmp/gid_+015_+030/4
+Launching new job at opt_tmp/gid_+045_+030/1
+Launching new job at opt_tmp/gid_+030_+000/3
+Launching new job at opt_tmp/gid_+030_+060/2
+Launching new job at opt_tmp/gid_+015_-090/4
+Launching new job at opt_tmp/gid_+045_-090/1
+Launching new job at opt_tmp/gid_+030_-120/2
+Launching new job at opt_tmp/gid_+030_-060/3
+Launching new job at opt_tmp/gid_+030_+000/4
+Launching new job at opt_tmp/gid_+060_+000/1
+Launching new job at opt_tmp/gid_+045_-030/2
+Launching new job at opt_tmp/gid_+045_+030/2
+Launching new job at opt_tmp/gid_+030_-060/4
+Launching new job at opt_tmp/gid_+060_-060/1
+Launching new job at opt_tmp/gid_+045_-090/2
+Launching new job at opt_tmp/gid_+045_-030/3
+Launching new job at opt_tmp/gid_+045_-030/4
+Launching new job at opt_tmp/gid_+075_-030/1
+Launching new job at opt_tmp/gid_+060_-060/2
+Launching new job at opt_tmp/gid_+060_+000/2
+Launching new job at opt_tmp/gid_-030_+060/1
+Launching new job at opt_tmp/gid_+000_+060/4
+Launching new job at opt_tmp/gid_-015_+030/3
+Launching new job at opt_tmp/gid_-015_+090/2
+Launching new job at opt_tmp/gid_-030_-120/1
+Launching new job at opt_tmp/gid_+000_-120/4
+Launching new job at opt_tmp/gid_-015_-150/2
+Launching new job at opt_tmp/gid_-015_-090/3
+Launching new job at opt_tmp/gid_-045_+030/1
+Launching new job at opt_tmp/gid_-015_+030/4
+Launching new job at opt_tmp/gid_-030_+000/3
+Launching new job at opt_tmp/gid_-030_+060/2
+Launching new job at opt_tmp/gid_-045_-090/1
+Launching new job at opt_tmp/gid_-015_-090/4
+Launching new job at opt_tmp/gid_-030_-120/2
+Launching new job at opt_tmp/gid_-030_-060/3
+Launching new job at opt_tmp/gid_-060_+000/1
+Launching new job at opt_tmp/gid_-030_+000/4
+Launching new job at opt_tmp/gid_-045_-030/2
+Launching new job at opt_tmp/gid_-045_+030/2
+Launching new job at opt_tmp/gid_-060_-060/1
+Launching new job at opt_tmp/gid_-030_-060/4
+Launching new job at opt_tmp/gid_-045_-090/2
+Launching new job at opt_tmp/gid_-045_-030/3
+Launching new job at opt_tmp/gid_-075_-030/1
+Launching new job at opt_tmp/gid_-045_-030/4
+Launching new job at opt_tmp/gid_-060_-060/2
+Launching new job at opt_tmp/gid_-060_+000/2
+Find finished jobs: {'opt_tmp/gid_+000_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+015_+090/1', 'opt_tmp/gid_-015_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-150/1', 'opt_tmp/gid_-015_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+000_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+000_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+030_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+030/4'}
+Find finished jobs: {'opt_tmp/gid_+045_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+030_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+045_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+030_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+030_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+060_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+045_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+030_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+060_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+045_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+045_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+075_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+060_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+060_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-030_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-015_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-015_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-015_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-015_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-030_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-030_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-045_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-030_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-030_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-045_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-045_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-060_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-030_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-045_-090/2'}
+Find finished jobs: {'opt_tmp/gid_-045_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-075_-030/1'}
+Find finished jobs: {'opt_tmp/gid_-045_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-060_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-060_+000/2'}
+First energy for grid_id (0, 120) = -193.672475
+First energy for grid_id (0, 180) = -193.674025
+First energy for grid_id (15, 90) = -193.675727
+First energy for grid_id (15, -150) = -193.674251
+First energy for grid_id (30, 60) = -193.679424
+First energy for grid_id (30, -120) = -193.676422
+First energy for grid_id (45, 30) = -193.680104
+First energy for grid_id (45, -90) = -193.680884
+First energy for grid_id (60, 0) = -193.679507
+First energy for grid_id (60, -60) = -193.682598
+First energy for grid_id (75, -30) = -193.680169
+First energy for grid_id (-15, 90) = -193.674985
+First energy for grid_id (-15, -150) = -193.674489
+First energy for grid_id (-30, 60) = -193.678450
+First energy for grid_id (-30, -120) = -193.677090
+First energy for grid_id (-45, 30) = -193.678884
+First energy for grid_id (-45, -90) = -193.681441
+First energy for grid_id (-60, 0) = -193.679507
+First energy for grid_id (-60, -60) = -193.683292
+First energy for grid_id (-75, -30) = -193.680345
+Scan Status at 2533 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                     [41m＼[0m[44m--[0m[41m／[0m                      
+ 150                       [1;41m><[0m                        
+ 120                     [41m／[0m[44m--[0m[41m＼[0m                      
+  90                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+  60                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+  30               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+   0             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+ -30           [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m            
+ -60             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+ -90               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+-120                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+-150                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+
+Launching new job at opt_tmp/gid_-015_+120/1
+Launching new job at opt_tmp/gid_+015_+120/1
+Launching new job at opt_tmp/gid_+000_+090/2
+Launching new job at opt_tmp/gid_+000_+150/1
+Launching new job at opt_tmp/gid_-015_+180/1
+Launching new job at opt_tmp/gid_+015_+180/1
+Launching new job at opt_tmp/gid_+000_+150/2
+Launching new job at opt_tmp/gid_+000_-150/2
+Launching new job at opt_tmp/gid_+000_+090/3
+Launching new job at opt_tmp/gid_+030_+090/1
+Launching new job at opt_tmp/gid_+015_+060/3
+Launching new job at opt_tmp/gid_+015_+120/2
+Launching new job at opt_tmp/gid_+000_-150/3
+Launching new job at opt_tmp/gid_+030_-150/1
+Launching new job at opt_tmp/gid_+015_+180/2
+Launching new job at opt_tmp/gid_+015_-120/3
+Launching new job at opt_tmp/gid_+015_+060/4
+Launching new job at opt_tmp/gid_+045_+060/1
+Launching new job at opt_tmp/gid_+030_+030/3
+Launching new job at opt_tmp/gid_+030_+090/2
+Launching new job at opt_tmp/gid_+015_-120/4
+Launching new job at opt_tmp/gid_+045_-120/1
+Launching new job at opt_tmp/gid_+030_-150/2
+Launching new job at opt_tmp/gid_+030_-090/3
+Launching new job at opt_tmp/gid_+030_+030/4
+Launching new job at opt_tmp/gid_+060_+030/1
+Launching new job at opt_tmp/gid_+045_+000/3
+Launching new job at opt_tmp/gid_+045_+060/2
+Launching new job at opt_tmp/gid_+030_-090/4
+Launching new job at opt_tmp/gid_+060_-090/1
+Launching new job at opt_tmp/gid_+045_-120/2
+Launching new job at opt_tmp/gid_+045_-060/3
+Launching new job at opt_tmp/gid_+045_+000/4
+Launching new job at opt_tmp/gid_+075_+000/1
+Launching new job at opt_tmp/gid_+060_-030/2
+Launching new job at opt_tmp/gid_+060_+030/2
+Launching new job at opt_tmp/gid_+045_-060/4
+Launching new job at opt_tmp/gid_+075_-060/1
+Launching new job at opt_tmp/gid_+060_-090/2
+Launching new job at opt_tmp/gid_+060_-030/3
+Launching new job at opt_tmp/gid_+060_-030/4
+Launching new job at opt_tmp/gid_+090_-030/1
+Launching new job at opt_tmp/gid_+075_-060/2
+Launching new job at opt_tmp/gid_+075_+000/2
+Launching new job at opt_tmp/gid_-030_+090/1
+Launching new job at opt_tmp/gid_+000_+090/4
+Launching new job at opt_tmp/gid_-015_+060/3
+Launching new job at opt_tmp/gid_-015_+120/2
+Launching new job at opt_tmp/gid_-030_-150/1
+Launching new job at opt_tmp/gid_+000_-150/4
+Launching new job at opt_tmp/gid_-015_+180/2
+Launching new job at opt_tmp/gid_-015_-120/3
+Launching new job at opt_tmp/gid_-045_+060/1
+Launching new job at opt_tmp/gid_-015_+060/4
+Launching new job at opt_tmp/gid_-030_+030/3
+Launching new job at opt_tmp/gid_-030_+090/2
+Launching new job at opt_tmp/gid_-045_-120/1
+Launching new job at opt_tmp/gid_-015_-120/4
+Launching new job at opt_tmp/gid_-030_-150/2
+Launching new job at opt_tmp/gid_-030_-090/3
+Launching new job at opt_tmp/gid_-060_+030/1
+Launching new job at opt_tmp/gid_-030_+030/4
+Launching new job at opt_tmp/gid_-045_+000/3
+Launching new job at opt_tmp/gid_-045_+060/2
+Launching new job at opt_tmp/gid_-060_-090/1
+Launching new job at opt_tmp/gid_-030_-090/4
+Launching new job at opt_tmp/gid_-045_-120/2
+Launching new job at opt_tmp/gid_-045_-060/3
+Launching new job at opt_tmp/gid_-075_+000/1
+Launching new job at opt_tmp/gid_-045_+000/4
+Launching new job at opt_tmp/gid_-060_-030/2
+Launching new job at opt_tmp/gid_-060_+030/2
+Launching new job at opt_tmp/gid_-075_-060/1
+Launching new job at opt_tmp/gid_-045_-060/4
+Launching new job at opt_tmp/gid_-060_-090/2
+Launching new job at opt_tmp/gid_-060_-030/3
+Launching new job at opt_tmp/gid_-090_-030/1
+Launching new job at opt_tmp/gid_-060_-030/4
+Launching new job at opt_tmp/gid_-075_-060/2
+Launching new job at opt_tmp/gid_-075_+000/2
+Find finished jobs: {'opt_tmp/gid_+000_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-015_+120/1', 'opt_tmp/gid_+015_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+000_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+000_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+000_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+030_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+045_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+030_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+045_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+030_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+030_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+030/4'}
+Find finished jobs: {'opt_tmp/gid_+060_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+045_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+030_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+060_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+045_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+075_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+060_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+060_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+045_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+075_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+060_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+060_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+090_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+075_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+075_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-030_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-015_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-015_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-015_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-015_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+060/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-030_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-030_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-045_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-030_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-045_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-030_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-045_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-060_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-045_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-045_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-045_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-060_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-060_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-075_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-060_-090/2', 'opt_tmp/gid_-045_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-060_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-090_-030/1'}
+Find finished jobs: {'opt_tmp/gid_-060_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-075_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-075_+000/2'}
+First energy for grid_id (0, 150) = -193.673055
+First energy for grid_id (15, 120) = -193.673996
+First energy for grid_id (15, 180) = -193.675362
+First energy for grid_id (30, 90) = -193.678750
+First energy for grid_id (30, -150) = -193.677316
+First energy for grid_id (45, 60) = -193.682292
+First energy for grid_id (45, -120) = -193.679651
+First energy for grid_id (60, 30) = -193.681517
+First energy for grid_id (60, -90) = -193.682365
+First energy for grid_id (75, 0) = -193.678854
+First energy for grid_id (75, -60) = -193.682014
+First energy for grid_id (90, -30) = -193.677935
+First energy for grid_id (-15, 120) = -193.673468
+First energy for grid_id (-15, 180) = -193.675362
+First energy for grid_id (-30, 90) = -193.677835
+First energy for grid_id (-30, -150) = -193.677686
+First energy for grid_id (-45, 60) = -193.681235
+First energy for grid_id (-45, -120) = -193.679954
+First energy for grid_id (-60, 30) = -193.680540
+First energy for grid_id (-60, -90) = -193.682345
+First energy for grid_id (-75, 0) = -193.678854
+First energy for grid_id (-75, -60) = -193.681956
+First energy for grid_id (-90, -30) = -193.677485
+Scan Status at 3780 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
+ 150                     [1;41m><[0m[44m--[0m[1;41m><[0m                      
+ 120                   [41m／[0m[44m--[0m[1;41m><[0m[44m--[0m[41m＼[0m                    
+  90                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+  60               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+  30             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+   0           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+ -30         [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m          
+ -60           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+ -90             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+-120               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+-150                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+
+Launching new job at opt_tmp/gid_-015_+150/1
+Launching new job at opt_tmp/gid_+015_+150/1
+Launching new job at opt_tmp/gid_+000_+120/2
+Launching new job at opt_tmp/gid_+000_+180/2
+Launching new job at opt_tmp/gid_+000_+120/3
+Launching new job at opt_tmp/gid_+030_+120/1
+Launching new job at opt_tmp/gid_+015_+090/3
+Launching new job at opt_tmp/gid_+015_+150/2
+Launching new job at opt_tmp/gid_+000_+180/3
+Launching new job at opt_tmp/gid_+030_+180/1
+Launching new job at opt_tmp/gid_+015_+150/3
+Launching new job at opt_tmp/gid_+015_-150/3
+Launching new job at opt_tmp/gid_+015_+090/4
+Launching new job at opt_tmp/gid_+045_+090/1
+Launching new job at opt_tmp/gid_+030_+060/3
+Launching new job at opt_tmp/gid_+030_+120/2
+Launching new job at opt_tmp/gid_+015_-150/4
+Launching new job at opt_tmp/gid_+045_-150/1
+Launching new job at opt_tmp/gid_+030_+180/2
+Launching new job at opt_tmp/gid_+030_-120/3
+Launching new job at opt_tmp/gid_+030_+060/4
+Launching new job at opt_tmp/gid_+060_+060/1
+Launching new job at opt_tmp/gid_+045_+030/3
+Launching new job at opt_tmp/gid_+045_+090/2
+Launching new job at opt_tmp/gid_+030_-120/4
+Launching new job at opt_tmp/gid_+060_-120/1
+Launching new job at opt_tmp/gid_+045_-150/2
+Launching new job at opt_tmp/gid_+045_-090/3
+Launching new job at opt_tmp/gid_+045_+030/4
+Launching new job at opt_tmp/gid_+075_+030/1
+Launching new job at opt_tmp/gid_+060_+000/3
+Launching new job at opt_tmp/gid_+060_+060/2
+Launching new job at opt_tmp/gid_+045_-090/4
+Launching new job at opt_tmp/gid_+075_-090/1
+Launching new job at opt_tmp/gid_+060_-120/2
+Launching new job at opt_tmp/gid_+060_-060/3
+Launching new job at opt_tmp/gid_+060_+000/4
+Launching new job at opt_tmp/gid_+090_+000/1
+Launching new job at opt_tmp/gid_+075_-030/2
+Launching new job at opt_tmp/gid_+075_+030/2
+Launching new job at opt_tmp/gid_+060_-060/4
+Launching new job at opt_tmp/gid_+090_-060/1
+Launching new job at opt_tmp/gid_+075_-090/2
+Launching new job at opt_tmp/gid_+075_-030/3
+Launching new job at opt_tmp/gid_+075_-030/4
+Launching new job at opt_tmp/gid_+105_-030/1
+Launching new job at opt_tmp/gid_+090_-060/2
+Launching new job at opt_tmp/gid_+090_+000/2
+Launching new job at opt_tmp/gid_-030_+120/1
+Launching new job at opt_tmp/gid_+000_+120/4
+Launching new job at opt_tmp/gid_-015_+090/3
+Launching new job at opt_tmp/gid_-015_+150/2
+Launching new job at opt_tmp/gid_-030_+180/1
+Launching new job at opt_tmp/gid_+000_+180/4
+Launching new job at opt_tmp/gid_-015_+150/3
+Launching new job at opt_tmp/gid_-015_-150/3
+Launching new job at opt_tmp/gid_-045_+090/1
+Launching new job at opt_tmp/gid_-015_+090/4
+Launching new job at opt_tmp/gid_-030_+060/3
+Launching new job at opt_tmp/gid_-030_+120/2
+Launching new job at opt_tmp/gid_-045_-150/1
+Launching new job at opt_tmp/gid_-015_-150/4
+Launching new job at opt_tmp/gid_-030_+180/2
+Launching new job at opt_tmp/gid_-030_-120/3
+Launching new job at opt_tmp/gid_-060_+060/1
+Launching new job at opt_tmp/gid_-030_+060/4
+Launching new job at opt_tmp/gid_-045_+030/3
+Launching new job at opt_tmp/gid_-045_+090/2
+Launching new job at opt_tmp/gid_-060_-120/1
+Launching new job at opt_tmp/gid_-030_-120/4
+Launching new job at opt_tmp/gid_-045_-150/2
+Launching new job at opt_tmp/gid_-045_-090/3
+Launching new job at opt_tmp/gid_-075_+030/1
+Launching new job at opt_tmp/gid_-045_+030/4
+Launching new job at opt_tmp/gid_-060_+000/3
+Launching new job at opt_tmp/gid_-060_+060/2
+Launching new job at opt_tmp/gid_-075_-090/1
+Launching new job at opt_tmp/gid_-045_-090/4
+Launching new job at opt_tmp/gid_-060_-120/2
+Launching new job at opt_tmp/gid_-060_-060/3
+Launching new job at opt_tmp/gid_-090_+000/1
+Launching new job at opt_tmp/gid_-060_+000/4
+Launching new job at opt_tmp/gid_-075_-030/2
+Launching new job at opt_tmp/gid_-075_+030/2
+Launching new job at opt_tmp/gid_-090_-060/1
+Launching new job at opt_tmp/gid_-060_-060/4
+Launching new job at opt_tmp/gid_-075_-090/2
+Launching new job at opt_tmp/gid_-075_-030/3
+Launching new job at opt_tmp/gid_-105_-030/1
+Launching new job at opt_tmp/gid_-075_-030/4
+Launching new job at opt_tmp/gid_-090_-060/2
+Launching new job at opt_tmp/gid_-090_+000/2
+Find finished jobs: {'opt_tmp/gid_+000_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+015_+150/1', 'opt_tmp/gid_-015_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+030_+120/1', 'opt_tmp/gid_+000_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+000_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+015_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+030_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+030_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+045_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+030_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+030_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+060_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+045_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+030_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+060_-120/1', 'opt_tmp/gid_+045_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+045_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+030/4'}
+Find finished jobs: {'opt_tmp/gid_+075_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+060_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+045_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+075_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+060_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+090_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+075_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+075_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+090_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+075_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+075_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+075_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+105_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+090_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+090_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-030_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-015_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-015_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-030_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+000_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-015_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-015_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+090/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-030_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-030_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-045_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-030_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+060/1', 'opt_tmp/gid_-030_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-045_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-060_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-030_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-045_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-045_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-060_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-060_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-075_-090/1', 'opt_tmp/gid_-045_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-060_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-060_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-090_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-060_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-075_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-075_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-090_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-075_-090/2', 'opt_tmp/gid_-060_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-075_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-105_-030/1'}
+Find finished jobs: {'opt_tmp/gid_-075_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-090_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-090_+000/2'}
+First energy for grid_id (15, 150) = -193.674490
+First energy for grid_id (30, 120) = -193.677090
+First energy for grid_id (30, 180) = -193.678509
+First energy for grid_id (45, 90) = -193.681441
+First energy for grid_id (45, -150) = -193.680512
+First energy for grid_id (60, 60) = -193.683292
+First energy for grid_id (60, -120) = -193.681370
+First energy for grid_id (75, 30) = -193.680345
+First energy for grid_id (75, -90) = -193.681615
+First energy for grid_id (90, 0) = -193.676234
+First energy for grid_id (90, -60) = -193.679807
+First energy for grid_id (105, -30) = -193.675292
+First energy for grid_id (-15, 150) = -193.674251
+First energy for grid_id (-30, 120) = -193.676422
+First energy for grid_id (-30, 180) = -193.678509
+First energy for grid_id (-45, 90) = -193.680884
+First energy for grid_id (-45, -150) = -193.680717
+First energy for grid_id (-60, 60) = -193.682598
+First energy for grid_id (-60, -120) = -193.680948
+First energy for grid_id (-75, 30) = -193.680169
+First energy for grid_id (-75, -90) = -193.680968
+First energy for grid_id (-90, 0) = -193.676234
+First energy for grid_id (-90, -60) = -193.679161
+First energy for grid_id (-105, -30) = -193.674840
+Scan Status at 5140 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
+ 150                   [1;41m><[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m><[0m                    
+ 120                 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                  
+  90               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+  60             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+  30           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+   0         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+ -30       [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m        
+ -60         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+ -90           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+-120             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+-150               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+
+Launching new job at opt_tmp/gid_+000_+150/3
+Launching new job at opt_tmp/gid_+030_+150/1
+Launching new job at opt_tmp/gid_+015_+120/3
+Launching new job at opt_tmp/gid_+015_+180/3
+Launching new job at opt_tmp/gid_+015_+120/4
+Launching new job at opt_tmp/gid_+045_+120/1
+Launching new job at opt_tmp/gid_+030_+090/3
+Launching new job at opt_tmp/gid_+030_+150/2
+Launching new job at opt_tmp/gid_+015_+180/4
+Launching new job at opt_tmp/gid_+045_+180/1
+Launching new job at opt_tmp/gid_+030_+150/3
+Launching new job at opt_tmp/gid_+030_-150/3
+Launching new job at opt_tmp/gid_+030_+090/4
+Launching new job at opt_tmp/gid_+060_+090/1
+Launching new job at opt_tmp/gid_+045_+060/3
+Launching new job at opt_tmp/gid_+045_+120/2
+Launching new job at opt_tmp/gid_+030_-150/4
+Launching new job at opt_tmp/gid_+060_-150/1
+Launching new job at opt_tmp/gid_+045_+180/2
+Launching new job at opt_tmp/gid_+045_-120/3
+Launching new job at opt_tmp/gid_+045_+060/4
+Launching new job at opt_tmp/gid_+075_+060/1
+Launching new job at opt_tmp/gid_+060_+030/3
+Launching new job at opt_tmp/gid_+060_+090/2
+Launching new job at opt_tmp/gid_+045_-120/4
+Launching new job at opt_tmp/gid_+075_-120/1
+Launching new job at opt_tmp/gid_+060_-150/2
+Launching new job at opt_tmp/gid_+060_-090/3
+Launching new job at opt_tmp/gid_+060_+030/4
+Launching new job at opt_tmp/gid_+090_+030/1
+Launching new job at opt_tmp/gid_+075_+000/3
+Launching new job at opt_tmp/gid_+075_+060/2
+Launching new job at opt_tmp/gid_+060_-090/4
+Launching new job at opt_tmp/gid_+090_-090/1
+Launching new job at opt_tmp/gid_+075_-120/2
+Launching new job at opt_tmp/gid_+075_-060/3
+Launching new job at opt_tmp/gid_+075_+000/4
+Launching new job at opt_tmp/gid_+105_+000/1
+Launching new job at opt_tmp/gid_+090_-030/2
+Launching new job at opt_tmp/gid_+090_+030/2
+Launching new job at opt_tmp/gid_+075_-060/4
+Launching new job at opt_tmp/gid_+105_-060/1
+Launching new job at opt_tmp/gid_+090_-090/2
+Launching new job at opt_tmp/gid_+090_-030/3
+Launching new job at opt_tmp/gid_+090_-030/4
+Launching new job at opt_tmp/gid_+120_-030/1
+Launching new job at opt_tmp/gid_+105_-060/2
+Launching new job at opt_tmp/gid_+105_+000/2
+Launching new job at opt_tmp/gid_-030_+150/1
+Launching new job at opt_tmp/gid_+000_+150/4
+Launching new job at opt_tmp/gid_-015_+120/3
+Launching new job at opt_tmp/gid_-015_+180/3
+Launching new job at opt_tmp/gid_-045_+120/1
+Launching new job at opt_tmp/gid_-015_+120/4
+Launching new job at opt_tmp/gid_-030_+090/3
+Launching new job at opt_tmp/gid_-030_+150/2
+Launching new job at opt_tmp/gid_-045_+180/1
+Launching new job at opt_tmp/gid_-015_+180/4
+Launching new job at opt_tmp/gid_-030_+150/3
+Launching new job at opt_tmp/gid_-030_-150/3
+Launching new job at opt_tmp/gid_-060_+090/1
+Launching new job at opt_tmp/gid_-030_+090/4
+Launching new job at opt_tmp/gid_-045_+060/3
+Launching new job at opt_tmp/gid_-045_+120/2
+Launching new job at opt_tmp/gid_-060_-150/1
+Launching new job at opt_tmp/gid_-030_-150/4
+Launching new job at opt_tmp/gid_-045_+180/2
+Launching new job at opt_tmp/gid_-045_-120/3
+Launching new job at opt_tmp/gid_-075_+060/1
+Launching new job at opt_tmp/gid_-045_+060/4
+Launching new job at opt_tmp/gid_-060_+030/3
+Launching new job at opt_tmp/gid_-060_+090/2
+Launching new job at opt_tmp/gid_-075_-120/1
+Launching new job at opt_tmp/gid_-045_-120/4
+Launching new job at opt_tmp/gid_-060_-150/2
+Launching new job at opt_tmp/gid_-060_-090/3
+Launching new job at opt_tmp/gid_-090_+030/1
+Launching new job at opt_tmp/gid_-060_+030/4
+Launching new job at opt_tmp/gid_-075_+000/3
+Launching new job at opt_tmp/gid_-075_+060/2
+Launching new job at opt_tmp/gid_-090_-090/1
+Launching new job at opt_tmp/gid_-060_-090/4
+Launching new job at opt_tmp/gid_-075_-120/2
+Launching new job at opt_tmp/gid_-075_-060/3
+Launching new job at opt_tmp/gid_-105_+000/1
+Launching new job at opt_tmp/gid_-075_+000/4
+Launching new job at opt_tmp/gid_-090_-030/2
+Launching new job at opt_tmp/gid_-090_+030/2
+Launching new job at opt_tmp/gid_-105_-060/1
+Launching new job at opt_tmp/gid_-075_-060/4
+Launching new job at opt_tmp/gid_-090_-090/2
+Launching new job at opt_tmp/gid_-090_-030/3
+Launching new job at opt_tmp/gid_-120_-030/1
+Launching new job at opt_tmp/gid_-090_-030/4
+Launching new job at opt_tmp/gid_-105_-060/2
+Launching new job at opt_tmp/gid_-105_+000/2
+Find finished jobs: {'opt_tmp/gid_+015_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+150/1', 'opt_tmp/gid_+000_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+120/4'}
+Find finished jobs: {'opt_tmp/gid_+045_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+030_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+015_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+045_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+030_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+030_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+060_+090/1', 'opt_tmp/gid_+045_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-150/1', 'opt_tmp/gid_+030_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+045_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+045_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+075_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+060_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+045_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+075_-120/1', 'opt_tmp/gid_+060_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+030/4', 'opt_tmp/gid_+090_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+075_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+075_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+090_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+075_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+075_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+075_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+090_-030/2', 'opt_tmp/gid_+105_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+090_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+105_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+075_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+090_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+090_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+090_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+120_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+105_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+105_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-030_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+120/3', 'opt_tmp/gid_+000_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-015_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+120/1', 'opt_tmp/gid_-015_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-030_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-030_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-045_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-030_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-030_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+090/1'}
+Find finished jobs: {'opt_tmp/gid_-030_+090/4', 'opt_tmp/gid_-045_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-060_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-030_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-045_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-045_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+060/1'}
+Find finished jobs: {'opt_tmp/gid_-045_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-060_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-075_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-045_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-060_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-060_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-090_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-060_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-075_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-090_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-060_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-075_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-075_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-075_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-090_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-090_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-105_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-075_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-090_-090/2'}
+Find finished jobs: {'opt_tmp/gid_-090_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-120_-030/1'}
+Find finished jobs: {'opt_tmp/gid_-090_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-105_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-105_+000/2'}
+First energy for grid_id (30, 150) = -193.677686
+First energy for grid_id (45, 120) = -193.679954
+First energy for grid_id (45, 180) = -193.681597
+First energy for grid_id (60, 90) = -193.682345
+First energy for grid_id (60, -150) = -193.682188
+First energy for grid_id (75, 60) = -193.681956
+First energy for grid_id (75, -120) = -193.680699
+First energy for grid_id (90, 30) = -193.677485
+First energy for grid_id (90, -90) = -193.679184
+First energy for grid_id (105, 0) = -193.673472
+First energy for grid_id (105, -60) = -193.677217
+First energy for grid_id (120, -30) = -193.674032
+First energy for grid_id (-30, 150) = -193.677316
+First energy for grid_id (-45, 120) = -193.679651
+First energy for grid_id (-45, 180) = -193.681597
+First energy for grid_id (-60, 90) = -193.682365
+First energy for grid_id (-60, -150) = -193.681861
+First energy for grid_id (-75, 60) = -193.682014
+First energy for grid_id (-75, -120) = -193.679566
+First energy for grid_id (-90, 30) = -193.677935
+First energy for grid_id (-90, -90) = -193.678210
+First energy for grid_id (-105, 0) = -193.673472
+First energy for grid_id (-105, -60) = -193.676722
+First energy for grid_id (-120, -30) = -193.674115
+Scan Status at 6533 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
+ 150                 [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m                  
+ 120               [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m                
+  90             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+  60           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+  30         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+   0       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+ -30     [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m      
+ -60       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+ -90         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+-120           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+-150             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+
+Launching new job at opt_tmp/gid_+015_+150/4
+Launching new job at opt_tmp/gid_+045_+150/1
+Launching new job at opt_tmp/gid_+030_+120/3
+Launching new job at opt_tmp/gid_+030_+180/3
+Launching new job at opt_tmp/gid_+030_+120/4
+Launching new job at opt_tmp/gid_+060_+120/1
+Launching new job at opt_tmp/gid_+045_+090/3
+Launching new job at opt_tmp/gid_+045_+150/2
+Launching new job at opt_tmp/gid_+030_+180/4
+Launching new job at opt_tmp/gid_+060_+180/1
+Launching new job at opt_tmp/gid_+045_+150/3
+Launching new job at opt_tmp/gid_+045_-150/3
+Launching new job at opt_tmp/gid_+045_+090/4
+Launching new job at opt_tmp/gid_+075_+090/1
+Launching new job at opt_tmp/gid_+060_+060/3
+Launching new job at opt_tmp/gid_+060_+120/2
+Launching new job at opt_tmp/gid_+045_-150/4
+Launching new job at opt_tmp/gid_+075_-150/1
+Launching new job at opt_tmp/gid_+060_+180/2
+Launching new job at opt_tmp/gid_+060_-120/3
+Launching new job at opt_tmp/gid_+060_+060/4
+Launching new job at opt_tmp/gid_+090_+060/1
+Launching new job at opt_tmp/gid_+075_+030/3
+Launching new job at opt_tmp/gid_+075_+090/2
+Launching new job at opt_tmp/gid_+060_-120/4
+Launching new job at opt_tmp/gid_+090_-120/1
+Launching new job at opt_tmp/gid_+075_-150/2
+Launching new job at opt_tmp/gid_+075_-090/3
+Launching new job at opt_tmp/gid_+075_+030/4
+Launching new job at opt_tmp/gid_+105_+030/1
+Launching new job at opt_tmp/gid_+090_+000/3
+Launching new job at opt_tmp/gid_+090_+060/2
+Launching new job at opt_tmp/gid_+075_-090/4
+Launching new job at opt_tmp/gid_+105_-090/1
+Launching new job at opt_tmp/gid_+090_-120/2
+Launching new job at opt_tmp/gid_+090_-060/3
+Launching new job at opt_tmp/gid_+090_+000/4
+Launching new job at opt_tmp/gid_+120_+000/1
+Launching new job at opt_tmp/gid_+105_-030/2
+Launching new job at opt_tmp/gid_+105_+030/2
+Launching new job at opt_tmp/gid_+090_-060/4
+Launching new job at opt_tmp/gid_+120_-060/1
+Launching new job at opt_tmp/gid_+105_-090/2
+Launching new job at opt_tmp/gid_+105_-030/3
+Launching new job at opt_tmp/gid_+105_-030/4
+Launching new job at opt_tmp/gid_+135_-030/1
+Launching new job at opt_tmp/gid_+120_-060/2
+Launching new job at opt_tmp/gid_+120_+000/2
+Launching new job at opt_tmp/gid_-045_+150/1
+Launching new job at opt_tmp/gid_-015_+150/4
+Launching new job at opt_tmp/gid_-030_+120/3
+Launching new job at opt_tmp/gid_-030_+180/3
+Launching new job at opt_tmp/gid_-060_+120/1
+Launching new job at opt_tmp/gid_-030_+120/4
+Launching new job at opt_tmp/gid_-045_+090/3
+Launching new job at opt_tmp/gid_-045_+150/2
+Launching new job at opt_tmp/gid_-060_+180/1
+Launching new job at opt_tmp/gid_-030_+180/4
+Launching new job at opt_tmp/gid_-045_+150/3
+Launching new job at opt_tmp/gid_-045_-150/3
+Launching new job at opt_tmp/gid_-075_+090/1
+Launching new job at opt_tmp/gid_-045_+090/4
+Launching new job at opt_tmp/gid_-060_+060/3
+Launching new job at opt_tmp/gid_-060_+120/2
+Launching new job at opt_tmp/gid_-075_-150/1
+Launching new job at opt_tmp/gid_-045_-150/4
+Launching new job at opt_tmp/gid_-060_+180/2
+Launching new job at opt_tmp/gid_-060_-120/3
+Launching new job at opt_tmp/gid_-090_+060/1
+Launching new job at opt_tmp/gid_-060_+060/4
+Launching new job at opt_tmp/gid_-075_+030/3
+Launching new job at opt_tmp/gid_-075_+090/2
+Launching new job at opt_tmp/gid_-090_-120/1
+Launching new job at opt_tmp/gid_-060_-120/4
+Launching new job at opt_tmp/gid_-075_-150/2
+Launching new job at opt_tmp/gid_-075_-090/3
+Launching new job at opt_tmp/gid_-105_+030/1
+Launching new job at opt_tmp/gid_-075_+030/4
+Launching new job at opt_tmp/gid_-090_+000/3
+Launching new job at opt_tmp/gid_-090_+060/2
+Launching new job at opt_tmp/gid_-105_-090/1
+Launching new job at opt_tmp/gid_-075_-090/4
+Launching new job at opt_tmp/gid_-090_-120/2
+Launching new job at opt_tmp/gid_-090_-060/3
+Launching new job at opt_tmp/gid_-120_+000/1
+Launching new job at opt_tmp/gid_-090_+000/4
+Launching new job at opt_tmp/gid_-105_-030/2
+Launching new job at opt_tmp/gid_-105_+030/2
+Launching new job at opt_tmp/gid_-120_-060/1
+Launching new job at opt_tmp/gid_-090_-060/4
+Launching new job at opt_tmp/gid_-105_-090/2
+Launching new job at opt_tmp/gid_-105_-030/3
+Launching new job at opt_tmp/gid_-135_-030/1
+Launching new job at opt_tmp/gid_-105_-030/4
+Launching new job at opt_tmp/gid_-120_-060/2
+Launching new job at opt_tmp/gid_-120_+000/2
+Find finished jobs: {'opt_tmp/gid_+030_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+150/1', 'opt_tmp/gid_+015_+150/4'}
+Find finished jobs: {'opt_tmp/gid_+030_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+120/1', 'opt_tmp/gid_+030_+120/4'}
+Find finished jobs: {'opt_tmp/gid_+045_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+030_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+060_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+045_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+045_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+075_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+060_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+045_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+075_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+060_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+090_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+075_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+075_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+090_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+075_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+075_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+075_+030/4'}
+Find finished jobs: {'opt_tmp/gid_+105_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+090_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+090_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+075_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+105_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+090_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+090_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+090_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+120_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+105_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+105_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+090_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+120_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+105_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+105_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+105_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+135_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+120_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+120_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-045_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-030_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-030_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-030_+120/4', 'opt_tmp/gid_-060_+120/1'}
+Find finished jobs: {'opt_tmp/gid_-045_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-060_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-030_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-045_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-045_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+090/1'}
+Find finished jobs: {'opt_tmp/gid_-045_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-060_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-075_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-045_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-060_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-060_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-090_+060/1'}
+Find finished jobs: {'opt_tmp/gid_-060_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-075_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-090_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-060_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-075_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-075_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-075_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-090_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-090_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-105_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-075_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-090_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-090_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-090_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-105_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-105_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-120_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-090_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-105_-090/2'}
+Find finished jobs: {'opt_tmp/gid_-105_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-135_-030/1'}
+Find finished jobs: {'opt_tmp/gid_-105_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-120_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-120_+000/2'}
+First energy for grid_id (45, 150) = -193.680717
+First energy for grid_id (60, 120) = -193.680948
+First energy for grid_id (60, 180) = -193.682989
+First energy for grid_id (75, 90) = -193.680968
+First energy for grid_id (75, -150) = -193.681574
+First energy for grid_id (90, 60) = -193.679161
+First energy for grid_id (90, -120) = -193.678136
+First energy for grid_id (105, 30) = -193.674840
+First energy for grid_id (105, -90) = -193.676454
+First energy for grid_id (120, 0) = -193.672425
+First energy for grid_id (120, -60) = -193.675876
+First energy for grid_id (135, -30) = -193.675012
+First energy for grid_id (-45, 150) = -193.680512
+First energy for grid_id (-60, 120) = -193.681370
+First energy for grid_id (-60, 180) = -193.682989
+First energy for grid_id (-75, 90) = -193.681615
+First energy for grid_id (-75, -150) = -193.680654
+First energy for grid_id (-90, 60) = -193.679807
+First energy for grid_id (-90, -120) = -193.676818
+First energy for grid_id (-105, 30) = -193.675292
+First energy for grid_id (-105, -90) = -193.675852
+First energy for grid_id (-120, 0) = -193.672425
+First energy for grid_id (-120, -60) = -193.676129
+First energy for grid_id (-135, -30) = -193.675610
+Scan Status at 7916 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
+ 150               [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m                
+ 120             [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m              
+  90           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+  60         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+  30       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+   0     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+ -30   [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m    
+ -60     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+ -90       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+-120         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+-150           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+
+Launching new job at opt_tmp/gid_+030_+150/4
+Launching new job at opt_tmp/gid_+060_+150/1
+Launching new job at opt_tmp/gid_+045_+120/3
+Launching new job at opt_tmp/gid_+045_+180/3
+Launching new job at opt_tmp/gid_+045_+120/4
+Launching new job at opt_tmp/gid_+075_+120/1
+Launching new job at opt_tmp/gid_+060_+090/3
+Launching new job at opt_tmp/gid_+060_+150/2
+Launching new job at opt_tmp/gid_+045_+180/4
+Launching new job at opt_tmp/gid_+075_+180/1
+Launching new job at opt_tmp/gid_+060_+150/3
+Launching new job at opt_tmp/gid_+060_-150/3
+Launching new job at opt_tmp/gid_+060_+090/4
+Launching new job at opt_tmp/gid_+090_+090/1
+Launching new job at opt_tmp/gid_+075_+060/3
+Launching new job at opt_tmp/gid_+075_+120/2
+Launching new job at opt_tmp/gid_+060_-150/4
+Launching new job at opt_tmp/gid_+090_-150/1
+Launching new job at opt_tmp/gid_+075_+180/2
+Launching new job at opt_tmp/gid_+075_-120/3
+Launching new job at opt_tmp/gid_+075_+060/4
+Launching new job at opt_tmp/gid_+105_+060/1
+Launching new job at opt_tmp/gid_+090_+030/3
+Launching new job at opt_tmp/gid_+090_+090/2
+Launching new job at opt_tmp/gid_+075_-120/4
+Launching new job at opt_tmp/gid_+105_-120/1
+Launching new job at opt_tmp/gid_+090_-150/2
+Launching new job at opt_tmp/gid_+090_-090/3
+Launching new job at opt_tmp/gid_+090_+030/4
+Launching new job at opt_tmp/gid_+120_+030/1
+Launching new job at opt_tmp/gid_+105_+000/3
+Launching new job at opt_tmp/gid_+105_+060/2
+Launching new job at opt_tmp/gid_+090_-090/4
+Launching new job at opt_tmp/gid_+120_-090/1
+Launching new job at opt_tmp/gid_+105_-120/2
+Launching new job at opt_tmp/gid_+105_-060/3
+Launching new job at opt_tmp/gid_+105_+000/4
+Launching new job at opt_tmp/gid_+135_+000/1
+Launching new job at opt_tmp/gid_+120_-030/2
+Launching new job at opt_tmp/gid_+120_+030/2
+Launching new job at opt_tmp/gid_+105_-060/4
+Launching new job at opt_tmp/gid_+135_-060/1
+Launching new job at opt_tmp/gid_+120_-090/2
+Launching new job at opt_tmp/gid_+120_-030/3
+Launching new job at opt_tmp/gid_+120_-030/4
+Launching new job at opt_tmp/gid_+150_-030/1
+Launching new job at opt_tmp/gid_+135_-060/2
+Launching new job at opt_tmp/gid_+135_+000/2
+Launching new job at opt_tmp/gid_-060_+150/1
+Launching new job at opt_tmp/gid_-030_+150/4
+Launching new job at opt_tmp/gid_-045_+120/3
+Launching new job at opt_tmp/gid_-045_+180/3
+Launching new job at opt_tmp/gid_-075_+120/1
+Launching new job at opt_tmp/gid_-045_+120/4
+Launching new job at opt_tmp/gid_-060_+090/3
+Launching new job at opt_tmp/gid_-060_+150/2
+Launching new job at opt_tmp/gid_-075_+180/1
+Launching new job at opt_tmp/gid_-045_+180/4
+Launching new job at opt_tmp/gid_-060_+150/3
+Launching new job at opt_tmp/gid_-060_-150/3
+Launching new job at opt_tmp/gid_-090_+090/1
+Launching new job at opt_tmp/gid_-060_+090/4
+Launching new job at opt_tmp/gid_-075_+060/3
+Launching new job at opt_tmp/gid_-075_+120/2
+Launching new job at opt_tmp/gid_-090_-150/1
+Launching new job at opt_tmp/gid_-060_-150/4
+Launching new job at opt_tmp/gid_-075_+180/2
+Launching new job at opt_tmp/gid_-075_-120/3
+Launching new job at opt_tmp/gid_-105_+060/1
+Launching new job at opt_tmp/gid_-075_+060/4
+Launching new job at opt_tmp/gid_-090_+030/3
+Launching new job at opt_tmp/gid_-090_+090/2
+Launching new job at opt_tmp/gid_-105_-120/1
+Launching new job at opt_tmp/gid_-075_-120/4
+Launching new job at opt_tmp/gid_-090_-150/2
+Launching new job at opt_tmp/gid_-090_-090/3
+Launching new job at opt_tmp/gid_-120_+030/1
+Launching new job at opt_tmp/gid_-090_+030/4
+Launching new job at opt_tmp/gid_-105_+000/3
+Launching new job at opt_tmp/gid_-105_+060/2
+Launching new job at opt_tmp/gid_-120_-090/1
+Launching new job at opt_tmp/gid_-090_-090/4
+Launching new job at opt_tmp/gid_-105_-120/2
+Launching new job at opt_tmp/gid_-105_-060/3
+Launching new job at opt_tmp/gid_-135_+000/1
+Launching new job at opt_tmp/gid_-105_+000/4
+Launching new job at opt_tmp/gid_-120_-030/2
+Launching new job at opt_tmp/gid_-120_+030/2
+Launching new job at opt_tmp/gid_-135_-060/1
+Launching new job at opt_tmp/gid_-105_-060/4
+Launching new job at opt_tmp/gid_-120_-090/2
+Launching new job at opt_tmp/gid_-120_-030/3
+Launching new job at opt_tmp/gid_-150_-030/1
+Launching new job at opt_tmp/gid_-120_-030/4
+Launching new job at opt_tmp/gid_-135_-060/2
+Launching new job at opt_tmp/gid_-135_+000/2
+Find finished jobs: {'opt_tmp/gid_+045_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+030_+150/4', 'opt_tmp/gid_+060_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+045_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+120/4'}
+Find finished jobs: {'opt_tmp/gid_+075_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+060_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+045_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+075_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+060_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+060_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+090_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+075_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+075_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+090_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+075_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+075_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+075_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+105_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+090_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+090_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+075_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+105_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+090_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+090_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+090_+030/4'}
+Find finished jobs: {'opt_tmp/gid_+120_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+105_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+105_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+090_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+120_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+105_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+105_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+105_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+135_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+120_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+120_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+135_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+150_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+135_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+135_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-045_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-030_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-045_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+120/1'}
+Find finished jobs: {'opt_tmp/gid_-045_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-060_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-075_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-045_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-060_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-060_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-090_+090/1'}
+Find finished jobs: {'opt_tmp/gid_-060_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-075_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-090_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-060_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-075_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-075_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+060/1'}
+Find finished jobs: {'opt_tmp/gid_-075_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-090_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-090_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-105_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-075_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-090_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-090_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-090_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-105_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-120_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-090_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-105_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-105_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-105_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-120_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-120_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-135_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-105_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-120_-090/2'}
+Find finished jobs: {'opt_tmp/gid_-120_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-150_-030/1'}
+Find finished jobs: {'opt_tmp/gid_-120_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-135_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-135_+000/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+105_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+120_-030/4'}
+First energy for grid_id (60, 150) = -193.681861
+First energy for grid_id (75, 120) = -193.679566
+First energy for grid_id (75, 180) = -193.682136
+First energy for grid_id (90, 90) = -193.678210
+First energy for grid_id (90, -150) = -193.679121
+First energy for grid_id (105, 60) = -193.676722
+First energy for grid_id (105, -120) = -193.675267
+First energy for grid_id (120, 30) = -193.674116
+First energy for grid_id (120, -90) = -193.674990
+First energy for grid_id (135, 0) = -193.673760
+First energy for grid_id (135, -60) = -193.676630
+First energy for grid_id (150, -30) = -193.677554
+First energy for grid_id (-60, 150) = -193.682188
+First energy for grid_id (-75, 120) = -193.680699
+First energy for grid_id (-75, 180) = -193.682136
+First energy for grid_id (-90, 90) = -193.679184
+First energy for grid_id (-90, -150) = -193.678048
+First energy for grid_id (-105, 60) = -193.677217
+First energy for grid_id (-105, -120) = -193.674467
+First energy for grid_id (-120, 30) = -193.674032
+First energy for grid_id (-120, -90) = -193.675314
+First energy for grid_id (-135, 0) = -193.673760
+First energy for grid_id (-135, -60) = -193.677561
+First energy for grid_id (-150, -30) = -193.678209
+Scan Status at 9297 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180           [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m            
+ 150             [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m              
+ 120           [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m            
+  90         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+  60       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+  30     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+   0   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+ -30 [1;41m＜[0m[44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m＞[0m  
+ -60   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+ -90     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+-120       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+-150         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+
+Launching new job at opt_tmp/gid_+045_+150/4
+Launching new job at opt_tmp/gid_+075_+150/1
+Launching new job at opt_tmp/gid_+060_+120/3
+Launching new job at opt_tmp/gid_+060_+180/3
+Launching new job at opt_tmp/gid_+060_+120/4
+Launching new job at opt_tmp/gid_+090_+120/1
+Launching new job at opt_tmp/gid_+075_+090/3
+Launching new job at opt_tmp/gid_+075_+150/2
+Launching new job at opt_tmp/gid_+060_+180/4
+Launching new job at opt_tmp/gid_+090_+180/1
+Launching new job at opt_tmp/gid_+075_+150/3
+Launching new job at opt_tmp/gid_+075_-150/3
+Launching new job at opt_tmp/gid_+075_+090/4
+Launching new job at opt_tmp/gid_+105_+090/1
+Launching new job at opt_tmp/gid_+090_+060/3
+Launching new job at opt_tmp/gid_+090_+120/2
+Launching new job at opt_tmp/gid_+075_-150/4
+Launching new job at opt_tmp/gid_+105_-150/1
+Launching new job at opt_tmp/gid_+090_+180/2
+Launching new job at opt_tmp/gid_+090_-120/3
+Launching new job at opt_tmp/gid_+090_+060/4
+Launching new job at opt_tmp/gid_+120_+060/1
+Launching new job at opt_tmp/gid_+105_+030/3
+Launching new job at opt_tmp/gid_+105_+090/2
+Launching new job at opt_tmp/gid_+090_-120/4
+Launching new job at opt_tmp/gid_+120_-120/1
+Launching new job at opt_tmp/gid_+105_-150/2
+Launching new job at opt_tmp/gid_+105_-090/3
+Launching new job at opt_tmp/gid_+105_+030/4
+Launching new job at opt_tmp/gid_+135_+030/1
+Launching new job at opt_tmp/gid_+120_+000/3
+Launching new job at opt_tmp/gid_+120_+060/2
+Launching new job at opt_tmp/gid_+105_-090/4
+Launching new job at opt_tmp/gid_+135_-090/1
+Launching new job at opt_tmp/gid_+120_-120/2
+Launching new job at opt_tmp/gid_+120_-060/3
+Launching new job at opt_tmp/gid_+120_+000/4
+Launching new job at opt_tmp/gid_+150_+000/1
+Launching new job at opt_tmp/gid_+135_-030/2
+Launching new job at opt_tmp/gid_+135_+030/2
+Launching new job at opt_tmp/gid_+120_-060/4
+Launching new job at opt_tmp/gid_+150_-060/1
+Launching new job at opt_tmp/gid_+135_-090/2
+Launching new job at opt_tmp/gid_+135_-030/3
+Launching new job at opt_tmp/gid_+135_-030/4
+Launching new job at opt_tmp/gid_+165_-030/1
+Launching new job at opt_tmp/gid_+150_-060/2
+Launching new job at opt_tmp/gid_+150_+000/2
+Launching new job at opt_tmp/gid_-075_+150/1
+Launching new job at opt_tmp/gid_-045_+150/4
+Launching new job at opt_tmp/gid_-060_+120/3
+Launching new job at opt_tmp/gid_-060_+180/3
+Launching new job at opt_tmp/gid_-090_+120/1
+Launching new job at opt_tmp/gid_-060_+120/4
+Launching new job at opt_tmp/gid_-075_+090/3
+Launching new job at opt_tmp/gid_-075_+150/2
+Launching new job at opt_tmp/gid_-090_+180/1
+Launching new job at opt_tmp/gid_-060_+180/4
+Launching new job at opt_tmp/gid_-075_+150/3
+Launching new job at opt_tmp/gid_-075_-150/3
+Launching new job at opt_tmp/gid_-105_+090/1
+Launching new job at opt_tmp/gid_-075_+090/4
+Launching new job at opt_tmp/gid_-090_+060/3
+Launching new job at opt_tmp/gid_-090_+120/2
+Launching new job at opt_tmp/gid_-105_-150/1
+Launching new job at opt_tmp/gid_-075_-150/4
+Launching new job at opt_tmp/gid_-090_+180/2
+Launching new job at opt_tmp/gid_-090_-120/3
+Launching new job at opt_tmp/gid_-120_+060/1
+Launching new job at opt_tmp/gid_-090_+060/4
+Launching new job at opt_tmp/gid_-105_+030/3
+Launching new job at opt_tmp/gid_-105_+090/2
+Launching new job at opt_tmp/gid_-120_-120/1
+Launching new job at opt_tmp/gid_-090_-120/4
+Launching new job at opt_tmp/gid_-105_-150/2
+Launching new job at opt_tmp/gid_-105_-090/3
+Launching new job at opt_tmp/gid_-135_+030/1
+Launching new job at opt_tmp/gid_-105_+030/4
+Launching new job at opt_tmp/gid_-120_+000/3
+Launching new job at opt_tmp/gid_-120_+060/2
+Launching new job at opt_tmp/gid_-135_-090/1
+Launching new job at opt_tmp/gid_-105_-090/4
+Launching new job at opt_tmp/gid_-120_-120/2
+Launching new job at opt_tmp/gid_-120_-060/3
+Launching new job at opt_tmp/gid_-150_+000/1
+Launching new job at opt_tmp/gid_-120_+000/4
+Launching new job at opt_tmp/gid_-135_-030/2
+Launching new job at opt_tmp/gid_-135_+030/2
+Launching new job at opt_tmp/gid_-150_-060/1
+Launching new job at opt_tmp/gid_-120_-060/4
+Launching new job at opt_tmp/gid_-135_-090/2
+Launching new job at opt_tmp/gid_-135_-030/3
+Launching new job at opt_tmp/gid_-165_-030/1
+Launching new job at opt_tmp/gid_-135_-030/4
+Launching new job at opt_tmp/gid_-150_-060/2
+Launching new job at opt_tmp/gid_-150_+000/2
+Find finished jobs: {'opt_tmp/gid_+060_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+150/4', 'opt_tmp/gid_+075_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+060_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+120/4', 'opt_tmp/gid_+090_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+075_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+075_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+060_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+090_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+075_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+075_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+075_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+105_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+090_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+090_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+075_-150/4', 'opt_tmp/gid_+105_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+090_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+090_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+090_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+120_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+105_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+105_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+090_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+105_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+105_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+105_+030/4'}
+Find finished jobs: {'opt_tmp/gid_+120_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+120_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+105_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+135_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+120_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+120_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+150_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+135_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+135_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+150_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+135_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+135_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+135_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+165_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+150_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+150_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-075_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-045_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-060_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+120/4', 'opt_tmp/gid_-090_+120/1'}
+Find finished jobs: {'opt_tmp/gid_-075_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-090_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-060_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-075_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-075_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+090/1'}
+Find finished jobs: {'opt_tmp/gid_-075_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-090_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-090_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-105_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-075_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-090_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-090_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+060/1'}
+Find finished jobs: {'opt_tmp/gid_-090_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-105_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-120_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-090_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-105_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-105_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-105_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-120_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-135_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-105_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-120_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-120_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-135_-030/2', 'opt_tmp/gid_-120_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-135_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-120_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-150_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-135_-090/2'}
+Find finished jobs: {'opt_tmp/gid_-135_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-165_-030/1'}
+Find finished jobs: {'opt_tmp/gid_-135_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-150_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-150_+000/2'}
+First energy for grid_id (75, 150) = -193.680654
+First energy for grid_id (90, 120) = -193.676818
+First energy for grid_id (90, 180) = -193.679718
+First energy for grid_id (105, 90) = -193.675852
+First energy for grid_id (105, -150) = -193.676397
+First energy for grid_id (120, 60) = -193.676129
+First energy for grid_id (120, -120) = -193.673752
+First energy for grid_id (135, 30) = -193.675610
+First energy for grid_id (135, -90) = -193.675613
+First energy for grid_id (150, 0) = -193.676462
+First energy for grid_id (150, -60) = -193.678955
+First energy for grid_id (165, -30) = -193.680046
+First energy for grid_id (-75, 150) = -193.681574
+First energy for grid_id (-90, 120) = -193.678136
+First energy for grid_id (-90, 180) = -193.679718
+First energy for grid_id (-105, 90) = -193.676454
+First energy for grid_id (-105, -150) = -193.675710
+First energy for grid_id (-120, 60) = -193.675876
+First energy for grid_id (-120, -120) = -193.673936
+First energy for grid_id (-135, 30) = -193.675012
+First energy for grid_id (-135, -90) = -193.676763
+First energy for grid_id (-150, 0) = -193.676462
+First energy for grid_id (-150, -60) = -193.679997
+First energy for grid_id (-165, -30) = -193.680419
+Scan Status at 10660 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180         [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m          
+ 150           [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m            
+ 120         [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m          
+  90       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+  60     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+  30   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+   0 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m  
+ -30 [44m--[0m[1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m[1;41m><[0m
+ -60 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m  
+ -90   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+-120     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+-150       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+
+Launching new job at opt_tmp/gid_+060_+150/4
+Launching new job at opt_tmp/gid_+090_+150/1
+Launching new job at opt_tmp/gid_+075_+120/3
+Launching new job at opt_tmp/gid_+075_+180/3
+Launching new job at opt_tmp/gid_+075_+120/4
+Launching new job at opt_tmp/gid_+105_+120/1
+Launching new job at opt_tmp/gid_+090_+090/3
+Launching new job at opt_tmp/gid_+090_+150/2
+Launching new job at opt_tmp/gid_+075_+180/4
+Launching new job at opt_tmp/gid_+105_+180/1
+Launching new job at opt_tmp/gid_+090_+150/3
+Launching new job at opt_tmp/gid_+090_-150/3
+Launching new job at opt_tmp/gid_+090_+090/4
+Launching new job at opt_tmp/gid_+120_+090/1
+Launching new job at opt_tmp/gid_+105_+060/3
+Launching new job at opt_tmp/gid_+105_+120/2
+Launching new job at opt_tmp/gid_+090_-150/4
+Launching new job at opt_tmp/gid_+120_-150/1
+Launching new job at opt_tmp/gid_+105_+180/2
+Launching new job at opt_tmp/gid_+105_-120/3
+Launching new job at opt_tmp/gid_+105_+060/4
+Launching new job at opt_tmp/gid_+135_+060/1
+Launching new job at opt_tmp/gid_+120_+030/3
+Launching new job at opt_tmp/gid_+120_+090/2
+Launching new job at opt_tmp/gid_+105_-120/4
+Launching new job at opt_tmp/gid_+135_-120/1
+Launching new job at opt_tmp/gid_+120_-150/2
+Launching new job at opt_tmp/gid_+120_-090/3
+Launching new job at opt_tmp/gid_+120_+030/4
+Launching new job at opt_tmp/gid_+150_+030/1
+Launching new job at opt_tmp/gid_+135_+000/3
+Launching new job at opt_tmp/gid_+135_+060/2
+Launching new job at opt_tmp/gid_+120_-090/4
+Launching new job at opt_tmp/gid_+150_-090/1
+Launching new job at opt_tmp/gid_+135_-120/2
+Launching new job at opt_tmp/gid_+135_-060/3
+Launching new job at opt_tmp/gid_+135_+000/4
+Launching new job at opt_tmp/gid_+165_+000/1
+Launching new job at opt_tmp/gid_+150_-030/2
+Launching new job at opt_tmp/gid_+150_+030/2
+Launching new job at opt_tmp/gid_+135_-060/4
+Launching new job at opt_tmp/gid_+165_-060/1
+Launching new job at opt_tmp/gid_+150_-090/2
+Launching new job at opt_tmp/gid_+150_-030/3
+Launching new job at opt_tmp/gid_+150_-030/4
+Launching new job at opt_tmp/gid_+180_-030/1
+Launching new job at opt_tmp/gid_+165_-060/2
+Launching new job at opt_tmp/gid_+165_+000/2
+Launching new job at opt_tmp/gid_-090_+150/1
+Launching new job at opt_tmp/gid_-060_+150/4
+Launching new job at opt_tmp/gid_-075_+120/3
+Launching new job at opt_tmp/gid_-075_+180/3
+Launching new job at opt_tmp/gid_-105_+120/1
+Launching new job at opt_tmp/gid_-075_+120/4
+Launching new job at opt_tmp/gid_-090_+090/3
+Launching new job at opt_tmp/gid_-090_+150/2
+Launching new job at opt_tmp/gid_-105_+180/1
+Launching new job at opt_tmp/gid_-075_+180/4
+Launching new job at opt_tmp/gid_-090_+150/3
+Launching new job at opt_tmp/gid_-090_-150/3
+Launching new job at opt_tmp/gid_-120_+090/1
+Launching new job at opt_tmp/gid_-090_+090/4
+Launching new job at opt_tmp/gid_-105_+060/3
+Launching new job at opt_tmp/gid_-105_+120/2
+Launching new job at opt_tmp/gid_-120_-150/1
+Launching new job at opt_tmp/gid_-090_-150/4
+Launching new job at opt_tmp/gid_-105_+180/2
+Launching new job at opt_tmp/gid_-105_-120/3
+Launching new job at opt_tmp/gid_-135_+060/1
+Launching new job at opt_tmp/gid_-105_+060/4
+Launching new job at opt_tmp/gid_-120_+030/3
+Launching new job at opt_tmp/gid_-120_+090/2
+Launching new job at opt_tmp/gid_-135_-120/1
+Launching new job at opt_tmp/gid_-105_-120/4
+Launching new job at opt_tmp/gid_-120_-150/2
+Launching new job at opt_tmp/gid_-120_-090/3
+Launching new job at opt_tmp/gid_-150_+030/1
+Launching new job at opt_tmp/gid_-120_+030/4
+Launching new job at opt_tmp/gid_-135_+000/3
+Launching new job at opt_tmp/gid_-135_+060/2
+Launching new job at opt_tmp/gid_-150_-090/1
+Launching new job at opt_tmp/gid_-120_-090/4
+Launching new job at opt_tmp/gid_-135_-120/2
+Launching new job at opt_tmp/gid_-135_-060/3
+Launching new job at opt_tmp/gid_-165_+000/1
+Launching new job at opt_tmp/gid_-135_+000/4
+Launching new job at opt_tmp/gid_-150_-030/2
+Launching new job at opt_tmp/gid_-150_+030/2
+Launching new job at opt_tmp/gid_-165_-060/1
+Launching new job at opt_tmp/gid_-135_-060/4
+Launching new job at opt_tmp/gid_-150_-090/2
+Launching new job at opt_tmp/gid_-150_-030/3
+Launching new job at opt_tmp/gid_+180_-030/2
+Launching new job at opt_tmp/gid_-150_-030/4
+Launching new job at opt_tmp/gid_-165_-060/2
+Launching new job at opt_tmp/gid_-165_+000/2
+Find finished jobs: {'opt_tmp/gid_+075_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+060_+150/4', 'opt_tmp/gid_+090_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+075_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+105_+120/1', 'opt_tmp/gid_+075_+120/4'}
+Find finished jobs: {'opt_tmp/gid_+090_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+090_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+075_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+105_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+090_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+090_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+090_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+120_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+105_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+105_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+090_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+120_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+105_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+105_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+105_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+135_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+120_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+120_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+105_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+135_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+120_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+120_+030/4'}
+Find finished jobs: {'opt_tmp/gid_+150_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+135_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+150_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+135_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+135_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+165_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+150_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+150_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+135_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+165_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+150_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+150_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+150_-030/4'}
+Find finished jobs: {'opt_tmp/gid_+180_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+165_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+165_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-090_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-060_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-075_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+120/1'}
+Find finished jobs: {'opt_tmp/gid_-075_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-090_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-090_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-105_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-075_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-090_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-090_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+090/1'}
+Find finished jobs: {'opt_tmp/gid_-090_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-105_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-120_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-090_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-105_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-105_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+060/1'}
+Find finished jobs: {'opt_tmp/gid_-105_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-120_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-135_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-105_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-120_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-120_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-120_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-135_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-150_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-120_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-135_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-135_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-165_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-135_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-150_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-150_+030/2'}
+Find finished jobs: {'opt_tmp/gid_-165_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-135_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-150_-090/2'}
+Find finished jobs: {'opt_tmp/gid_-150_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+180_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-150_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-165_-060/2'}
+Find finished jobs: {'opt_tmp/gid_-165_+000/2'}
+First energy for grid_id (90, 150) = -193.678048
+First energy for grid_id (105, 120) = -193.674467
+First energy for grid_id (105, 180) = -193.677287
+First energy for grid_id (120, 90) = -193.675314
+First energy for grid_id (120, -150) = -193.675065
+First energy for grid_id (135, 60) = -193.677561
+First energy for grid_id (135, -120) = -193.674361
+First energy for grid_id (150, 30) = -193.678210
+First energy for grid_id (150, -90) = -193.677845
+First energy for grid_id (165, 0) = -193.678873
+First energy for grid_id (165, -60) = -193.681398
+First energy for grid_id (180, -30) = -193.681156
+First energy for grid_id (-90, 150) = -193.679121
+First energy for grid_id (-105, 120) = -193.675267
+First energy for grid_id (-105, 180) = -193.677287
+First energy for grid_id (-120, 90) = -193.674990
+First energy for grid_id (-120, -150) = -193.675078
+First energy for grid_id (-135, 60) = -193.676630
+First energy for grid_id (-135, -120) = -193.675421
+First energy for grid_id (-150, 30) = -193.677555
+First energy for grid_id (-150, -90) = -193.679177
+First energy for grid_id (-165, 0) = -193.678873
+First energy for grid_id (-165, -60) = -193.682030
+Scan Status at 12022 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180       [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m        
+ 150         [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m          
+ 120       [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m        
+  90     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+  60   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+  30 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m  
+   0 [44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[1;41m><[0m
+ -30 [1;41m><[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m[44m--[0m
+ -60 [44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[1;41m><[0m
+ -90 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m  
+-120   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+-150     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+
+Launching new job at opt_tmp/gid_+075_+150/4
+Launching new job at opt_tmp/gid_+105_+150/1
+Launching new job at opt_tmp/gid_+090_+120/3
+Launching new job at opt_tmp/gid_+090_+180/3
+Launching new job at opt_tmp/gid_+090_+120/4
+Launching new job at opt_tmp/gid_+120_+120/1
+Launching new job at opt_tmp/gid_+105_+090/3
+Launching new job at opt_tmp/gid_+105_+150/2
+Launching new job at opt_tmp/gid_+090_+180/4
+Launching new job at opt_tmp/gid_+120_+180/1
+Launching new job at opt_tmp/gid_+105_+150/3
+Launching new job at opt_tmp/gid_+105_-150/3
+Launching new job at opt_tmp/gid_+105_+090/4
+Launching new job at opt_tmp/gid_+135_+090/1
+Launching new job at opt_tmp/gid_+120_+060/3
+Launching new job at opt_tmp/gid_+120_+120/2
+Launching new job at opt_tmp/gid_+105_-150/4
+Launching new job at opt_tmp/gid_+135_-150/1
+Launching new job at opt_tmp/gid_+120_+180/2
+Launching new job at opt_tmp/gid_+120_-120/3
+Launching new job at opt_tmp/gid_+120_+060/4
+Launching new job at opt_tmp/gid_+150_+060/1
+Launching new job at opt_tmp/gid_+135_+030/3
+Launching new job at opt_tmp/gid_+135_+090/2
+Launching new job at opt_tmp/gid_+120_-120/4
+Launching new job at opt_tmp/gid_+150_-120/1
+Launching new job at opt_tmp/gid_+135_-150/2
+Launching new job at opt_tmp/gid_+135_-090/3
+Launching new job at opt_tmp/gid_+135_+030/4
+Launching new job at opt_tmp/gid_+165_+030/1
+Launching new job at opt_tmp/gid_+150_+000/3
+Launching new job at opt_tmp/gid_+150_+060/2
+Launching new job at opt_tmp/gid_+135_-090/4
+Launching new job at opt_tmp/gid_+165_-090/1
+Launching new job at opt_tmp/gid_+150_-120/2
+Launching new job at opt_tmp/gid_+150_-060/3
+Launching new job at opt_tmp/gid_+150_+000/4
+Launching new job at opt_tmp/gid_+180_+000/1
+Launching new job at opt_tmp/gid_+165_-030/2
+Launching new job at opt_tmp/gid_+165_+030/2
+Launching new job at opt_tmp/gid_+150_-060/4
+Launching new job at opt_tmp/gid_+180_-060/1
+Launching new job at opt_tmp/gid_+165_-090/2
+Launching new job at opt_tmp/gid_+165_-030/3
+Launching new job at opt_tmp/gid_+165_-030/4
+Launching new job at opt_tmp/gid_-165_-030/2
+Launching new job at opt_tmp/gid_+180_-060/2
+Launching new job at opt_tmp/gid_+180_+000/2
+Launching new job at opt_tmp/gid_-105_+150/1
+Launching new job at opt_tmp/gid_-075_+150/4
+Launching new job at opt_tmp/gid_-090_+120/3
+Launching new job at opt_tmp/gid_-090_+180/3
+Launching new job at opt_tmp/gid_-120_+120/1
+Launching new job at opt_tmp/gid_-090_+120/4
+Launching new job at opt_tmp/gid_-105_+090/3
+Launching new job at opt_tmp/gid_-105_+150/2
+Launching new job at opt_tmp/gid_-120_+180/1
+Launching new job at opt_tmp/gid_-090_+180/4
+Launching new job at opt_tmp/gid_-105_+150/3
+Launching new job at opt_tmp/gid_-105_-150/3
+Launching new job at opt_tmp/gid_-135_+090/1
+Launching new job at opt_tmp/gid_-105_+090/4
+Launching new job at opt_tmp/gid_-120_+060/3
+Launching new job at opt_tmp/gid_-120_+120/2
+Launching new job at opt_tmp/gid_-135_-150/1
+Launching new job at opt_tmp/gid_-105_-150/4
+Launching new job at opt_tmp/gid_-120_+180/2
+Launching new job at opt_tmp/gid_-120_-120/3
+Launching new job at opt_tmp/gid_-150_+060/1
+Launching new job at opt_tmp/gid_-120_+060/4
+Launching new job at opt_tmp/gid_-135_+030/3
+Launching new job at opt_tmp/gid_-135_+090/2
+Launching new job at opt_tmp/gid_-150_-120/1
+Launching new job at opt_tmp/gid_-120_-120/4
+Launching new job at opt_tmp/gid_-135_-150/2
+Launching new job at opt_tmp/gid_-135_-090/3
+Launching new job at opt_tmp/gid_-165_+030/1
+Launching new job at opt_tmp/gid_-135_+030/4
+Launching new job at opt_tmp/gid_-150_+000/3
+Launching new job at opt_tmp/gid_-150_+060/2
+Launching new job at opt_tmp/gid_-165_-090/1
+Launching new job at opt_tmp/gid_-135_-090/4
+Launching new job at opt_tmp/gid_-150_-120/2
+Launching new job at opt_tmp/gid_-150_-060/3
+Launching new job at opt_tmp/gid_+180_+000/3
+Launching new job at opt_tmp/gid_-150_+000/4
+Launching new job at opt_tmp/gid_-165_-030/3
+Launching new job at opt_tmp/gid_-165_+030/2
+Launching new job at opt_tmp/gid_+180_-060/3
+Launching new job at opt_tmp/gid_-150_-060/4
+Launching new job at opt_tmp/gid_-165_-090/2
+Launching new job at opt_tmp/gid_-165_-030/4
+Find finished jobs: {'opt_tmp/gid_+090_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+105_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+075_+150/4'}
+Find finished jobs: {'opt_tmp/gid_+090_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+090_+120/4'}
+Find finished jobs: {'opt_tmp/gid_+120_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+105_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+105_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+090_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+120_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+105_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+105_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+105_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+135_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+120_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+120_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+105_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+135_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+120_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+120_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+150_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+135_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+150_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+135_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+135_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+030/4'}
+Find finished jobs: {'opt_tmp/gid_+165_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+150_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+135_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+165_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+150_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+150_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+000/1'}
+Find finished jobs: {'opt_tmp/gid_+165_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+165_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+150_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+180_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+165_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+165_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+165_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-165_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+180_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+180_+000/2'}
+Find finished jobs: {'opt_tmp/gid_-105_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-090_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-075_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-090_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+120/1'}
+Find finished jobs: {'opt_tmp/gid_-090_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-105_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-120_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-090_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-105_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-105_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+090/1'}
+Find finished jobs: {'opt_tmp/gid_-105_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-120_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-135_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-105_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-120_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-120_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+060/1'}
+Find finished jobs: {'opt_tmp/gid_-120_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-135_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-150_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-135_-150/2', 'opt_tmp/gid_-120_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-135_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-165_+030/1'}
+Find finished jobs: {'opt_tmp/gid_-135_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-150_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+060/2'}
+Find finished jobs: {'opt_tmp/gid_-165_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-135_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-150_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-150_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+000/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+000/4', 'opt_tmp/gid_-165_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-165_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+180_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-150_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-165_-090/2'}
+Find finished jobs: {'opt_tmp/gid_-165_-030/4'}
+First energy for grid_id (105, 150) = -193.675710
+First energy for grid_id (120, 120) = -193.673936
+First energy for grid_id (120, 180) = -193.676350
+First energy for grid_id (135, 90) = -193.676763
+First energy for grid_id (135, -150) = -193.675777
+First energy for grid_id (150, 60) = -193.679997
+First energy for grid_id (150, -120) = -193.676563
+First energy for grid_id (165, 30) = -193.680419
+First energy for grid_id (165, -90) = -193.680291
+First energy for grid_id (180, 0) = -193.679806
+First energy for grid_id (180, -60) = -193.682607
+First energy for grid_id (-105, 150) = -193.676397
+First energy for grid_id (-120, 120) = -193.673752
+First energy for grid_id (-120, 180) = -193.676350
+First energy for grid_id (-135, 90) = -193.675613
+First energy for grid_id (-135, -150) = -193.676427
+First energy for grid_id (-150, 60) = -193.678955
+First energy for grid_id (-150, -120) = -193.677880
+First energy for grid_id (-165, 30) = -193.680046
+First energy for grid_id (-165, -90) = -193.681133
+Scan Status at 13321 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180     [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m      
+ 150       [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m        
+ 120     [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m      
+  90   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+  60 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m  
+  30 [44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[1;41m><[0m
+   0 [41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m
+ -30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m><[0m
+ -60 [41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m
+ -90 [44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[1;41m><[0m
+-120 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m  
+-150   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+
+Launching new job at opt_tmp/gid_+090_+150/4
+Launching new job at opt_tmp/gid_+120_+150/1
+Launching new job at opt_tmp/gid_+105_+120/3
+Launching new job at opt_tmp/gid_+105_+180/3
+Launching new job at opt_tmp/gid_+105_+120/4
+Launching new job at opt_tmp/gid_+135_+120/1
+Launching new job at opt_tmp/gid_+120_+090/3
+Launching new job at opt_tmp/gid_+120_+150/2
+Launching new job at opt_tmp/gid_+105_+180/4
+Launching new job at opt_tmp/gid_+135_+180/1
+Launching new job at opt_tmp/gid_+120_+150/3
+Launching new job at opt_tmp/gid_+120_-150/3
+Launching new job at opt_tmp/gid_+120_+090/4
+Launching new job at opt_tmp/gid_+150_+090/1
+Launching new job at opt_tmp/gid_+135_+060/3
+Launching new job at opt_tmp/gid_+135_+120/2
+Launching new job at opt_tmp/gid_+120_-150/4
+Launching new job at opt_tmp/gid_+150_-150/1
+Launching new job at opt_tmp/gid_+135_+180/2
+Launching new job at opt_tmp/gid_+135_-120/3
+Launching new job at opt_tmp/gid_+135_+060/4
+Launching new job at opt_tmp/gid_+165_+060/1
+Launching new job at opt_tmp/gid_+150_+030/3
+Launching new job at opt_tmp/gid_+150_+090/2
+Launching new job at opt_tmp/gid_+135_-120/4
+Launching new job at opt_tmp/gid_+165_-120/1
+Launching new job at opt_tmp/gid_+150_-150/2
+Launching new job at opt_tmp/gid_+150_-090/3
+Launching new job at opt_tmp/gid_+150_+030/4
+Launching new job at opt_tmp/gid_+180_+030/1
+Launching new job at opt_tmp/gid_+165_+000/3
+Launching new job at opt_tmp/gid_+165_+060/2
+Launching new job at opt_tmp/gid_+150_-090/4
+Launching new job at opt_tmp/gid_+180_-090/1
+Launching new job at opt_tmp/gid_+165_-120/2
+Launching new job at opt_tmp/gid_+165_-060/3
+Launching new job at opt_tmp/gid_+165_+000/4
+Launching new job at opt_tmp/gid_-165_+000/3
+Launching new job at opt_tmp/gid_+180_-030/3
+Launching new job at opt_tmp/gid_+180_+030/2
+Launching new job at opt_tmp/gid_+165_-060/4
+Launching new job at opt_tmp/gid_-165_-060/3
+Launching new job at opt_tmp/gid_+180_-090/2
+Launching new job at opt_tmp/gid_+180_-030/4
+Launching new job at opt_tmp/gid_-120_+150/1
+Launching new job at opt_tmp/gid_-090_+150/4
+Launching new job at opt_tmp/gid_-105_+120/3
+Launching new job at opt_tmp/gid_-105_+180/3
+Launching new job at opt_tmp/gid_-135_+120/1
+Launching new job at opt_tmp/gid_-105_+120/4
+Launching new job at opt_tmp/gid_-120_+090/3
+Launching new job at opt_tmp/gid_-120_+150/2
+Launching new job at opt_tmp/gid_-135_+180/1
+Launching new job at opt_tmp/gid_-105_+180/4
+Launching new job at opt_tmp/gid_-120_+150/3
+Launching new job at opt_tmp/gid_-120_-150/3
+Launching new job at opt_tmp/gid_-150_+090/1
+Launching new job at opt_tmp/gid_-120_+090/4
+Launching new job at opt_tmp/gid_-135_+060/3
+Launching new job at opt_tmp/gid_-135_+120/2
+Launching new job at opt_tmp/gid_-150_-150/1
+Launching new job at opt_tmp/gid_-120_-150/4
+Launching new job at opt_tmp/gid_-135_+180/2
+Launching new job at opt_tmp/gid_-135_-120/3
+Launching new job at opt_tmp/gid_-165_+060/1
+Launching new job at opt_tmp/gid_-135_+060/4
+Launching new job at opt_tmp/gid_-150_+030/3
+Launching new job at opt_tmp/gid_-150_+090/2
+Launching new job at opt_tmp/gid_-165_-120/1
+Launching new job at opt_tmp/gid_-135_-120/4
+Launching new job at opt_tmp/gid_-150_-150/2
+Launching new job at opt_tmp/gid_-150_-090/3
+Launching new job at opt_tmp/gid_+180_+030/3
+Launching new job at opt_tmp/gid_-150_+030/4
+Launching new job at opt_tmp/gid_-165_+000/4
+Launching new job at opt_tmp/gid_-165_+060/2
+Launching new job at opt_tmp/gid_+180_-090/3
+Launching new job at opt_tmp/gid_-150_-090/4
+Launching new job at opt_tmp/gid_-165_-120/2
+Launching new job at opt_tmp/gid_-165_-060/4
+Find finished jobs: {'opt_tmp/gid_+105_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+120_+150/1', 'opt_tmp/gid_+090_+150/4'}
+Find finished jobs: {'opt_tmp/gid_+105_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+105_+120/4'}
+Find finished jobs: {'opt_tmp/gid_+120_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+120_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+105_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+135_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+120_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+120_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+120_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+150_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+135_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+120_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+150_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+135_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+135_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+165_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+150_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+135_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+165_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+150_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+150_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+030/4', 'opt_tmp/gid_+180_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+165_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+165_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+150_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+180_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+165_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+165_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+165_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+000/3'}
+Find finished jobs: {'opt_tmp/gid_+180_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+030/2'}
+Find finished jobs: {'opt_tmp/gid_+165_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-165_-060/3'}
+Find finished jobs: {'opt_tmp/gid_+180_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+180_-030/4'}
+Find finished jobs: {'opt_tmp/gid_-120_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-090_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-105_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-105_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+120/1'}
+Find finished jobs: {'opt_tmp/gid_-105_+120/4', 'opt_tmp/gid_-120_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-135_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-105_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-120_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-120_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+090/1'}
+Find finished jobs: {'opt_tmp/gid_-120_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-135_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-150_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-120_-150/4', 'opt_tmp/gid_-135_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-135_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-165_+060/1'}
+Find finished jobs: {'opt_tmp/gid_-135_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-150_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+090/2'}
+Find finished jobs: {'opt_tmp/gid_-165_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-135_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-150_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-150_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+030/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+000/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+180_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-150_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-165_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-165_-060/4'}
+First energy for grid_id (120, 150) = -193.675079
+First energy for grid_id (135, 120) = -193.675421
+First energy for grid_id (135, 180) = -193.677349
+First energy for grid_id (150, 90) = -193.679177
+First energy for grid_id (150, -150) = -193.677910
+First energy for grid_id (165, 60) = -193.682030
+First energy for grid_id (165, -120) = -193.678982
+First energy for grid_id (180, 30) = -193.681156
+First energy for grid_id (180, -90) = -193.681594
+First energy for grid_id (-120, 150) = -193.675065
+First energy for grid_id (-135, 120) = -193.674361
+First energy for grid_id (-135, 180) = -193.677349
+First energy for grid_id (-150, 90) = -193.677845
+First energy for grid_id (-150, -150) = -193.678783
+First energy for grid_id (-165, 60) = -193.681398
+First energy for grid_id (-165, -120) = -193.679850
+Scan Status at 14446 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180   [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m    
+ 150     [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m      
+ 120   [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m    
+  90 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m  
+  60 [44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[1;41m><[0m
+  30 [41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m
+   0 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m\/[0m
+ -30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -60 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m/\[0m
+ -90 [41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m
+-120 [44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[1;41m><[0m
+-150 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m  
+
+Launching new job at opt_tmp/gid_+105_+150/4
+Launching new job at opt_tmp/gid_+135_+150/1
+Launching new job at opt_tmp/gid_+120_+120/3
+Launching new job at opt_tmp/gid_+120_+180/3
+Launching new job at opt_tmp/gid_+120_+120/4
+Launching new job at opt_tmp/gid_+150_+120/1
+Launching new job at opt_tmp/gid_+135_+090/3
+Launching new job at opt_tmp/gid_+135_+150/2
+Launching new job at opt_tmp/gid_+120_+180/4
+Launching new job at opt_tmp/gid_+150_+180/1
+Launching new job at opt_tmp/gid_+135_+150/3
+Launching new job at opt_tmp/gid_+135_-150/3
+Launching new job at opt_tmp/gid_+135_+090/4
+Launching new job at opt_tmp/gid_+165_+090/1
+Launching new job at opt_tmp/gid_+150_+060/3
+Launching new job at opt_tmp/gid_+150_+120/2
+Launching new job at opt_tmp/gid_+135_-150/4
+Launching new job at opt_tmp/gid_+165_-150/1
+Launching new job at opt_tmp/gid_+150_+180/2
+Launching new job at opt_tmp/gid_+150_-120/3
+Launching new job at opt_tmp/gid_+150_+060/4
+Launching new job at opt_tmp/gid_+180_+060/1
+Launching new job at opt_tmp/gid_+165_+030/3
+Launching new job at opt_tmp/gid_+165_+090/2
+Launching new job at opt_tmp/gid_+150_-120/4
+Launching new job at opt_tmp/gid_+180_-120/1
+Launching new job at opt_tmp/gid_+165_-150/2
+Launching new job at opt_tmp/gid_+165_-090/3
+Launching new job at opt_tmp/gid_+165_+030/4
+Launching new job at opt_tmp/gid_-165_+030/3
+Launching new job at opt_tmp/gid_+180_+000/4
+Launching new job at opt_tmp/gid_+180_+060/2
+Launching new job at opt_tmp/gid_+165_-090/4
+Launching new job at opt_tmp/gid_-165_-090/3
+Launching new job at opt_tmp/gid_+180_-120/2
+Launching new job at opt_tmp/gid_+180_-060/4
+Launching new job at opt_tmp/gid_-135_+150/1
+Launching new job at opt_tmp/gid_-105_+150/4
+Launching new job at opt_tmp/gid_-120_+120/3
+Launching new job at opt_tmp/gid_-120_+180/3
+Launching new job at opt_tmp/gid_-150_+120/1
+Launching new job at opt_tmp/gid_-120_+120/4
+Launching new job at opt_tmp/gid_-135_+090/3
+Launching new job at opt_tmp/gid_-135_+150/2
+Launching new job at opt_tmp/gid_-150_+180/1
+Launching new job at opt_tmp/gid_-120_+180/4
+Launching new job at opt_tmp/gid_-135_+150/3
+Launching new job at opt_tmp/gid_-135_-150/3
+Launching new job at opt_tmp/gid_-165_+090/1
+Launching new job at opt_tmp/gid_-135_+090/4
+Launching new job at opt_tmp/gid_-150_+060/3
+Launching new job at opt_tmp/gid_-150_+120/2
+Launching new job at opt_tmp/gid_-165_-150/1
+Launching new job at opt_tmp/gid_-135_-150/4
+Launching new job at opt_tmp/gid_-150_+180/2
+Launching new job at opt_tmp/gid_-150_-120/3
+Launching new job at opt_tmp/gid_+180_+060/3
+Launching new job at opt_tmp/gid_-150_+060/4
+Launching new job at opt_tmp/gid_-165_+030/4
+Launching new job at opt_tmp/gid_-165_+090/2
+Launching new job at opt_tmp/gid_+180_-120/3
+Launching new job at opt_tmp/gid_-150_-120/4
+Launching new job at opt_tmp/gid_-165_-150/2
+Launching new job at opt_tmp/gid_-165_-090/4
+Find finished jobs: {'opt_tmp/gid_+120_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+105_+150/4'}
+Find finished jobs: {'opt_tmp/gid_+120_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+120_+120/4'}
+Find finished jobs: {'opt_tmp/gid_+135_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+120_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+150_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+135_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+135_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+165_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+150_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+135_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+165_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+150_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+150_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+060/1'}
+Find finished jobs: {'opt_tmp/gid_+165_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+165_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+150_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+180_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+165_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+165_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+165_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+030/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+000/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+060/2'}
+Find finished jobs: {'opt_tmp/gid_+165_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-165_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+180_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+180_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-135_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-105_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-120_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-120_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+120/1'}
+Find finished jobs: {'opt_tmp/gid_-120_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-135_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-150_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-120_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-135_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-135_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-165_+090/1'}
+Find finished jobs: {'opt_tmp/gid_-135_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-150_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+120/2'}
+Find finished jobs: {'opt_tmp/gid_-165_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-135_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-150_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-150_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+060/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+030/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+180_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-150_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-165_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-165_-090/4'}
+First energy for grid_id (135, 150) = -193.676428
+First energy for grid_id (150, 120) = -193.677880
+First energy for grid_id (150, 180) = -193.679504
+First energy for grid_id (165, 90) = -193.681133
+First energy for grid_id (165, -150) = -193.680137
+First energy for grid_id (180, 60) = -193.682607
+First energy for grid_id (180, -120) = -193.680293
+First energy for grid_id (-135, 150) = -193.675778
+First energy for grid_id (-150, 120) = -193.676563
+First energy for grid_id (-150, 180) = -193.679504
+First energy for grid_id (-165, 90) = -193.680291
+First energy for grid_id (-165, -150) = -193.680731
+Scan Status at 15340 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m  
+ 150   [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m    
+ 120 [41m／[0m[44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[41m＼[0m  
+  90 [44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[1;41m><[0m
+  60 [41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m
+  30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m\/[0m
+   0 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -60 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -90 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m/\[0m
+-120 [41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m
+-150 [44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[1;41m><[0m
+
+Launching new job at opt_tmp/gid_+120_+150/4
+Launching new job at opt_tmp/gid_+150_+150/1
+Launching new job at opt_tmp/gid_+135_+120/3
+Launching new job at opt_tmp/gid_+135_+180/3
+Launching new job at opt_tmp/gid_+135_+120/4
+Launching new job at opt_tmp/gid_+165_+120/1
+Launching new job at opt_tmp/gid_+150_+090/3
+Launching new job at opt_tmp/gid_+150_+150/2
+Launching new job at opt_tmp/gid_+135_+180/4
+Launching new job at opt_tmp/gid_+165_+180/1
+Launching new job at opt_tmp/gid_+150_+150/3
+Launching new job at opt_tmp/gid_+150_-150/3
+Launching new job at opt_tmp/gid_+150_+090/4
+Launching new job at opt_tmp/gid_+180_+090/1
+Launching new job at opt_tmp/gid_+165_+060/3
+Launching new job at opt_tmp/gid_+165_+120/2
+Launching new job at opt_tmp/gid_+150_-150/4
+Launching new job at opt_tmp/gid_+180_-150/1
+Launching new job at opt_tmp/gid_+165_+180/2
+Launching new job at opt_tmp/gid_+165_-120/3
+Launching new job at opt_tmp/gid_+165_+060/4
+Launching new job at opt_tmp/gid_-165_+060/3
+Launching new job at opt_tmp/gid_+180_+030/4
+Launching new job at opt_tmp/gid_+180_+090/2
+Launching new job at opt_tmp/gid_+165_-120/4
+Launching new job at opt_tmp/gid_-165_-120/3
+Launching new job at opt_tmp/gid_+180_-150/2
+Launching new job at opt_tmp/gid_+180_-090/4
+Launching new job at opt_tmp/gid_-150_+150/1
+Launching new job at opt_tmp/gid_-120_+150/4
+Launching new job at opt_tmp/gid_-135_+120/3
+Launching new job at opt_tmp/gid_-135_+180/3
+Launching new job at opt_tmp/gid_-165_+120/1
+Launching new job at opt_tmp/gid_-135_+120/4
+Launching new job at opt_tmp/gid_-150_+090/3
+Launching new job at opt_tmp/gid_-150_+150/2
+Launching new job at opt_tmp/gid_-165_+180/1
+Launching new job at opt_tmp/gid_-135_+180/4
+Launching new job at opt_tmp/gid_-150_+150/3
+Launching new job at opt_tmp/gid_-150_-150/3
+Launching new job at opt_tmp/gid_+180_+090/3
+Launching new job at opt_tmp/gid_-150_+090/4
+Launching new job at opt_tmp/gid_-165_+060/4
+Launching new job at opt_tmp/gid_-165_+120/2
+Launching new job at opt_tmp/gid_+180_-150/3
+Launching new job at opt_tmp/gid_-150_-150/4
+Launching new job at opt_tmp/gid_-165_+180/2
+Launching new job at opt_tmp/gid_-165_-120/4
+Find finished jobs: {'opt_tmp/gid_+135_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+120_+150/4'}
+Find finished jobs: {'opt_tmp/gid_+135_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+120/4'}
+Find finished jobs: {'opt_tmp/gid_+165_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+150_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+135_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+165_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+150_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+150_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+165_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+165_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+150_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+180_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+165_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+165_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+165_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+060/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+030/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+090/2'}
+Find finished jobs: {'opt_tmp/gid_+165_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-165_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+180_-150/2'}
+Find finished jobs: {'opt_tmp/gid_+180_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-150_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-120_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-135_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-135_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-165_+120/1'}
+Find finished jobs: {'opt_tmp/gid_-135_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-150_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-165_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-135_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-150_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-150_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+090/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+060/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+180_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-150_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-165_-120/4'}
+First energy for grid_id (150, 150) = -193.678783
+First energy for grid_id (165, 120) = -193.679850
+First energy for grid_id (165, 180) = -193.681501
+First energy for grid_id (180, 90) = -193.681594
+First energy for grid_id (180, -150) = -193.681262
+First energy for grid_id (-150, 150) = -193.677911
+First energy for grid_id (-165, 120) = -193.678982
+First energy for grid_id (-165, 180) = -193.681501
+Scan Status at 16006 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180 [44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[1;41m><[0m
+ 150 [1;41m><[0m[44m--[0m[1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m  
+ 120 [44m--[0m[41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m[1;41m><[0m
+  90 [41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m
+  60 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m\/[0m
+  30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+   0 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -60 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -90 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+-120 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m/\[0m
+-150 [41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m
+
+Launching new job at opt_tmp/gid_+135_+150/4
+Launching new job at opt_tmp/gid_+165_+150/1
+Launching new job at opt_tmp/gid_+150_+120/3
+Launching new job at opt_tmp/gid_+150_+180/3
+Launching new job at opt_tmp/gid_+150_+120/4
+Launching new job at opt_tmp/gid_+180_+120/1
+Launching new job at opt_tmp/gid_+165_+090/3
+Launching new job at opt_tmp/gid_+165_+150/2
+Launching new job at opt_tmp/gid_+150_+180/4
+Launching new job at opt_tmp/gid_+180_+180/1
+Launching new job at opt_tmp/gid_+165_+150/3
+Launching new job at opt_tmp/gid_+165_-150/3
+Launching new job at opt_tmp/gid_+165_+090/4
+Launching new job at opt_tmp/gid_-165_+090/3
+Launching new job at opt_tmp/gid_+180_+060/4
+Launching new job at opt_tmp/gid_+180_+120/2
+Launching new job at opt_tmp/gid_+165_-150/4
+Launching new job at opt_tmp/gid_-165_-150/3
+Launching new job at opt_tmp/gid_+180_+180/2
+Launching new job at opt_tmp/gid_+180_-120/4
+Launching new job at opt_tmp/gid_-165_+150/1
+Launching new job at opt_tmp/gid_-135_+150/4
+Launching new job at opt_tmp/gid_-150_+120/3
+Launching new job at opt_tmp/gid_-150_+180/3
+Launching new job at opt_tmp/gid_+180_+120/3
+Launching new job at opt_tmp/gid_-150_+120/4
+Launching new job at opt_tmp/gid_-165_+090/4
+Launching new job at opt_tmp/gid_-165_+150/2
+Launching new job at opt_tmp/gid_+180_+180/3
+Launching new job at opt_tmp/gid_-150_+180/4
+Launching new job at opt_tmp/gid_-165_+150/3
+Launching new job at opt_tmp/gid_-165_-150/4
+Find finished jobs: {'opt_tmp/gid_+150_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+135_+150/4', 'opt_tmp/gid_+165_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+150_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+150_+120/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+120/1'}
+Find finished jobs: {'opt_tmp/gid_+165_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+165_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+150_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+165_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+165_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+165_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+090/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+060/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+120/2'}
+Find finished jobs: {'opt_tmp/gid_+165_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-165_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+180_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-135_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-150_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+120/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+090/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+180_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-150_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-165_-150/4'}
+First energy for grid_id (165, 150) = -193.680732
+First energy for grid_id (180, 120) = -193.680293
+First energy for grid_id (180, 180) = -193.682291
+First energy for grid_id (-165, 150) = -193.680138
+Scan Status at 16455 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180 [41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m
+ 150 [44m--[0m[1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m[1;41m><[0m
+ 120 [41m／[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m＼[0m[44m--[0m
+  90 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m\/[0m
+  60 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+  30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+   0 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -60 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -90 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+-120 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+-150 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m/\[0m
+
+Launching new job at opt_tmp/gid_+150_+150/4
+Launching new job at opt_tmp/gid_+180_+150/1
+Launching new job at opt_tmp/gid_+165_+120/3
+Launching new job at opt_tmp/gid_+165_+180/3
+Launching new job at opt_tmp/gid_+165_+120/4
+Launching new job at opt_tmp/gid_-165_+120/3
+Launching new job at opt_tmp/gid_+180_+090/4
+Launching new job at opt_tmp/gid_+180_+150/2
+Launching new job at opt_tmp/gid_+165_+180/4
+Launching new job at opt_tmp/gid_-165_+180/3
+Launching new job at opt_tmp/gid_+180_+150/3
+Launching new job at opt_tmp/gid_+180_-150/4
+Launching new job at opt_tmp/gid_+180_+150/4
+Launching new job at opt_tmp/gid_-150_+150/4
+Launching new job at opt_tmp/gid_-165_+120/4
+Launching new job at opt_tmp/gid_-165_+180/4
+Find finished jobs: {'opt_tmp/gid_+165_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+150_+150/4'}
+Find finished jobs: {'opt_tmp/gid_+165_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+165_+120/4', 'opt_tmp/gid_-165_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+090/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+165_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+180_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+180_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-150_+150/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+180/4'}
+First energy for grid_id (180, 150) = -193.681262
+Scan Status at 16683 s
+--== Ramachandran Plot of Optimization Status ==--
+--== Blue: Optimized, Green: Found Lower, Red: Next ==--
+    -165  -120   -75   -30    15    60   105   150
+ 180 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m/\[0m
+ 150 [1;41m＞[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m＜[0m[44m--[0m
+ 120 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[1;41m\/[0m
+  90 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+  60 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+  30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+   0 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -30 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -60 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+ -90 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+-120 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+-150 [44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m
+
+Launching new job at opt_tmp/gid_+165_+150/4
+Launching new job at opt_tmp/gid_-165_+150/4
+Launching new job at opt_tmp/gid_+180_+120/4
+Launching new job at opt_tmp/gid_+180_+180/4
+Find finished jobs: {'opt_tmp/gid_+180_+120/4'}
+Find finished jobs: {'opt_tmp/gid_-165_+150/4'}
+Find finished jobs: {'opt_tmp/gid_+165_+150/4'}
+Find finished jobs: {'opt_tmp/gid_+180_+180/4'}
+All optimizations converged at lowest energy. Job Finished!
+Final scan energies are written to qdata.txt
+Final scan energies are written to scan.xyz
+Dihedral scan is finished!
+ Grid ID                Energy
+  (-165, -150)         -193.6807313088
+  (-165, -120)         -193.6798504942
+  (-165, -90)          -193.6811332433
+  (-165, -60)          -193.6820302301
+  (-165, -30)          -193.6804188754
+  (-165, 0)            -193.6788729464
+  (-165, 30)           -193.6800459635
+  (-165, 60)           -193.6813976966
+  (-165, 90)           -193.6802910731
+  (-165, 120)          -193.6789822513
+  (-165, 150)          -193.6801375420
+  (-165, 180)          -193.6815011142
+  (-150, -150)         -193.6787825987
+  (-150, -120)         -193.6778796173
+  (-150, -90)          -193.6791766434
+  (-150, -60)          -193.6799967765
+  (-150, -30)          -193.6782093619
+  (-150, 0)            -193.6764622580
+  (-150, 30)           -193.6775547937
+  (-150, 60)           -193.6789553544
+  (-150, 90)           -193.6778452976
+  (-150, 120)          -193.6765630569
+  (-150, 150)          -193.6779105166
+  (-150, 180)          -193.6795038179
+  (-135, -150)         -193.6764270102
+  (-135, -120)         -193.6754208619
+  (-135, -90)          -193.6767633876
+  (-135, -60)          -193.6775609219
+  (-135, -30)          -193.6756097077
+  (-135, 0)            -193.6737596533
+  (-135, 30)           -193.6750123673
+  (-135, 60)           -193.6766297852
+  (-135, 90)           -193.6756129206
+  (-135, 120)          -193.6743610594
+  (-135, 150)          -193.6757775247
+  (-135, 180)          -193.6773493755
+  (-120, -150)         -193.6750781420
+  (-120, -120)         -193.6739364254
+  (-120, -90)          -193.6753143173
+  (-120, -60)          -193.6761293227
+  (-120, -30)          -193.6741154005
+  (-120, 0)            -193.6724247360
+  (-120, 30)           -193.6740320114
+  (-120, 60)           -193.6758761678
+  (-120, 90)           -193.6749899413
+  (-120, 120)          -193.6737524132
+  (-120, 150)          -193.6750652890
+  (-120, 180)          -193.6763504696
+  (-105, -150)         -193.6757097649
+  (-105, -120)         -193.6744672149
+  (-105, -90)          -193.6758520465
+  (-105, -60)          -193.6767224644
+  (-105, -30)          -193.6748400615
+  (-105, 0)            -193.6734717413
+  (-105, 30)           -193.6752915675
+  (-105, 60)           -193.6772170622
+  (-105, 90)           -193.6764544570
+  (-105, 120)          -193.6752666656
+  (-105, 150)          -193.6763970448
+  (-105, 180)          -193.6772865930
+  (-90, -150)          -193.6780476987
+  (-90, -120)          -193.6768175724
+  (-90, -90)           -193.6782104729
+  (-90, -60)           -193.6791614856
+  (-90, -30)           -193.6774851789
+  (-90, 0)             -193.6762335643
+  (-90, 30)            -193.6779345972
+  (-90, 60)            -193.6798067737
+  (-90, 90)            -193.6791840800
+  (-90, 120)           -193.6781361748
+  (-90, 150)           -193.6791211752
+  (-90, 180)           -193.6797175731
+  (-75, -150)          -193.6806535215
+  (-75, -120)          -193.6795656186
+  (-75, -90)           -193.6809678840
+  (-75, -60)           -193.6819555075
+  (-75, -30)           -193.6803449451
+  (-75, 0)             -193.6788537243
+  (-75, 30)            -193.6801692375
+  (-75, 60)            -193.6820139497
+  (-75, 90)            -193.6816146111
+  (-75, 120)           -193.6806987807
+  (-75, 150)           -193.6815739134
+  (-75, 180)           -193.6821361926
+  (-60, -150)          -193.6818607003
+  (-60, -120)          -193.6809479418
+  (-60, -90)           -193.6823452252
+  (-60, -60)           -193.6832919561
+  (-60, -30)           -193.6815165660
+  (-60, 0)             -193.6795072633
+  (-60, 30)            -193.6805404691
+  (-60, 60)            -193.6825977075
+  (-60, 90)            -193.6823651635
+  (-60, 120)           -193.6813702851
+  (-60, 150)           -193.6821880877
+  (-60, 180)           -193.6829892854
+  (-45, -150)          -193.6807169574
+  (-45, -120)          -193.6799544418
+  (-45, -90)           -193.6814406744
+  (-45, -60)           -193.6822919797
+  (-45, -30)           -193.6801030962
+  (-45, 0)             -193.6777300318
+  (-45, 30)            -193.6788839585
+  (-45, 60)            -193.6812351673
+  (-45, 90)            -193.6808838649
+  (-45, 120)           -193.6796507885
+  (-45, 150)           -193.6805120134
+  (-45, 180)           -193.6815965489
+  (-30, -150)          -193.6776855613
+  (-30, -120)          -193.6770897796
+  (-30, -90)           -193.6787500305
+  (-30, -60)           -193.6794239188
+  (-30, -30)           -193.6768585557
+  (-30, 0)             -193.6745293324
+  (-30, 30)            -193.6759879388
+  (-30, 60)            -193.6784499192
+  (-30, 90)            -193.6778345204
+  (-30, 120)           -193.6764224098
+  (-30, 150)           -193.6773164770
+  (-30, 180)           -193.6785092939
+  (-15, -150)          -193.6744892023
+  (-15, -120)          -193.6739961188
+  (-15, -90)           -193.6757265620
+  (-15, -60)           -193.6762434927
+  (-15, -30)           -193.6736856880
+  (-15, 0)             -193.6715449060
+  (-15, 30)            -193.6733087616
+  (-15, 60)            -193.6756920465
+  (-15, 90)            -193.6749848838
+  (-15, 120)           -193.6734682190
+  (-15, 150)           -193.6742511602
+  (-15, 180)           -193.6753618710
+  (0, -150)            -193.6730550753
+  (0, -120)            -193.6724747265
+  (0, -90)             -193.6741163796
+  (0, -60)             -193.6746880508
+  (0, -30)             -193.6723073577
+  (0, 0)               -193.6703353374
+  (0, 30)              -193.6723073337
+  (0, 60)              -193.6746880499
+  (0, 90)              -193.6741163786
+  (0, 120)             -193.6724747264
+  (0, 150)             -193.6730554360
+  (0, 180)             -193.6740252795
+  (15, -150)           -193.6742507618
+  (15, -120)           -193.6734682196
+  (15, -90)            -193.6749848845
+  (15, -60)            -193.6756920473
+  (15, -30)            -193.6733087618
+  (15, 0)              -193.6715448433
+  (15, 30)             -193.6736864709
+  (15, 60)             -193.6762434941
+  (15, 90)             -193.6757265581
+  (15, 120)            -193.6739961142
+  (15, 150)            -193.6744895854
+  (15, 180)            -193.6753618310
+  (30, -150)           -193.6773160747
+  (30, -120)           -193.6764224100
+  (30, -90)            -193.6778345204
+  (30, -60)            -193.6784499182
+  (30, -30)            -193.6759876949
+  (30, 0)              -193.6745292266
+  (30, 30)             -193.6768596913
+  (30, 60)             -193.6794239212
+  (30, 90)             -193.6787500303
+  (30, 120)            -193.6770897790
+  (30, 150)            -193.6776859748
+  (30, 180)            -193.6785092183
+  (45, -150)           -193.6805115450
+  (45, -120)           -193.6796507890
+  (45, -90)            -193.6808838657
+  (45, -60)            -193.6812351675
+  (45, -30)            -193.6788837846
+  (45, 0)              -193.6777298829
+  (45, 30)             -193.6801040060
+  (45, 60)             -193.6822919817
+  (45, 90)             -193.6814406746
+  (45, 120)            -193.6799544424
+  (45, 150)            -193.6807174651
+  (45, 180)            -193.6815965048
+  (60, -150)           -193.6821878457
+  (60, -120)           -193.6813702856
+  (60, -90)            -193.6823651646
+  (60, -60)            -193.6825977063
+  (60, -30)            -193.6805404694
+  (60, 0)              -193.6795071320
+  (60, 30)             -193.6815166582
+  (60, 60)             -193.6832919560
+  (60, 90)             -193.6823452252
+  (60, 120)            -193.6809479416
+  (60, 150)            -193.6818610833
+  (60, 180)            -193.6829893336
+  (75, -150)           -193.6815739144
+  (75, -120)           -193.6806987815
+  (75, -90)            -193.6816146112
+  (75, -60)            -193.6820139495
+  (75, -30)            -193.6801692379
+  (75, 0)              -193.6788537245
+  (75, 30)             -193.6803449442
+  (75, 60)             -193.6819555032
+  (75, 90)             -193.6809678787
+  (75, 120)            -193.6795656188
+  (75, 150)            -193.6806535210
+  (75, 180)            -193.6821361923
+  (90, -150)           -193.6791211753
+  (90, -120)           -193.6781361752
+  (90, -90)            -193.6791840799
+  (90, -60)            -193.6798067741
+  (90, -30)            -193.6779345974
+  (90, 0)              -193.6762335624
+  (90, 30)             -193.6774851737
+  (90, 60)             -193.6791614854
+  (90, 90)             -193.6782104723
+  (90, 120)            -193.6768175720
+  (90, 150)            -193.6780476934
+  (90, 180)            -193.6797175739
+  (105, -150)          -193.6763970387
+  (105, -120)          -193.6752666654
+  (105, -90)           -193.6764544577
+  (105, -60)           -193.6772170618
+  (105, -30)           -193.6752915675
+  (105, 0)             -193.6734717367
+  (105, 30)            -193.6748400623
+  (105, 60)            -193.6767224642
+  (105, 90)            -193.6758520465
+  (105, 120)           -193.6744672146
+  (105, 150)           -193.6757097593
+  (105, 180)           -193.6772865879
+  (120, -150)          -193.6750652829
+  (120, -120)          -193.6737524121
+  (120, -90)           -193.6749899417
+  (120, -60)           -193.6758761674
+  (120, -30)           -193.6740320118
+  (120, 0)             -193.6724247313
+  (120, 30)            -193.6741155845
+  (120, 60)            -193.6761293235
+  (120, 90)            -193.6753143171
+  (120, 120)           -193.6739364261
+  (120, 150)           -193.6750787679
+  (120, 180)           -193.6763504622
+  (135, -150)          -193.6757768668
+  (135, -120)          -193.6743610582
+  (135, -90)           -193.6756129206
+  (135, -60)           -193.6766297835
+  (135, -30)           -193.6750122554
+  (135, 0)             -193.6737595937
+  (135, 30)            -193.6756104542
+  (135, 60)            -193.6775609238
+  (135, 90)            -193.6767633881
+  (135, 120)           -193.6754208621
+  (135, 150)           -193.6764275937
+  (135, 180)           -193.6773492533
+  (150, -150)          -193.6779098549
+  (150, -120)          -193.6765630603
+  (150, -90)           -193.6778452981
+  (150, -60)           -193.6789553529
+  (150, -30)           -193.6775543709
+  (150, 0)             -193.6764621862
+  (150, 30)            -193.6782102267
+  (150, 60)            -193.6799967785
+  (150, 90)            -193.6791766444
+  (150, 120)           -193.6778796177
+  (150, 150)           -193.6787831246
+  (150, 180)           -193.6795036687
+  (165, -150)          -193.6801369714
+  (165, -120)          -193.6789822519
+  (165, -90)           -193.6802910726
+  (165, -60)           -193.6813976958
+  (165, -30)           -193.6800457837
+  (165, 0)             -193.6788729081
+  (165, 30)            -193.6804194351
+  (165, 60)            -193.6820302269
+  (165, 90)            -193.6811332391
+  (165, 120)           -193.6798504939
+  (165, 150)           -193.6807317834
+  (165, 180)           -193.6815010121
+  (180, -150)          -193.6812619800
+  (180, -120)          -193.6802928641
+  (180, -90)           -193.6815944504
+  (180, -60)           -193.6826070497
+  (180, -30)           -193.6811558940
+  (180, 0)             -193.6798059379
+  (180, 30)            -193.6811558946
+  (180, 60)            -193.6826070496
+  (180, 90)            -193.6815944500
+  (180, 120)           -193.6802928639
+  (180, 150)           -193.6812621441
+  (180, 180)           -193.6822914501
