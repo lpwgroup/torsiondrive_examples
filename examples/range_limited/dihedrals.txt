@@ -1,0 +1,4 @@
+# dihedral definition by atom indices starting from 1
+# i     j     k     l      (range_low)     (range_high)
+  1     2     7     11       -150              90
+  2     7     11    12       -120             120
