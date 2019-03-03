@@ -1,0 +1,1 @@
+torsiondrive-launch qc.in dihedrals.txt -g 15 -e qchem --wq_port 50124 -c constraints.txt -v 2>worker.log

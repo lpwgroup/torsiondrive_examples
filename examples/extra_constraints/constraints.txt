@@ -1,0 +1,4 @@
+$freeze
+xyz 2
+$set
+distance 1 2 1.5
