@@ -1,0 +1,12 @@
+This torsiondrive job scans over a torsion angle of a sialic acid while keeping
+all other torsions frozen as well as bonds and angles within the sugar ring.
+
+There are many constraints on the sugar ring degrees of freedom. They were defined
+using trial and error. All of the bond distances, most of the angles, and alternating
+dihedral angles within the ring are kept as constraints. Constraint values on the
+6-membered ring come from the GLYCAM force field, which uses neutron diffraction experiments
+to set the atomic coordinates of the ring.
+
+The following line was removed from constraints.txt because it was impossible to
+satisfy along with all the other constraints:
+angle 8 7 9 124.26739
