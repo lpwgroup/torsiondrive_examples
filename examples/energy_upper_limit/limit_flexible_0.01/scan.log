@@ -1,4 +1,4 @@
-/home/qyd/codes/anaconda3/envs/tdtest/bin/torsiondrive-launch run.in dihedrals.txt -e terachem -g 10 --energy_limit 0.01 -v
+/home/qyd/codes/anaconda3/envs/tdtest/bin/torsiondrive-launch run.in dihedrals.txt -e terachem -g 10 --energy_upper_limit 0.01 -v
 Master process started!
 1 initial tasks pushed to opt_queue
 Scan Status at 0 s
