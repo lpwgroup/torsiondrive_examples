@@ -1,0 +1,69 @@
+/home/qyd/codes/anaconda3/envs/tdtest/bin/torsiondrive-launch run.in dihedrals.txt -e terachem -g 15 --energy_limit 0.05 -v
+Master process started!
+1 initial tasks pushed to opt_queue
+Scan Status at 0 s
+ - - - - - - - - - - - [0;33m+[0m - - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_+000/1
+Find finished jobs: {'opt_tmp/gid_+000/1'}
+First energy for grid_id (0,) = -502.55452307
+Scan Status at 65 s
+ - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_-015/1
+Launching new job at opt_tmp/gid_+015/1
+Find finished jobs: {'opt_tmp/gid_+015/1', 'opt_tmp/gid_-015/1'}
+First energy for grid_id (15,) = -502.5516212
+First energy for grid_id (-15,) = -502.55141962
+Scan Status at 120 s
+ - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_+000/2
+Launching new job at opt_tmp/gid_+030/1
+Launching new job at opt_tmp/gid_-030/1
+Launching new job at opt_tmp/gid_+000/3
+Find finished jobs: {'opt_tmp/gid_+000/3', 'opt_tmp/gid_+030/1', 'opt_tmp/gid_-030/1', 'opt_tmp/gid_+000/2'}
+First energy for grid_id (30,) = -502.54231396
+First energy for grid_id (-30,) = -502.54191554
+Scan Status at 240 s
+ - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - -
+
+Launching new job at opt_tmp/gid_+015/2
+Launching new job at opt_tmp/gid_+045/1
+Launching new job at opt_tmp/gid_-045/1
+Launching new job at opt_tmp/gid_-015/2
+Find finished jobs: {'opt_tmp/gid_+045/1', 'opt_tmp/gid_-015/2', 'opt_tmp/gid_-045/1', 'opt_tmp/gid_+015/2'}
+First energy for grid_id (45,) = -502.52531755
+First energy for grid_id (-45,) = -502.52471569
+Scan Status at 393 s
+ - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - -
+
+Launching new job at opt_tmp/gid_+030/2
+Launching new job at opt_tmp/gid_+060/1
+Launching new job at opt_tmp/gid_-060/1
+Launching new job at opt_tmp/gid_-030/2
+Find finished jobs: {'opt_tmp/gid_-060/1', 'opt_tmp/gid_+030/2', 'opt_tmp/gid_-030/2', 'opt_tmp/gid_+060/1'}
+First energy for grid_id (60,) = -502.49834033
+First energy for grid_id (-60,) = -502.49756263
+Task (60,) => (45,) skipped
+Reason: starting energy -502.49834033 is more than 0.05 higher than current global minimum -502.55452597 in a.u.
+Task (60,) => (75,) skipped
+Reason: starting energy -502.49834033 is more than 0.05 higher than current global minimum -502.55452597 in a.u.
+Task (-60,) => (-75,) skipped
+Reason: starting energy -502.49756263 is more than 0.05 higher than current global minimum -502.55452597 in a.u.
+Task (-60,) => (-45,) skipped
+Reason: starting energy -502.49756263 is more than 0.05 higher than current global minimum -502.55452597 in a.u.
+All optimizations converged at lowest energy. Job Finished!
+Final scan energies are written to qdata.txt
+Final scan energies are written to scan.xyz
+Dihedral scan is finished!
+ Grid ID                Energy
+  (-60,)               -502.4975626300
+  (-45,)               -502.5247156900
+  (-30,)               -502.5419155400
+  (-15,)               -502.5514196200
+  (0,)                 -502.5545230700
+  (15,)                -502.5516212000
+  (30,)                -502.5423139600
+  (45,)                -502.5253175500
+  (60,)                -502.4983403300

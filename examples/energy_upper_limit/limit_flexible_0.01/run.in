@@ -1,0 +1,14 @@
+coordinates start.xyz
+run gradient
+basis 6-31g
+method rb3lyp
+charge 0
+spinmult 1
+purify no
+dispersion yes
+convthre 3.0e-6
+threall 1.0e-13
+mixguess 0.0
+scf diis+a
+timings yes
+memcheck no
