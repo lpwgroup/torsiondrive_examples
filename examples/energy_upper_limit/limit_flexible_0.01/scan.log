@@ -6,37 +6,37 @@ Scan Status at 0 s
 
 Launching new job at opt_tmp/gid_+060/1
 Find finished jobs: {'opt_tmp/gid_+060/1'}
-First energy for grid_id (60,) = -502.5545148
-Scan Status at 70 s
+First energy for grid_id (60,) = -502.554514797
+Scan Status at 118 s
  - - - - - - - - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - -
 
 Launching new job at opt_tmp/gid_+050/1
 Launching new job at opt_tmp/gid_+070/1
 Find finished jobs: {'opt_tmp/gid_+050/1', 'opt_tmp/gid_+070/1'}
-First energy for grid_id (50,) = -502.55449705
-First energy for grid_id (70,) = -502.55434963
-Scan Status at 128 s
+First energy for grid_id (50,) = -502.5544970987
+First energy for grid_id (70,) = -502.5543577571
+Scan Status at 227 s
  - - - - - - - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - -
 
 Launching new job at opt_tmp/gid_+040/1
 Launching new job at opt_tmp/gid_+060/2
 Launching new job at opt_tmp/gid_+060/3
 Launching new job at opt_tmp/gid_+080/1
-Find finished jobs: {'opt_tmp/gid_+040/1', 'opt_tmp/gid_+060/2', 'opt_tmp/gid_+060/3', 'opt_tmp/gid_+080/1'}
-First energy for grid_id (40,) = -502.55442048
-First energy for grid_id (80,) = -502.55403555
-Scan Status at 295 s
+Find finished jobs: {'opt_tmp/gid_+080/1', 'opt_tmp/gid_+040/1', 'opt_tmp/gid_+060/3', 'opt_tmp/gid_+060/2'}
+First energy for grid_id (40,) = -502.5544205373
+First energy for grid_id (80,) = -502.5539824102
+Scan Status at 445 s
  - - - - - - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - -
 
 Launching new job at opt_tmp/gid_+030/1
 Launching new job at opt_tmp/gid_+050/2
 Launching new job at opt_tmp/gid_+070/2
 Launching new job at opt_tmp/gid_+090/1
-Find finished jobs: {'opt_tmp/gid_+070/2', 'opt_tmp/gid_+050/2', 'opt_tmp/gid_+090/1', 'opt_tmp/gid_+030/1'}
-First energy for grid_id (30,) = -502.55422321
-Energy for grid_id (70,) decreased from -502.55434963 to -502.55440459
-First energy for grid_id (90,) = -502.55365338
-Scan Status at 519 s
+Find finished jobs: {'opt_tmp/gid_+090/1', 'opt_tmp/gid_+030/1', 'opt_tmp/gid_+070/2', 'opt_tmp/gid_+050/2'}
+First energy for grid_id (30,) = -502.5542232538
+Energy for grid_id (70,) decreased from -502.5543577571 to -502.5543690969
+First energy for grid_id (90,) = -502.5536674474
+Scan Status at 775 s
  - - - - - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - -
 
 Launching new job at opt_tmp/gid_+020/1
@@ -45,11 +45,11 @@ Launching new job at opt_tmp/gid_+060/4
 Launching new job at opt_tmp/gid_+080/2
 Launching new job at opt_tmp/gid_+080/3
 Launching new job at opt_tmp/gid_+100/1
-Find finished jobs: {'opt_tmp/gid_+080/2', 'opt_tmp/gid_+020/1', 'opt_tmp/gid_+080/3', 'opt_tmp/gid_+060/4', 'opt_tmp/gid_+100/1', 'opt_tmp/gid_+040/2'}
-First energy for grid_id (20,) = -502.55394594
-Energy for grid_id (80,) decreased from -502.55403555 to -502.55410266
-First energy for grid_id (100,) = -502.55412941
-Scan Status at 812 s
+Find finished jobs: {'opt_tmp/gid_+100/1', 'opt_tmp/gid_+080/3', 'opt_tmp/gid_+080/2', 'opt_tmp/gid_+040/2', 'opt_tmp/gid_+060/4', 'opt_tmp/gid_+020/1'}
+First energy for grid_id (20,) = -502.5539459396
+Energy for grid_id (80,) decreased from -502.5539824102 to -502.5540985064
+First energy for grid_id (100,) = -502.5541232254
+Scan Status at 1105 s
  - - - - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - -
 
 Launching new job at opt_tmp/gid_+010/1
@@ -58,13 +58,13 @@ Launching new job at opt_tmp/gid_+070/3
 Launching new job at opt_tmp/gid_+090/2
 Launching new job at opt_tmp/gid_+090/3
 Launching new job at opt_tmp/gid_+110/1
-Find finished jobs: {'opt_tmp/gid_+110/1', 'opt_tmp/gid_+070/3', 'opt_tmp/gid_+090/3', 'opt_tmp/gid_+090/2', 'opt_tmp/gid_+010/1', 'opt_tmp/gid_+030/2'}
-First energy for grid_id (10,) = -502.5537217
-Energy for grid_id (30,) decreased from -502.55422321 to -502.55423415
-Energy for grid_id (70,) decreased from -502.55440459 to -502.55441763
-Energy for grid_id (90,) decreased from -502.55365338 to -502.55375088
-First energy for grid_id (110,) = -502.55435701
-Scan Status at 1152 s
+Find finished jobs: {'opt_tmp/gid_+070/3', 'opt_tmp/gid_+110/1', 'opt_tmp/gid_+090/2', 'opt_tmp/gid_+090/3', 'opt_tmp/gid_+010/1', 'opt_tmp/gid_+030/2'}
+First energy for grid_id (10,) = -502.5537217616
+Energy for grid_id (30,) decreased from -502.5542232538 to -502.5542342932
+Energy for grid_id (70,) decreased from -502.5543690969 to -502.5544298841
+Energy for grid_id (90,) decreased from -502.5536674474 to -502.5537368962
+First energy for grid_id (110,) = -502.5542794348
+Scan Status at 1393 s
  - - - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - -
 
 Launching new job at opt_tmp/gid_+000/1
@@ -77,54 +77,69 @@ Launching new job at opt_tmp/gid_+080/5
 Launching new job at opt_tmp/gid_+100/2
 Launching new job at opt_tmp/gid_+100/3
 Launching new job at opt_tmp/gid_+120/1
-Find finished jobs: {'opt_tmp/gid_+020/2', 'opt_tmp/gid_+100/2', 'opt_tmp/gid_+020/3', 'opt_tmp/gid_+080/4', 'opt_tmp/gid_+080/5', 'opt_tmp/gid_+120/1', 'opt_tmp/gid_+100/3', 'opt_tmp/gid_+060/5', 'opt_tmp/gid_+040/3', 'opt_tmp/gid_+000/1'}
-First energy for grid_id (0,) = -502.55364297
-Energy for grid_id (20,) decreased from -502.55394594 to -502.55396248
-First energy for grid_id (120,) = -502.55441215
-Scan Status at 1644 s
- - - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - -
+Find finished jobs: {'opt_tmp/gid_+060/5', 'opt_tmp/gid_+020/2', 'opt_tmp/gid_+100/3', 'opt_tmp/gid_+120/1', 'opt_tmp/gid_+020/3', 'opt_tmp/gid_+080/4', 'opt_tmp/gid_+040/3', 'opt_tmp/gid_+000/1', 'opt_tmp/gid_+100/2', 'opt_tmp/gid_+080/5'}
+First energy for grid_id (0,) = -502.5536432411
+Energy for grid_id (20,) decreased from -502.5539459396 to -502.5539624425
+Energy for grid_id (80,) decreased from -502.5540985064 to -502.5541153531
+Energy for grid_id (100,) decreased from -502.5541232254 to -502.5541507663
+First energy for grid_id (120,) = -502.5543832164
+Scan Status at 1931 s
+ - - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - -
 
 Launching new job at opt_tmp/gid_-010/1
 Launching new job at opt_tmp/gid_+010/2
 Launching new job at opt_tmp/gid_+010/3
 Launching new job at opt_tmp/gid_+030/3
+Launching new job at opt_tmp/gid_+070/4
+Launching new job at opt_tmp/gid_+090/4
+Launching new job at opt_tmp/gid_+090/5
 Launching new job at opt_tmp/gid_+110/2
+Launching new job at opt_tmp/gid_+110/3
 Launching new job at opt_tmp/gid_+130/1
-Find finished jobs: {'opt_tmp/gid_+010/3', 'opt_tmp/gid_+110/2', 'opt_tmp/gid_+010/2', 'opt_tmp/gid_+030/3', 'opt_tmp/gid_-010/1', 'opt_tmp/gid_+130/1'}
-Energy for grid_id (10,) decreased from -502.5537217 to -502.55377262
-First energy for grid_id (130,) = -502.55444237
-First energy for grid_id (-10,) = -502.55367537
-Scan Status at 1878 s
- - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - -
+Find finished jobs: {'opt_tmp/gid_+110/2', 'opt_tmp/gid_-010/1', 'opt_tmp/gid_+010/3', 'opt_tmp/gid_+130/1', 'opt_tmp/gid_+070/4', 'opt_tmp/gid_+090/5', 'opt_tmp/gid_+110/3', 'opt_tmp/gid_+010/2', 'opt_tmp/gid_+090/4', 'opt_tmp/gid_+030/3'}
+Energy for grid_id (10,) decreased from -502.5537217616 to -502.5537727758
+Energy for grid_id (110,) decreased from -502.5542794348 to -502.5543599925
+First energy for grid_id (130,) = -502.5544270938
+First energy for grid_id (-10,) = -502.5536755986
+Scan Status at 2366 s
+ - - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - -
 
 Launching new job at opt_tmp/gid_+000/2
 Launching new job at opt_tmp/gid_+020/4
+Launching new job at opt_tmp/gid_+100/4
 Launching new job at opt_tmp/gid_+120/2
+Launching new job at opt_tmp/gid_+120/3
 Launching new job at opt_tmp/gid_+140/1
 Launching new job at opt_tmp/gid_-020/1
 Launching new job at opt_tmp/gid_+000/3
-Find finished jobs: {'opt_tmp/gid_+000/2', 'opt_tmp/gid_+020/4', 'opt_tmp/gid_+120/2', 'opt_tmp/gid_+140/1', 'opt_tmp/gid_-020/1', 'opt_tmp/gid_+000/3'}
-Energy for grid_id (0,) decreased from -502.55364297 to -502.5536999
-First energy for grid_id (140,) = -502.55446421
-First energy for grid_id (-20,) = -502.5538736
-Scan Status at 2142 s
- - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - -
+Find finished jobs: {'opt_tmp/gid_+140/1', 'opt_tmp/gid_+000/3', 'opt_tmp/gid_+000/2', 'opt_tmp/gid_+020/4', 'opt_tmp/gid_-020/1', 'opt_tmp/gid_+100/4', 'opt_tmp/gid_+120/2', 'opt_tmp/gid_+120/3'}
+Energy for grid_id (0,) decreased from -502.5536432411 to -502.5536999807
+Energy for grid_id (120,) decreased from -502.5543832164 to -502.5544662576
+First energy for grid_id (140,) = -502.5544477106
+First energy for grid_id (-20,) = -502.5538737469
+Scan Status at 2730 s
+ - - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - -
 
 Launching new job at opt_tmp/gid_-010/2
 Launching new job at opt_tmp/gid_+010/4
+Launching new job at opt_tmp/gid_+110/4
 Launching new job at opt_tmp/gid_+130/2
+Launching new job at opt_tmp/gid_+130/3
 Launching new job at opt_tmp/gid_+150/1
 Launching new job at opt_tmp/gid_-030/1
 Launching new job at opt_tmp/gid_-010/3
-Find finished jobs: {'opt_tmp/gid_+010/4', 'opt_tmp/gid_+130/2', 'opt_tmp/gid_+150/1', 'opt_tmp/gid_-010/3', 'opt_tmp/gid_-010/2', 'opt_tmp/gid_-030/1'}
-Energy for grid_id (130,) decreased from -502.55444237 to -502.55446737
-First energy for grid_id (150,) = -502.55425122
-Energy for grid_id (-10,) decreased from -502.55367537 to -502.5537115
-First energy for grid_id (-30,) = -502.55416458
-Scan Status at 2375 s
- - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - -
+Find finished jobs: {'opt_tmp/gid_+130/3', 'opt_tmp/gid_+150/1', 'opt_tmp/gid_-010/3', 'opt_tmp/gid_-010/2', 'opt_tmp/gid_+130/2', 'opt_tmp/gid_+010/4', 'opt_tmp/gid_+110/4', 'opt_tmp/gid_-030/1'}
+Energy for grid_id (110,) decreased from -502.5543599925 to -502.5543717063
+Energy for grid_id (130,) decreased from -502.5544270938 to -502.554510993
+First energy for grid_id (150,) = -502.5542297263
+Energy for grid_id (-10,) decreased from -502.5536755986 to -502.5537115649
+First energy for grid_id (-30,) = -502.5541648303
+Scan Status at 3057 s
+ - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - -
 
-Launching new job at opt_tmp/gid_+120/3
+Launching new job at opt_tmp/gid_+100/5
+Launching new job at opt_tmp/gid_+120/4
+Launching new job at opt_tmp/gid_+120/5
 Launching new job at opt_tmp/gid_+140/2
 Launching new job at opt_tmp/gid_+140/3
 Launching new job at opt_tmp/gid_+160/1
@@ -132,39 +147,36 @@ Launching new job at opt_tmp/gid_-020/2
 Launching new job at opt_tmp/gid_+000/4
 Launching new job at opt_tmp/gid_-040/1
 Launching new job at opt_tmp/gid_-020/3
-Find finished jobs: {'opt_tmp/gid_+120/3', 'opt_tmp/gid_+140/2', 'opt_tmp/gid_+000/4', 'opt_tmp/gid_-020/2', 'opt_tmp/gid_+160/1', 'opt_tmp/gid_+140/3', 'opt_tmp/gid_-040/1', 'opt_tmp/gid_-020/3'}
-Energy for grid_id (0,) decreased from -502.5536999 to -502.5537148
-Energy for grid_id (120,) decreased from -502.55441215 to -502.55443229
-First energy for grid_id (160,) = -502.5539426
-Energy for grid_id (-20,) decreased from -502.5538736 to -502.55390359
-First energy for grid_id (-40,) = -502.5543457
-Scan Status at 2658 s
+Find finished jobs: {'opt_tmp/gid_+140/3', 'opt_tmp/gid_-040/1', 'opt_tmp/gid_+140/2', 'opt_tmp/gid_+160/1', 'opt_tmp/gid_+000/4', 'opt_tmp/gid_-020/2', 'opt_tmp/gid_+100/5', 'opt_tmp/gid_+120/4', 'opt_tmp/gid_-020/3', 'opt_tmp/gid_+120/5'}
+Energy for grid_id (0,) decreased from -502.5536999807 to -502.553714828
+Energy for grid_id (120,) decreased from -502.5544662576 to -502.5544915123
+First energy for grid_id (160,) = -502.5539279151
+Energy for grid_id (-20,) decreased from -502.5538737469 to -502.5539037568
+First energy for grid_id (-40,) = -502.5543458383
+Scan Status at 3474 s
  - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m -
 
 Launching new job at opt_tmp/gid_-010/4
 Launching new job at opt_tmp/gid_+010/5
-Launching new job at opt_tmp/gid_+110/3
-Launching new job at opt_tmp/gid_+130/3
+Launching new job at opt_tmp/gid_+110/5
+Launching new job at opt_tmp/gid_+130/4
 Launching new job at opt_tmp/gid_+150/2
 Launching new job at opt_tmp/gid_+170/1
 Launching new job at opt_tmp/gid_-030/2
 Launching new job at opt_tmp/gid_-010/5
 Launching new job at opt_tmp/gid_-050/1
 Launching new job at opt_tmp/gid_-030/3
-Find finished jobs: {'opt_tmp/gid_+150/2', 'opt_tmp/gid_-030/2', 'opt_tmp/gid_-030/3', 'opt_tmp/gid_+130/3', 'opt_tmp/gid_+170/1', 'opt_tmp/gid_-050/1', 'opt_tmp/gid_-010/4', 'opt_tmp/gid_+010/5', 'opt_tmp/gid_+110/3', 'opt_tmp/gid_-010/5'}
-Energy for grid_id (10,) decreased from -502.55377262 to -502.55378351
-Energy for grid_id (130,) decreased from -502.55446737 to -502.55448495
-First energy for grid_id (170,) = -502.55374441
-Energy for grid_id (-10,) decreased from -502.5537115 to -502.55372899
-Energy for grid_id (-30,) decreased from -502.55416458 to -502.55419245
-First energy for grid_id (-50,) = -502.55443195
-Scan Status at 3064 s
- - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m
+Find finished jobs: {'opt_tmp/gid_+010/5', 'opt_tmp/gid_+130/4', 'opt_tmp/gid_+170/1', 'opt_tmp/gid_+110/5', 'opt_tmp/gid_-010/4', 'opt_tmp/gid_-010/5', 'opt_tmp/gid_-030/2', 'opt_tmp/gid_-030/3', 'opt_tmp/gid_-050/1', 'opt_tmp/gid_+150/2'}
+Energy for grid_id (10,) decreased from -502.5537727758 to -502.5537835078
+First energy for grid_id (170,) = -502.5537154023
+Energy for grid_id (-10,) decreased from -502.5537115649 to -502.5537290862
+Energy for grid_id (-30,) decreased from -502.5541648303 to -502.554192177
+First energy for grid_id (-50,) = -502.5544322954
+Scan Status at 3904 s
+ - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m
 
 Launching new job at opt_tmp/gid_+000/5
 Launching new job at opt_tmp/gid_+020/5
-Launching new job at opt_tmp/gid_+120/4
-Launching new job at opt_tmp/gid_+140/4
 Launching new job at opt_tmp/gid_+160/2
 Launching new job at opt_tmp/gid_+180/1
 Launching new job at opt_tmp/gid_-020/4
@@ -173,21 +185,15 @@ Launching new job at opt_tmp/gid_-040/2
 Launching new job at opt_tmp/gid_-020/5
 Launching new job at opt_tmp/gid_-060/1
 Launching new job at opt_tmp/gid_-040/3
-Find finished jobs: {'opt_tmp/gid_+120/4', 'opt_tmp/gid_+160/2', 'opt_tmp/gid_-020/5', 'opt_tmp/gid_+140/4', 'opt_tmp/gid_+020/5', 'opt_tmp/gid_+180/1', 'opt_tmp/gid_-040/2', 'opt_tmp/gid_-060/1', 'opt_tmp/gid_-040/3', 'opt_tmp/gid_+000/6', 'opt_tmp/gid_+000/5', 'opt_tmp/gid_-020/4'}
-Energy for grid_id (120,) decreased from -502.55443229 to -502.55445266
-Energy for grid_id (160,) decreased from -502.5539426 to -502.55405303
-First energy for grid_id (180,) = -502.55371725
-Energy for grid_id (-20,) decreased from -502.55390359 to -502.55394643
-Energy for grid_id (-40,) decreased from -502.5543457 to -502.55437728
-First energy for grid_id (-60,) = -502.55438347
-Scan Status at 3582 s
- [0;33m+[0m - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m
+Find finished jobs: {'opt_tmp/gid_+000/6', 'opt_tmp/gid_-040/2', 'opt_tmp/gid_+160/2', 'opt_tmp/gid_+020/5', 'opt_tmp/gid_-060/1', 'opt_tmp/gid_+000/5', 'opt_tmp/gid_-020/5', 'opt_tmp/gid_-020/4', 'opt_tmp/gid_-040/3', 'opt_tmp/gid_+180/1'}
+First energy for grid_id (180,) = -502.5536883517
+Energy for grid_id (-20,) decreased from -502.5539037568 to -502.5539954034
+Energy for grid_id (-40,) decreased from -502.5543458383 to -502.5543773134
+First energy for grid_id (-60,) = -502.5543676958
+Scan Status at 4376 s
+ [0;33m+[0m - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m
 
-Launching new job at opt_tmp/gid_+110/4
-Launching new job at opt_tmp/gid_+130/4
-Launching new job at opt_tmp/gid_+150/3
 Launching new job at opt_tmp/gid_+170/2
-Launching new job at opt_tmp/gid_+170/3
 Launching new job at opt_tmp/gid_-170/1
 Launching new job at opt_tmp/gid_-030/4
 Launching new job at opt_tmp/gid_-010/6
@@ -195,81 +201,65 @@ Launching new job at opt_tmp/gid_-050/2
 Launching new job at opt_tmp/gid_-030/5
 Launching new job at opt_tmp/gid_-070/1
 Launching new job at opt_tmp/gid_-050/3
-Find finished jobs: {'opt_tmp/gid_-070/1', 'opt_tmp/gid_-010/6', 'opt_tmp/gid_+110/4', 'opt_tmp/gid_-050/2', 'opt_tmp/gid_+170/2', 'opt_tmp/gid_+130/4', 'opt_tmp/gid_-030/4', 'opt_tmp/gid_-030/5', 'opt_tmp/gid_-050/3', 'opt_tmp/gid_+150/3', 'opt_tmp/gid_-170/1', 'opt_tmp/gid_+170/3'}
-Energy for grid_id (150,) decreased from -502.55425122 to -502.55428677
-Energy for grid_id (170,) decreased from -502.55374441 to -502.55377022
-Energy for grid_id (-30,) decreased from -502.55419245 to -502.55422449
-Energy for grid_id (-50,) decreased from -502.55443195 to -502.55446263
-First energy for grid_id (-70,) = -502.55429215
-First energy for grid_id (-170,) = -502.55376232
-Scan Status at 4056 s
- [0;36mo[0m [0;33m+[0m - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m
+Find finished jobs: {'opt_tmp/gid_-050/3', 'opt_tmp/gid_-010/6', 'opt_tmp/gid_-170/1', 'opt_tmp/gid_-070/1', 'opt_tmp/gid_-030/4', 'opt_tmp/gid_+170/2', 'opt_tmp/gid_-050/2', 'opt_tmp/gid_-030/5'}
+Energy for grid_id (170,) decreased from -502.5537154023 to -502.55373307
+Energy for grid_id (-30,) decreased from -502.554192177 to -502.5542423499
+First energy for grid_id (-70,) = -502.5543113023
+First energy for grid_id (-170,) = -502.553772856
+Scan Status at 4711 s
+ [0;36mo[0m [0;33m+[0m - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m
 
-Launching new job at opt_tmp/gid_+140/5
 Launching new job at opt_tmp/gid_+160/3
-Launching new job at opt_tmp/gid_+160/4
 Launching new job at opt_tmp/gid_+180/2
 Launching new job at opt_tmp/gid_-040/4
 Launching new job at opt_tmp/gid_-020/6
-Launching new job at opt_tmp/gid_-060/2
-Launching new job at opt_tmp/gid_-040/5
 Launching new job at opt_tmp/gid_-080/1
-Launching new job at opt_tmp/gid_-060/3
+Launching new job at opt_tmp/gid_-060/2
 Launching new job at opt_tmp/gid_+180/3
 Launching new job at opt_tmp/gid_-160/1
-Find finished jobs: {'opt_tmp/gid_-020/6', 'opt_tmp/gid_-160/1', 'opt_tmp/gid_-040/4', 'opt_tmp/gid_-060/2', 'opt_tmp/gid_-080/1', 'opt_tmp/gid_-060/3', 'opt_tmp/gid_+160/4', 'opt_tmp/gid_-040/5', 'opt_tmp/gid_+140/5', 'opt_tmp/gid_+180/2', 'opt_tmp/gid_+160/3', 'opt_tmp/gid_+180/3'}
-Energy for grid_id (-20,) decreased from -502.55394643 to -502.55397807
-Energy for grid_id (-40,) decreased from -502.55437728 to -502.55439305
-Energy for grid_id (-60,) decreased from -502.55438347 to -502.55441314
-First energy for grid_id (-80,) = -502.55405626
-First energy for grid_id (-160,) = -502.55400724
-Scan Status at 4561 s
- [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+Find finished jobs: {'opt_tmp/gid_-060/2', 'opt_tmp/gid_-080/1', 'opt_tmp/gid_+180/2', 'opt_tmp/gid_-020/6', 'opt_tmp/gid_-040/4', 'opt_tmp/gid_-160/1', 'opt_tmp/gid_+180/3', 'opt_tmp/gid_+160/3'}
+Energy for grid_id (160,) decreased from -502.5539279151 to -502.5539402808
+Energy for grid_id (180,) decreased from -502.5536883517 to -502.5537053374
+Energy for grid_id (-60,) decreased from -502.5543676958 to -502.5543945274
+First energy for grid_id (-80,) = -502.5540512188
+First energy for grid_id (-160,) = -502.5540447343
+Scan Status at 5069 s
+ [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m
 
-Launching new job at opt_tmp/gid_-030/6
-Launching new job at opt_tmp/gid_-010/7
-Launching new job at opt_tmp/gid_-050/4
-Launching new job at opt_tmp/gid_-030/7
+Launching new job at opt_tmp/gid_+150/3
+Launching new job at opt_tmp/gid_+170/3
+Launching new job at opt_tmp/gid_+170/4
+Launching new job at opt_tmp/gid_-170/2
 Launching new job at opt_tmp/gid_-070/2
-Launching new job at opt_tmp/gid_-050/5
+Launching new job at opt_tmp/gid_-050/4
 Launching new job at opt_tmp/gid_-090/1
 Launching new job at opt_tmp/gid_-070/3
-Launching new job at opt_tmp/gid_-170/2
+Launching new job at opt_tmp/gid_-170/3
 Launching new job at opt_tmp/gid_-150/1
-Find finished jobs: {'opt_tmp/gid_-030/6', 'opt_tmp/gid_-050/5', 'opt_tmp/gid_-070/2', 'opt_tmp/gid_-050/4', 'opt_tmp/gid_-170/2', 'opt_tmp/gid_-010/7', 'opt_tmp/gid_-070/3', 'opt_tmp/gid_-090/1', 'opt_tmp/gid_-150/1', 'opt_tmp/gid_-030/7'}
-Energy for grid_id (-30,) decreased from -502.55422449 to -502.55423822
-Energy for grid_id (-50,) decreased from -502.55446263 to -502.55454158
-Energy for grid_id (-70,) decreased from -502.55429215 to -502.55434978
-First energy for grid_id (-90,) = -502.5536664
-First energy for grid_id (-150,) = -502.55425554
-Energy for grid_id (-170,) decreased from -502.55376232 to -502.553775
-Scan Status at 5071 s
- [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m
+Find finished jobs: {'opt_tmp/gid_-170/2', 'opt_tmp/gid_-070/3', 'opt_tmp/gid_-050/4', 'opt_tmp/gid_+150/3', 'opt_tmp/gid_-090/1', 'opt_tmp/gid_-070/2', 'opt_tmp/gid_-170/3', 'opt_tmp/gid_+170/3', 'opt_tmp/gid_+170/4', 'opt_tmp/gid_-150/1'}
+Energy for grid_id (-50,) decreased from -502.5544322954 to -502.5545402094
+First energy for grid_id (-90,) = -502.5536708098
+First energy for grid_id (-150,) = -502.5542700903
+Scan Status at 5546 s
+ [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
-Launching new job at opt_tmp/gid_-040/6
-Launching new job at opt_tmp/gid_-020/7
-Launching new job at opt_tmp/gid_-060/4
-Launching new job at opt_tmp/gid_-040/7
-Launching new job at opt_tmp/gid_-080/2
-Launching new job at opt_tmp/gid_-060/5
+Launching new job at opt_tmp/gid_-060/3
+Launching new job at opt_tmp/gid_-040/5
 Launching new job at opt_tmp/gid_-100/1
-Launching new job at opt_tmp/gid_-080/3
+Launching new job at opt_tmp/gid_-080/2
 Launching new job at opt_tmp/gid_-160/2
 Launching new job at opt_tmp/gid_-140/1
-Launching new job at opt_tmp/gid_+180/4
-Launching new job at opt_tmp/gid_-160/3
-Find finished jobs: {'opt_tmp/gid_-040/6', 'opt_tmp/gid_-080/2', 'opt_tmp/gid_-060/4', 'opt_tmp/gid_-060/5', 'opt_tmp/gid_+180/4', 'opt_tmp/gid_-100/1', 'opt_tmp/gid_-140/1', 'opt_tmp/gid_-040/7', 'opt_tmp/gid_-160/3', 'opt_tmp/gid_-160/2', 'opt_tmp/gid_-020/7', 'opt_tmp/gid_-080/3'}
-Energy for grid_id (-20,) decreased from -502.55397807 to -502.55398914
-Energy for grid_id (-60,) decreased from -502.55441314 to -502.55444849
-Energy for grid_id (-80,) decreased from -502.55405626 to -502.55407557
-First energy for grid_id (-100,) = -502.55412202
-First energy for grid_id (-140,) = -502.55438751
-Energy for grid_id (-160,) decreased from -502.55400724 to -502.55403315
-Scan Status at 5593 s
- [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+Find finished jobs: {'opt_tmp/gid_-040/5', 'opt_tmp/gid_-080/2', 'opt_tmp/gid_-140/1', 'opt_tmp/gid_-100/1', 'opt_tmp/gid_-160/2', 'opt_tmp/gid_-060/3'}
+Energy for grid_id (-40,) decreased from -502.5543773134 to -502.5543957297
+Energy for grid_id (-60,) decreased from -502.5543945274 to -502.5544527665
+Energy for grid_id (-80,) decreased from -502.5540512188 to -502.5540747124
+First energy for grid_id (-100,) = -502.5540953201
+First energy for grid_id (-140,) = -502.5543988762
+Scan Status at 5837 s
+ [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
-Launching new job at opt_tmp/gid_-030/8
-Launching new job at opt_tmp/gid_-010/8
+Launching new job at opt_tmp/gid_-050/5
+Launching new job at opt_tmp/gid_-030/6
 Launching new job at opt_tmp/gid_-070/4
 Launching new job at opt_tmp/gid_-050/6
 Launching new job at opt_tmp/gid_-090/2
@@ -278,97 +268,85 @@ Launching new job at opt_tmp/gid_-110/1
 Launching new job at opt_tmp/gid_-090/3
 Launching new job at opt_tmp/gid_-150/2
 Launching new job at opt_tmp/gid_-130/1
-Launching new job at opt_tmp/gid_-170/3
-Launching new job at opt_tmp/gid_-150/3
-Find finished jobs: {'opt_tmp/gid_-150/3', 'opt_tmp/gid_-150/2', 'opt_tmp/gid_-090/3', 'opt_tmp/gid_-130/1', 'opt_tmp/gid_-030/8', 'opt_tmp/gid_-090/2', 'opt_tmp/gid_-070/4', 'opt_tmp/gid_-010/8', 'opt_tmp/gid_-110/1', 'opt_tmp/gid_-050/6', 'opt_tmp/gid_-170/3', 'opt_tmp/gid_-070/5'}
-Energy for grid_id (-70,) decreased from -502.55434978 to -502.55436858
-First energy for grid_id (-110,) = -502.55441536
-First energy for grid_id (-130,) = -502.55447519
-Energy for grid_id (-150,) decreased from -502.55425554 to -502.55427667
-Scan Status at 6183 s
- [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+Find finished jobs: {'opt_tmp/gid_-050/5', 'opt_tmp/gid_-050/6', 'opt_tmp/gid_-130/1', 'opt_tmp/gid_-070/5', 'opt_tmp/gid_-110/1', 'opt_tmp/gid_-090/2', 'opt_tmp/gid_-030/6', 'opt_tmp/gid_-070/4', 'opt_tmp/gid_-090/3', 'opt_tmp/gid_-150/2'}
+First energy for grid_id (-110,) = -502.5544491971
+First energy for grid_id (-130,) = -502.5545300509
+Energy for grid_id (-150,) decreased from -502.5542700903 to -502.5542834444
+Scan Status at 6345 s
+ [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
-Launching new job at opt_tmp/gid_-080/4
-Launching new job at opt_tmp/gid_-060/6
 Launching new job at opt_tmp/gid_-120/1
 Launching new job at opt_tmp/gid_-100/2
 Launching new job at opt_tmp/gid_-140/2
 Launching new job at opt_tmp/gid_-120/2
-Launching new job at opt_tmp/gid_-160/4
+Launching new job at opt_tmp/gid_-160/3
 Launching new job at opt_tmp/gid_-140/3
-Find finished jobs: {'opt_tmp/gid_-080/4', 'opt_tmp/gid_-100/2', 'opt_tmp/gid_-060/6', 'opt_tmp/gid_-120/1', 'opt_tmp/gid_-140/2', 'opt_tmp/gid_-120/2', 'opt_tmp/gid_-160/4', 'opt_tmp/gid_-140/3'}
-Energy for grid_id (-100,) decreased from -502.55412202 to -502.55414397
-First energy for grid_id (-120,) = -502.55458227
-Scan Status at 6513 s
- [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+Find finished jobs: {'opt_tmp/gid_-160/3', 'opt_tmp/gid_-140/3', 'opt_tmp/gid_-100/2', 'opt_tmp/gid_-120/1', 'opt_tmp/gid_-120/2', 'opt_tmp/gid_-140/2'}
+Energy for grid_id (-100,) decreased from -502.5540953201 to -502.5541423052
+First energy for grid_id (-120,) = -502.5545835505
+Energy for grid_id (-140,) decreased from -502.5543988762 to -502.5544100074
+Scan Status at 6589 s
+ [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_-110/2
 Launching new job at opt_tmp/gid_-090/4
 Launching new job at opt_tmp/gid_-130/2
 Launching new job at opt_tmp/gid_-110/3
-Find finished jobs: {'opt_tmp/gid_-130/2', 'opt_tmp/gid_-110/2', 'opt_tmp/gid_-110/3', 'opt_tmp/gid_-090/4'}
-Energy for grid_id (-110,) decreased from -502.55441536 to -502.55445255
-Energy for grid_id (-130,) decreased from -502.55447519 to -502.55454081
-Scan Status at 6670 s
- [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+Launching new job at opt_tmp/gid_-150/3
+Launching new job at opt_tmp/gid_-130/3
+Find finished jobs: {'opt_tmp/gid_-130/3', 'opt_tmp/gid_-130/2', 'opt_tmp/gid_-090/4', 'opt_tmp/gid_-110/3', 'opt_tmp/gid_-110/2', 'opt_tmp/gid_-150/3'}
+Energy for grid_id (-130,) decreased from -502.5545300509 to -502.5545806876
+Scan Status at 6878 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
-Launching new job at opt_tmp/gid_-120/3
-Launching new job at opt_tmp/gid_-100/3
 Launching new job at opt_tmp/gid_-140/4
-Launching new job at opt_tmp/gid_-120/4
-Find finished jobs: {'opt_tmp/gid_-120/3', 'opt_tmp/gid_-100/3', 'opt_tmp/gid_-120/4', 'opt_tmp/gid_-140/4'}
-Energy for grid_id (-140,) decreased from -502.55438751 to -502.55448822
-Scan Status at 6851 s
+Launching new job at opt_tmp/gid_-120/3
+Find finished jobs: {'opt_tmp/gid_-140/4', 'opt_tmp/gid_-120/3'}
+Energy for grid_id (-140,) decreased from -502.5544100074 to -502.5544825016
+Scan Status at 6978 s
  [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_-150/4
-Launching new job at opt_tmp/gid_-130/3
-Find finished jobs: {'opt_tmp/gid_-150/4', 'opt_tmp/gid_-130/3'}
-Energy for grid_id (-130,) decreased from -502.55454081 to -502.55458254
-Scan Status at 6934 s
- [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
-
-Launching new job at opt_tmp/gid_-140/5
-Launching new job at opt_tmp/gid_-120/5
-Find finished jobs: {'opt_tmp/gid_-140/5', 'opt_tmp/gid_-120/5'}
+Launching new job at opt_tmp/gid_-130/4
+Find finished jobs: {'opt_tmp/gid_-150/4', 'opt_tmp/gid_-130/4'}
 All optimizations converged at lowest energy. Job Finished!
-Final scan energies are written to qdata.txt
+Final scan energies and gradients are written to qdata.txt
 Final scan energies are written to scan.xyz
 Dihedral scan is finished!
  Grid ID                Energy
-  (-170,)              -502.5537750000
-  (-160,)              -502.5540331500
-  (-150,)              -502.5542766700
-  (-140,)              -502.5544882200
-  (-130,)              -502.5545825400
-  (-120,)              -502.5545822700
-  (-110,)              -502.5544525500
-  (-100,)              -502.5541439700
-  (-90,)               -502.5536664000
-  (-80,)               -502.5540755700
-  (-70,)               -502.5543685800
-  (-60,)               -502.5544484900
-  (-50,)               -502.5545415800
-  (-40,)               -502.5543930500
-  (-30,)               -502.5542382200
-  (-20,)               -502.5539891400
-  (-10,)               -502.5537289900
-  (0,)                 -502.5537148000
-  (10,)                -502.5537835100
-  (20,)                -502.5539624800
-  (30,)                -502.5542341500
-  (40,)                -502.5544204800
-  (50,)                -502.5544970500
-  (60,)                -502.5545148000
-  (70,)                -502.5544176300
-  (80,)                -502.5541026600
-  (90,)                -502.5537508800
-  (100,)               -502.5541294100
-  (110,)               -502.5543570100
-  (120,)               -502.5544526600
-  (130,)               -502.5544849500
-  (140,)               -502.5544642100
-  (150,)               -502.5542867700
-  (160,)               -502.5540530300
-  (170,)               -502.5537702200
-  (180,)               -502.5537172500
+  (-170,)              -502.5537728560
+  (-160,)              -502.5540447343
+  (-150,)              -502.5542834444
+  (-140,)              -502.5544825016
+  (-130,)              -502.5545806876
+  (-120,)              -502.5545835505
+  (-110,)              -502.5544491971
+  (-100,)              -502.5541423052
+  (-90,)               -502.5536708098
+  (-80,)               -502.5540747124
+  (-70,)               -502.5543113023
+  (-60,)               -502.5544527665
+  (-50,)               -502.5545402094
+  (-40,)               -502.5543957297
+  (-30,)               -502.5542423499
+  (-20,)               -502.5539954034
+  (-10,)               -502.5537290862
+  (0,)                 -502.5537148280
+  (10,)                -502.5537835078
+  (20,)                -502.5539624425
+  (30,)                -502.5542342932
+  (40,)                -502.5544205373
+  (50,)                -502.5544970987
+  (60,)                -502.5545147970
+  (70,)                -502.5544298841
+  (80,)                -502.5541153531
+  (90,)                -502.5537368962
+  (100,)               -502.5541507663
+  (110,)               -502.5543717063
+  (120,)               -502.5544915123
+  (130,)               -502.5545109930
+  (140,)               -502.5544477106
+  (150,)               -502.5542297263
+  (160,)               -502.5539402808
+  (170,)               -502.5537330700
+  (180,)               -502.5537053374
