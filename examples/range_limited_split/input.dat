@@ -1,4 +1,6 @@
-$molecule
+memory 500 mb
+
+molecule {
 0 1
 C        1.4340835148   -0.5621352696    0.0048993071
 C        0.6654134931    0.7589728560   -0.0082982167
@@ -12,14 +14,10 @@ H       -1.2808960564    1.1392669997   -0.9016102134
 H       -1.3052246408    1.1069251861    0.8593935653
 O       -1.4024563692   -0.7218347713   -0.0222345703
 H       -0.6648946660   -1.3228052916   -0.2543109152
-$end
+}
 
-$rem
-jobtype               force
-exchange              hf
-correlation           rimp2
-basis                 6-31g*
-aux_basis             rimp2-vdz
-n_frozen_core         fc
-mem_static            800
-$end
+set {
+basis 6-31g
+}
+
+gradient('b3lyp')

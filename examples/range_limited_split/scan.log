@@ -1,4 +1,4 @@
-/home/qyd/codes/anaconda3/envs/geometric/bin/torsiondrive-launch qc.in dihedrals.txt -g 15 30 -e qchem -v --wq_port 50124
+/home/qyd/codes/anaconda3/envs/tdtest/bin/torsiondrive-launch input.dat dihedrals.txt -g 15 30 -e psi4 -v --wq_port 50124
 Dihedral scan initialized with range limit [[-60, 60], [150, 330]]
 Master process started!
 1 initial tasks pushed to opt_queue
@@ -21,9 +21,9 @@ Scan Status at 0 s
 
 Launching new job at opt_tmp/gid_+000_-030/1
 Find finished jobs: {'opt_tmp/gid_+000_-030/1'}
-First energy for grid_id (0, -30) = -193.672307
+First energy for grid_id (0, -30) = -194.285694726
 Task with target grid_id (0, 0) skipped because 0 doesn't fit in range limit
-Scan Status at 67 s
+Scan Status at 119 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -44,13 +44,14 @@ Launching new job at opt_tmp/gid_-015_-030/1
 Launching new job at opt_tmp/gid_+015_-030/1
 Launching new job at opt_tmp/gid_+000_-060/1
 Find finished jobs: {'opt_tmp/gid_+000_-060/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-030/1', 'opt_tmp/gid_+015_-030/1'}
-First energy for grid_id (0, -60) = -193.674688
-First energy for grid_id (15, -30) = -193.673309
-First energy for grid_id (-15, -30) = -193.673686
+Find finished jobs: {'opt_tmp/gid_-015_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-030/1'}
+First energy for grid_id (0, -60) = -194.2876298847
+First energy for grid_id (15, -30) = -194.2865570603
+First energy for grid_id (-15, -30) = -194.2868011192
 Task with target grid_id (15, 0) skipped because 0 doesn't fit in range limit
 Task with target grid_id (-15, 0) skipped because 0 doesn't fit in range limit
-Scan Status at 112 s
+Scan Status at 262 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -77,23 +78,21 @@ Launching new job at opt_tmp/gid_+015_-060/2
 Launching new job at opt_tmp/gid_-030_-030/1
 Launching new job at opt_tmp/gid_+000_-030/4
 Launching new job at opt_tmp/gid_-015_-060/2
-Find finished jobs: {'opt_tmp/gid_+000_-090/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-060/1'}
 Find finished jobs: {'opt_tmp/gid_+015_-060/1'}
-Find finished jobs: {'opt_tmp/gid_+000_-030/2'}
-Find finished jobs: {'opt_tmp/gid_+000_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-015_-060/1', 'opt_tmp/gid_+015_-060/2', 'opt_tmp/gid_+000_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-090/1', 'opt_tmp/gid_-015_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+000_-030/4'}
 Find finished jobs: {'opt_tmp/gid_+030_-030/1'}
-Find finished jobs: {'opt_tmp/gid_+015_-060/2'}
-Find finished jobs: {'opt_tmp/gid_+000_-030/4', 'opt_tmp/gid_-030_-030/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-060/2'}
-First energy for grid_id (0, -90) = -193.674116
-First energy for grid_id (15, -60) = -193.675692
-First energy for grid_id (30, -30) = -193.675988
-First energy for grid_id (-15, -60) = -193.676243
-First energy for grid_id (-30, -30) = -193.676859
+Find finished jobs: {'opt_tmp/gid_+000_-030/3'}
+First energy for grid_id (0, -90) = -194.2869509874
+First energy for grid_id (15, -60) = -194.2884713177
+First energy for grid_id (30, -30) = -194.2888266699
+First energy for grid_id (-15, -60) = -194.2889052292
+First energy for grid_id (-30, -30) = -194.2894445382
 Task with target grid_id (30, 0) skipped because 0 doesn't fit in range limit
 Task with target grid_id (-30, 0) skipped because 0 doesn't fit in range limit
-Scan Status at 246 s
+Scan Status at 422 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -128,33 +127,29 @@ Launching new job at opt_tmp/gid_-015_-030/2
 Launching new job at opt_tmp/gid_-045_-030/1
 Launching new job at opt_tmp/gid_-015_-030/3
 Launching new job at opt_tmp/gid_-030_-060/2
-Find finished jobs: {'opt_tmp/gid_+000_-120/1'}
-Find finished jobs: {'opt_tmp/gid_+015_-090/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-030/3', 'opt_tmp/gid_-015_-090/2'}
 Find finished jobs: {'opt_tmp/gid_+000_-060/2'}
-Find finished jobs: {'opt_tmp/gid_+030_-060/1', 'opt_tmp/gid_+000_-060/3'}
-Find finished jobs: {'opt_tmp/gid_+015_-090/2'}
-Find finished jobs: {'opt_tmp/gid_+015_-030/2'}
-Find finished jobs: {'opt_tmp/gid_+015_-030/3'}
-Find finished jobs: {'opt_tmp/gid_+045_-030/1'}
-Find finished jobs: {'opt_tmp/gid_+030_-060/2'}
-Find finished jobs: {'opt_tmp/gid_-030_-060/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-090/2'}
-Find finished jobs: {'opt_tmp/gid_+000_-060/4'}
 Find finished jobs: {'opt_tmp/gid_-015_-030/2'}
-Find finished jobs: {'opt_tmp/gid_-045_-030/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-030/3'}
-Find finished jobs: {'opt_tmp/gid_-030_-060/2'}
-First energy for grid_id (0, -120) = -193.672475
-First energy for grid_id (15, -90) = -193.674985
-First energy for grid_id (30, -60) = -193.678450
-First energy for grid_id (45, -30) = -193.678884
-First energy for grid_id (-15, -90) = -193.675727
-First energy for grid_id (-30, -60) = -193.679424
-First energy for grid_id (-45, -30) = -193.680103
+Find finished jobs: {'opt_tmp/gid_+015_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+000_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+000_-060/3', 'opt_tmp/gid_-015_-090/1', 'opt_tmp/gid_-030_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-090/1', 'opt_tmp/gid_+030_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+030_-060/1', 'opt_tmp/gid_-045_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-030/3'}
+First energy for grid_id (0, -120) = -194.2853430493
+First energy for grid_id (15, -90) = -194.2876829054
+First energy for grid_id (30, -60) = -194.2907773411
+First energy for grid_id (45, -30) = -194.2913493988
+First energy for grid_id (-15, -90) = -194.2883317333
+First energy for grid_id (-30, -60) = -194.2916064914
+First energy for grid_id (-45, -30) = -194.2922528179
 Task with target grid_id (45, 0) skipped because 0 doesn't fit in range limit
 Task with target grid_id (-45, 0) skipped because 0 doesn't fit in range limit
-Scan Status at 505 s
+Scan Status at 591 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -197,43 +192,40 @@ Launching new job at opt_tmp/gid_-030_-030/2
 Launching new job at opt_tmp/gid_-060_-030/1
 Launching new job at opt_tmp/gid_-030_-030/3
 Launching new job at opt_tmp/gid_-045_-060/2
-Find finished jobs: {'opt_tmp/gid_+000_-150/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-120/1', 'opt_tmp/gid_+015_-120/1'}
 Find finished jobs: {'opt_tmp/gid_+000_-090/2'}
 Find finished jobs: {'opt_tmp/gid_+030_-090/1'}
-Find finished jobs: {'opt_tmp/gid_+000_-090/3'}
-Find finished jobs: {'opt_tmp/gid_+015_-120/2'}
-Find finished jobs: {'opt_tmp/gid_+015_-060/3'}
-Find finished jobs: {'opt_tmp/gid_+015_-060/4'}
 Find finished jobs: {'opt_tmp/gid_+045_-060/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+015_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-045_-060/1', 'opt_tmp/gid_-030_-090/2'}
 Find finished jobs: {'opt_tmp/gid_+030_-090/2'}
-Find finished jobs: {'opt_tmp/gid_+030_-030/2'}
-Find finished jobs: {'opt_tmp/gid_+030_-030/3'}
-Find finished jobs: {'opt_tmp/gid_+060_-030/1', 'opt_tmp/gid_+045_-060/2'}
-Find finished jobs: {'opt_tmp/gid_-015_-120/2', 'opt_tmp/gid_-030_-090/1'}
-Find finished jobs: {'opt_tmp/gid_+000_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+015_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-030_-090/1', 'opt_tmp/gid_+000_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-015_-120/1', 'opt_tmp/gid_-015_-060/4'}
+Find finished jobs: {'opt_tmp/gid_+030_-030/2', 'opt_tmp/gid_+000_-090/4'}
 Find finished jobs: {'opt_tmp/gid_-015_-060/3'}
-Find finished jobs: {'opt_tmp/gid_-045_-060/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-060/4'}
-Find finished jobs: {'opt_tmp/gid_-030_-090/2'}
-Find finished jobs: {'opt_tmp/gid_-030_-030/2'}
-Find finished jobs: {'opt_tmp/gid_-060_-030/1'}
-Find finished jobs: {'opt_tmp/gid_-030_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+030_-030/3'}
+Find finished jobs: {'opt_tmp/gid_+015_-120/1', 'opt_tmp/gid_+000_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+060_-030/1', 'opt_tmp/gid_-030_-030/2'}
 Find finished jobs: {'opt_tmp/gid_-045_-060/2'}
-First energy for grid_id (0, -150) = -193.673055
-First energy for grid_id (15, -120) = -193.673468
-First energy for grid_id (30, -90) = -193.677835
-First energy for grid_id (45, -60) = -193.681235
-First energy for grid_id (60, -30) = -193.680540
-First energy for grid_id (-15, -120) = -193.673996
-First energy for grid_id (-30, -90) = -193.678750
-First energy for grid_id (-45, -60) = -193.682292
-First energy for grid_id (-60, -30) = -193.681517
+Find finished jobs: {'opt_tmp/gid_-030_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-060_-030/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-120/2'}
+First energy for grid_id (0, -150) = -194.2857235049
+First energy for grid_id (15, -120) = -194.2861597563
+First energy for grid_id (30, -90) = -194.2901008672
+First energy for grid_id (45, -60) = -194.2932139449
+First energy for grid_id (60, -30) = -194.2928876932
+First energy for grid_id (-15, -120) = -194.2866901494
+First energy for grid_id (-30, -90) = -194.290961318
+First energy for grid_id (-45, -60) = -194.2941528877
+First energy for grid_id (-60, -30) = -194.2935612864
 Task with target grid_id (75, -30) skipped because 75 doesn't fit in range limit
 Task with target grid_id (60, 0) skipped because 0 doesn't fit in range limit
 Task with target grid_id (-75, -30) skipped because -75 doesn't fit in range limit
 Task with target grid_id (-60, 0) skipped because 0 doesn't fit in range limit
-Scan Status at 843 s
+Scan Status at 852 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -282,47 +274,41 @@ Launching new job at opt_tmp/gid_-045_-090/2
 Launching new job at opt_tmp/gid_-045_-030/2
 Launching new job at opt_tmp/gid_-045_-030/3
 Launching new job at opt_tmp/gid_-060_-060/2
-Find finished jobs: {'opt_tmp/gid_+000_+180/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-150/1', 'opt_tmp/gid_+015_-150/1'}
-Find finished jobs: {'opt_tmp/gid_+000_-120/2'}
-Find finished jobs: {'opt_tmp/gid_+000_-120/3', 'opt_tmp/gid_+030_-120/1'}
-Find finished jobs: {'opt_tmp/gid_+015_-150/2'}
-Find finished jobs: {'opt_tmp/gid_+015_-090/3'}
-Find finished jobs: {'opt_tmp/gid_+015_-090/4'}
-Find finished jobs: {'opt_tmp/gid_+045_-090/1'}
-Find finished jobs: {'opt_tmp/gid_+030_-120/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-120/1', 'opt_tmp/gid_+030_-120/2'}
+Find finished jobs: {'opt_tmp/gid_+060_-060/1'}
 Find finished jobs: {'opt_tmp/gid_+030_-060/3'}
-Find finished jobs: {'opt_tmp/gid_+030_-060/4'}
-Find finished jobs: {'opt_tmp/gid_+060_-060/1', 'opt_tmp/gid_+045_-090/2'}
-Find finished jobs: {'opt_tmp/gid_+045_-030/2'}
+Find finished jobs: {'opt_tmp/gid_+045_-090/2'}
+Find finished jobs: {'opt_tmp/gid_+000_-120/3', 'opt_tmp/gid_+000_+180/1'}
 Find finished jobs: {'opt_tmp/gid_+060_-060/2'}
-Find finished jobs: {'opt_tmp/gid_+045_-030/3'}
-Find finished jobs: {'opt_tmp/gid_-030_-120/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-150/2'}
-Find finished jobs: {'opt_tmp/gid_+000_-120/4'}
-Find finished jobs: {'opt_tmp/gid_-015_-090/3'}
-Find finished jobs: {'opt_tmp/gid_-045_-090/1'}
+Find finished jobs: {'opt_tmp/gid_-015_-150/2', 'opt_tmp/gid_+015_-150/2', 'opt_tmp/gid_-015_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+000_-120/2', 'opt_tmp/gid_+045_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-090/3'}
+Find finished jobs: {'opt_tmp/gid_+030_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-030/3', 'opt_tmp/gid_-015_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-090/4', 'opt_tmp/gid_+045_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-045_-090/1', 'opt_tmp/gid_+015_-150/1'}
 Find finished jobs: {'opt_tmp/gid_-015_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+030_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-030_-060/3', 'opt_tmp/gid_+000_-120/4'}
 Find finished jobs: {'opt_tmp/gid_-030_-120/2'}
-Find finished jobs: {'opt_tmp/gid_-030_-060/3'}
-Find finished jobs: {'opt_tmp/gid_-060_-060/1'}
-Find finished jobs: {'opt_tmp/gid_-030_-060/4'}
 Find finished jobs: {'opt_tmp/gid_-045_-090/2'}
-Find finished jobs: {'opt_tmp/gid_-045_-030/2'}
-Find finished jobs: {'opt_tmp/gid_-045_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-060_-060/1'}
 Find finished jobs: {'opt_tmp/gid_-060_-060/2'}
-First energy for grid_id (0, 180) = -193.674025
-First energy for grid_id (15, -150) = -193.674251
-First energy for grid_id (30, -120) = -193.676422
-First energy for grid_id (45, -90) = -193.680884
-First energy for grid_id (60, -60) = -193.682598
-First energy for grid_id (-15, -150) = -193.674489
-First energy for grid_id (-30, -120) = -193.677090
-First energy for grid_id (-45, -90) = -193.681441
-First energy for grid_id (-60, -60) = -193.683292
+Find finished jobs: {'opt_tmp/gid_-045_-030/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-060/4'}
+Find finished jobs: {'opt_tmp/gid_-045_-030/3'}
+First energy for grid_id (0, 180) = -194.2865320219
+First energy for grid_id (15, -150) = -194.2867204916
+First energy for grid_id (30, -120) = -194.2887144706
+First energy for grid_id (45, -90) = -194.2927485979
+First energy for grid_id (60, -60) = -194.2945726596
+First energy for grid_id (-15, -150) = -194.2869903667
+First energy for grid_id (-30, -120) = -194.2893906719
+First energy for grid_id (-45, -90) = -194.2933575538
+First energy for grid_id (-60, -60) = -194.2950944233
 Task with target grid_id (75, -60) skipped because 75 doesn't fit in range limit
 Task with target grid_id (-75, -60) skipped because -75 doesn't fit in range limit
-Scan Status at 1258 s
+Scan Status at 1105 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -374,46 +360,41 @@ Launching new job at opt_tmp/gid_-045_-060/4
 Launching new job at opt_tmp/gid_-060_-090/2
 Launching new job at opt_tmp/gid_-060_-030/2
 Find finished jobs: {'opt_tmp/gid_+000_+150/1'}
-Find finished jobs: {'opt_tmp/gid_+015_+180/1', 'opt_tmp/gid_-015_+180/1'}
-Find finished jobs: {'opt_tmp/gid_+000_-150/2'}
-Find finished jobs: {'opt_tmp/gid_+000_-150/3', 'opt_tmp/gid_+030_-150/1'}
-Find finished jobs: {'opt_tmp/gid_+015_+180/2'}
-Find finished jobs: {'opt_tmp/gid_+015_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+060_-030/2', 'opt_tmp/gid_+030_-090/4'}
+Find finished jobs: {'opt_tmp/gid_+045_-060/4', 'opt_tmp/gid_+045_-120/2'}
 Find finished jobs: {'opt_tmp/gid_+015_-120/4'}
-Find finished jobs: {'opt_tmp/gid_+045_-120/1'}
-Find finished jobs: {'opt_tmp/gid_+030_-150/2'}
-Find finished jobs: {'opt_tmp/gid_+030_-090/3'}
-Find finished jobs: {'opt_tmp/gid_+030_-090/4'}
-Find finished jobs: {'opt_tmp/gid_+060_-090/1', 'opt_tmp/gid_+045_-120/2'}
-Find finished jobs: {'opt_tmp/gid_+045_-060/3'}
-Find finished jobs: {'opt_tmp/gid_+060_-090/2'}
-Find finished jobs: {'opt_tmp/gid_+045_-060/4'}
-Find finished jobs: {'opt_tmp/gid_+060_-030/2'}
-Find finished jobs: {'opt_tmp/gid_-030_-150/1'}
-Find finished jobs: {'opt_tmp/gid_-015_+180/2', 'opt_tmp/gid_+000_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+015_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-015_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+030_-090/3', 'opt_tmp/gid_+060_-090/1'}
+Find finished jobs: {'opt_tmp/gid_+000_-150/2', 'opt_tmp/gid_+030_-150/2'}
+Find finished jobs: {'opt_tmp/gid_-030_-150/1', 'opt_tmp/gid_+030_-150/1', 'opt_tmp/gid_+045_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+015_-120/3'}
 Find finished jobs: {'opt_tmp/gid_-015_-120/3'}
-Find finished jobs: {'opt_tmp/gid_-015_-120/4', 'opt_tmp/gid_-045_-120/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-060/3', 'opt_tmp/gid_-015_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+060_-090/2'}
+Find finished jobs: {'opt_tmp/gid_-060_-090/1'}
 Find finished jobs: {'opt_tmp/gid_-030_-150/2'}
 Find finished jobs: {'opt_tmp/gid_-030_-090/3'}
-Find finished jobs: {'opt_tmp/gid_-060_-090/1'}
-Find finished jobs: {'opt_tmp/gid_-030_-090/4'}
-Find finished jobs: {'opt_tmp/gid_-045_-120/2'}
-Find finished jobs: {'opt_tmp/gid_-045_-060/3'}
-Find finished jobs: {'opt_tmp/gid_-060_-090/2', 'opt_tmp/gid_-045_-060/4'}
-Find finished jobs: {'opt_tmp/gid_-060_-030/2'}
-First energy for grid_id (0, 150) = -193.673055
-First energy for grid_id (15, 180) = -193.675362
-First energy for grid_id (30, -150) = -193.677316
-First energy for grid_id (45, -120) = -193.679651
-First energy for grid_id (60, -90) = -193.682365
-First energy for grid_id (-15, 180) = -193.675362
-First energy for grid_id (-30, -150) = -193.677686
-First energy for grid_id (-45, -120) = -193.679954
-First energy for grid_id (-60, -90) = -193.682345
+Find finished jobs: {'opt_tmp/gid_+000_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+000_-150/4', 'opt_tmp/gid_-015_-120/4'}
+Find finished jobs: {'opt_tmp/gid_-045_-120/1'}
+Find finished jobs: {'opt_tmp/gid_-045_-120/2', 'opt_tmp/gid_-030_-090/4'}
+Find finished jobs: {'opt_tmp/gid_-060_-090/2', 'opt_tmp/gid_-060_-030/2', 'opt_tmp/gid_-045_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-045_-060/4'}
+First energy for grid_id (0, 150) = -194.2857232128
+First energy for grid_id (15, 180) = -194.287684315
+First energy for grid_id (30, -150) = -194.2893890767
+First energy for grid_id (45, -120) = -194.291596098
+First energy for grid_id (60, -90) = -194.2941794635
+First energy for grid_id (-15, 180) = -194.2876841819
+First energy for grid_id (-30, -150) = -194.2897737855
+First energy for grid_id (-45, -120) = -194.291911114
+First energy for grid_id (-60, -90) = -194.2941557685
 Task with target grid_id (0, 120) skipped because 120 doesn't fit in range limit
 Task with target grid_id (75, -90) skipped because 75 doesn't fit in range limit
 Task with target grid_id (-75, -90) skipped because -75 doesn't fit in range limit
-Scan Status at 1688 s
+Scan Status at 1328 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -463,51 +444,43 @@ Launching new job at opt_tmp/gid_-045_-090/3
 Launching new job at opt_tmp/gid_-045_-090/4
 Launching new job at opt_tmp/gid_-060_-120/2
 Launching new job at opt_tmp/gid_-060_-060/3
-Find finished jobs: {'opt_tmp/gid_+000_+180/2'}
-Find finished jobs: {'opt_tmp/gid_-015_+150/1', 'opt_tmp/gid_+015_+150/1'}
-Find finished jobs: {'opt_tmp/gid_+000_+180/3'}
-Find finished jobs: {'opt_tmp/gid_+015_+150/2'}
-Find finished jobs: {'opt_tmp/gid_+030_+180/1'}
-Find finished jobs: {'opt_tmp/gid_+015_-150/3'}
-Find finished jobs: {'opt_tmp/gid_+015_-150/4'}
-Find finished jobs: {'opt_tmp/gid_+045_-150/1'}
-Find finished jobs: {'opt_tmp/gid_+030_+180/2'}
 Find finished jobs: {'opt_tmp/gid_+030_-120/3'}
-Find finished jobs: {'opt_tmp/gid_+030_-120/4'}
-Find finished jobs: {'opt_tmp/gid_+060_-120/1'}
-Find finished jobs: {'opt_tmp/gid_+045_-150/2'}
-Find finished jobs: {'opt_tmp/gid_+045_-090/3'}
 Find finished jobs: {'opt_tmp/gid_+060_-120/2'}
-Find finished jobs: {'opt_tmp/gid_+045_-090/4'}
-Find finished jobs: {'opt_tmp/gid_+060_-060/3'}
-Find finished jobs: {'opt_tmp/gid_-030_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-090/4', 'opt_tmp/gid_+045_-150/2', 'opt_tmp/gid_+045_-090/3'}
 Find finished jobs: {'opt_tmp/gid_+000_+180/4'}
-Find finished jobs: {'opt_tmp/gid_-015_+150/2'}
-Find finished jobs: {'opt_tmp/gid_-015_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+000_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+030_+180/2'}
+Find finished jobs: {'opt_tmp/gid_-015_+150/2', 'opt_tmp/gid_+015_-150/3', 'opt_tmp/gid_+015_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-030_+180/1', 'opt_tmp/gid_-015_-150/3'}
+Find finished jobs: {'opt_tmp/gid_+060_-120/1', 'opt_tmp/gid_+030_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+030_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-150/1'}
 Find finished jobs: {'opt_tmp/gid_-045_-150/1'}
-Find finished jobs: {'opt_tmp/gid_-015_-150/4'}
 Find finished jobs: {'opt_tmp/gid_-030_+180/2'}
-Find finished jobs: {'opt_tmp/gid_-030_-120/3'}
+Find finished jobs: {'opt_tmp/gid_+015_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+060_-060/3', 'opt_tmp/gid_+015_-150/4', 'opt_tmp/gid_-015_+150/1'}
 Find finished jobs: {'opt_tmp/gid_-060_-120/1'}
 Find finished jobs: {'opt_tmp/gid_-030_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+000_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-030_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-015_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-060_-060/3', 'opt_tmp/gid_-045_-090/3'}
 Find finished jobs: {'opt_tmp/gid_-045_-150/2'}
-Find finished jobs: {'opt_tmp/gid_-045_-090/3'}
-Find finished jobs: {'opt_tmp/gid_-060_-120/2'}
 Find finished jobs: {'opt_tmp/gid_-045_-090/4'}
-Find finished jobs: {'opt_tmp/gid_-060_-060/3'}
-First energy for grid_id (15, 150) = -193.674490
-First energy for grid_id (30, 180) = -193.678509
-First energy for grid_id (45, -150) = -193.680512
-First energy for grid_id (60, -120) = -193.681370
-First energy for grid_id (-15, 150) = -193.674251
-First energy for grid_id (-30, 180) = -193.678509
-First energy for grid_id (-45, -150) = -193.680717
-First energy for grid_id (-60, -120) = -193.680948
+Find finished jobs: {'opt_tmp/gid_-060_-120/2'}
+First energy for grid_id (15, 150) = -194.2869904598
+First energy for grid_id (30, 180) = -194.2904249552
+First energy for grid_id (45, -150) = -194.2922845015
+First energy for grid_id (60, -120) = -194.2932394572
+First energy for grid_id (-15, 150) = -194.2867205102
+First energy for grid_id (-30, 180) = -194.2904249468
+First energy for grid_id (-45, -150) = -194.2924593459
+First energy for grid_id (-60, -120) = -194.2928007701
 Task with target grid_id (15, 120) skipped because 120 doesn't fit in range limit
 Task with target grid_id (75, -120) skipped because 75 doesn't fit in range limit
 Task with target grid_id (-15, 120) skipped because 120 doesn't fit in range limit
 Task with target grid_id (-75, -120) skipped because -75 doesn't fit in range limit
-Scan Status at 2104 s
+Scan Status at 1537 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -552,41 +525,37 @@ Launching new job at opt_tmp/gid_-045_-120/3
 Launching new job at opt_tmp/gid_-045_-120/4
 Launching new job at opt_tmp/gid_-060_-150/2
 Launching new job at opt_tmp/gid_-060_-090/3
-Find finished jobs: {'opt_tmp/gid_+015_+180/3'}
-Find finished jobs: {'opt_tmp/gid_+000_+150/2', 'opt_tmp/gid_+030_+150/1'}
-Find finished jobs: {'opt_tmp/gid_+015_+180/4', 'opt_tmp/gid_+030_+150/2'}
-Find finished jobs: {'opt_tmp/gid_+045_+180/1'}
-Find finished jobs: {'opt_tmp/gid_+030_-150/3'}
-Find finished jobs: {'opt_tmp/gid_+030_-150/4'}
-Find finished jobs: {'opt_tmp/gid_+060_-150/1'}
+Find finished jobs: {'opt_tmp/gid_+030_-150/3', 'opt_tmp/gid_+030_+150/2'}
 Find finished jobs: {'opt_tmp/gid_+045_+180/2'}
-Find finished jobs: {'opt_tmp/gid_+045_-120/3'}
-Find finished jobs: {'opt_tmp/gid_+060_-150/2'}
-Find finished jobs: {'opt_tmp/gid_+045_-120/4'}
-Find finished jobs: {'opt_tmp/gid_+060_-090/3'}
-Find finished jobs: {'opt_tmp/gid_-030_+150/1'}
-Find finished jobs: {'opt_tmp/gid_-015_+180/3', 'opt_tmp/gid_+000_+150/3'}
-Find finished jobs: {'opt_tmp/gid_-030_+150/2'}
-Find finished jobs: {'opt_tmp/gid_-045_+180/1'}
-Find finished jobs: {'opt_tmp/gid_-015_+180/4'}
 Find finished jobs: {'opt_tmp/gid_-030_-150/3'}
-Find finished jobs: {'opt_tmp/gid_-060_-150/1'}
-Find finished jobs: {'opt_tmp/gid_-030_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+030_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+180/3', 'opt_tmp/gid_-030_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-015_+180/4'}
+Find finished jobs: {'opt_tmp/gid_-015_+180/3'}
 Find finished jobs: {'opt_tmp/gid_-045_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+030_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+060_-150/2', 'opt_tmp/gid_+045_+180/1', 'opt_tmp/gid_-045_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+045_-120/4', 'opt_tmp/gid_+045_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-060_-150/1', 'opt_tmp/gid_+060_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-030_-150/4'}
+Find finished jobs: {'opt_tmp/gid_-030_+150/1', 'opt_tmp/gid_+060_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-045_-120/4'}
 Find finished jobs: {'opt_tmp/gid_-045_-120/3'}
-Find finished jobs: {'opt_tmp/gid_-060_-150/2', 'opt_tmp/gid_-045_-120/4'}
+Find finished jobs: {'opt_tmp/gid_+015_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+000_+150/3', 'opt_tmp/gid_+000_+150/2'}
+Find finished jobs: {'opt_tmp/gid_-060_-150/2'}
 Find finished jobs: {'opt_tmp/gid_-060_-090/3'}
-First energy for grid_id (30, 150) = -193.677686
-First energy for grid_id (45, 180) = -193.681597
-First energy for grid_id (60, -150) = -193.682188
-First energy for grid_id (-30, 150) = -193.677316
-First energy for grid_id (-45, 180) = -193.681597
-First energy for grid_id (-60, -150) = -193.681861
+First energy for grid_id (30, 150) = -194.2897736985
+First energy for grid_id (45, 180) = -194.2932082077
+First energy for grid_id (60, -150) = -194.2939275981
+First energy for grid_id (-30, 150) = -194.2893890933
+First energy for grid_id (-45, 180) = -194.29320821
+First energy for grid_id (-60, -150) = -194.2935535218
 Task with target grid_id (30, 120) skipped because 120 doesn't fit in range limit
 Task with target grid_id (75, -150) skipped because 75 doesn't fit in range limit
 Task with target grid_id (-30, 120) skipped because 120 doesn't fit in range limit
 Task with target grid_id (-75, -150) skipped because -75 doesn't fit in range limit
-Scan Status at 2459 s
+Scan Status at 1727 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -623,31 +592,28 @@ Launching new job at opt_tmp/gid_-045_-150/3
 Launching new job at opt_tmp/gid_-045_-150/4
 Launching new job at opt_tmp/gid_-060_+180/2
 Launching new job at opt_tmp/gid_-060_-120/3
+Find finished jobs: {'opt_tmp/gid_-060_+180/2'}
+Find finished jobs: {'opt_tmp/gid_+045_+150/1', 'opt_tmp/gid_-030_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-045_-150/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+180/1'}
+Find finished jobs: {'opt_tmp/gid_+015_+150/3'}
 Find finished jobs: {'opt_tmp/gid_+030_+180/3'}
-Find finished jobs: {'opt_tmp/gid_+045_+150/1', 'opt_tmp/gid_+015_+150/3'}
-Find finished jobs: {'opt_tmp/gid_+030_+180/4'}
-Find finished jobs: {'opt_tmp/gid_+045_+150/2'}
-Find finished jobs: {'opt_tmp/gid_+060_+180/1'}
-Find finished jobs: {'opt_tmp/gid_+045_-150/3'}
-Find finished jobs: {'opt_tmp/gid_+060_+180/2'}
-Find finished jobs: {'opt_tmp/gid_+045_-150/4'}
-Find finished jobs: {'opt_tmp/gid_+060_-120/3'}
-Find finished jobs: {'opt_tmp/gid_-015_+150/3', 'opt_tmp/gid_-045_+150/1'}
-Find finished jobs: {'opt_tmp/gid_-030_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+150/2', 'opt_tmp/gid_+060_+180/2'}
 Find finished jobs: {'opt_tmp/gid_-045_+150/2'}
-Find finished jobs: {'opt_tmp/gid_-030_+180/4', 'opt_tmp/gid_-060_+180/1'}
-Find finished jobs: {'opt_tmp/gid_-060_+180/2', 'opt_tmp/gid_-045_-150/3'}
-Find finished jobs: {'opt_tmp/gid_-045_-150/4'}
-Find finished jobs: {'opt_tmp/gid_-060_-120/3'}
-First energy for grid_id (45, 150) = -193.680717
-First energy for grid_id (60, 180) = -193.682989
-First energy for grid_id (-45, 150) = -193.680512
-First energy for grid_id (-60, 180) = -193.682989
+Find finished jobs: {'opt_tmp/gid_+045_-150/3', 'opt_tmp/gid_-030_+180/4'}
+Find finished jobs: {'opt_tmp/gid_+030_+180/4', 'opt_tmp/gid_+060_+180/1', 'opt_tmp/gid_-045_-150/4'}
+Find finished jobs: {'opt_tmp/gid_+045_-150/4', 'opt_tmp/gid_+060_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-060_-120/3', 'opt_tmp/gid_-045_+150/1'}
+Find finished jobs: {'opt_tmp/gid_-015_+150/3'}
+First energy for grid_id (45, 150) = -194.2924593444
+First energy for grid_id (60, 180) = -194.2945909516
+First energy for grid_id (-45, 150) = -194.2922845016
+First energy for grid_id (-60, 180) = -194.2945910487
 Task with target grid_id (45, 120) skipped because 120 doesn't fit in range limit
 Task with target grid_id (75, 180) skipped because 75 doesn't fit in range limit
 Task with target grid_id (-45, 120) skipped because 120 doesn't fit in range limit
 Task with target grid_id (-75, 180) skipped because -75 doesn't fit in range limit
-Scan Status at 2720 s
+Scan Status at 1858 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -676,22 +642,21 @@ Launching new job at opt_tmp/gid_-045_+180/3
 Launching new job at opt_tmp/gid_-045_+180/4
 Launching new job at opt_tmp/gid_-060_+150/2
 Launching new job at opt_tmp/gid_-060_-150/3
-Find finished jobs: {'opt_tmp/gid_+045_+180/3'}
-Find finished jobs: {'opt_tmp/gid_+060_+150/1', 'opt_tmp/gid_+030_+150/3'}
-Find finished jobs: {'opt_tmp/gid_+060_-150/3', 'opt_tmp/gid_+060_+150/2'}
-Find finished jobs: {'opt_tmp/gid_+045_+180/4'}
-Find finished jobs: {'opt_tmp/gid_-045_+180/3'}
-Find finished jobs: {'opt_tmp/gid_-060_+150/1'}
 Find finished jobs: {'opt_tmp/gid_-030_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-060_-150/3', 'opt_tmp/gid_+060_+150/2'}
+Find finished jobs: {'opt_tmp/gid_+045_+180/4'}
 Find finished jobs: {'opt_tmp/gid_-060_+150/2'}
-Find finished jobs: {'opt_tmp/gid_-045_+180/4', 'opt_tmp/gid_-060_-150/3'}
-First energy for grid_id (60, 150) = -193.681861
-First energy for grid_id (-60, 150) = -193.682188
+Find finished jobs: {'opt_tmp/gid_+060_-150/3', 'opt_tmp/gid_-045_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+180/4', 'opt_tmp/gid_+060_+150/1', 'opt_tmp/gid_+030_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+150/1'}
+First energy for grid_id (60, 150) = -194.2935535215
+First energy for grid_id (-60, 150) = -194.2939274366
 Task with target grid_id (75, 150) skipped because 75 doesn't fit in range limit
 Task with target grid_id (60, 120) skipped because 120 doesn't fit in range limit
 Task with target grid_id (-75, 150) skipped because -75 doesn't fit in range limit
 Task with target grid_id (-60, 120) skipped because 120 doesn't fit in range limit
-Scan Status at 2866 s
+Scan Status at 1959 s
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -712,74 +677,74 @@ Launching new job at opt_tmp/gid_+045_+150/3
 Launching new job at opt_tmp/gid_+060_+180/3
 Launching new job at opt_tmp/gid_-045_+150/3
 Launching new job at opt_tmp/gid_-060_+180/3
-Find finished jobs: {'opt_tmp/gid_+060_+180/3'}
-Find finished jobs: {'opt_tmp/gid_-045_+150/3', 'opt_tmp/gid_+045_+150/3'}
-Find finished jobs: {'opt_tmp/gid_-060_+180/3'}
+Find finished jobs: {'opt_tmp/gid_-060_+180/3', 'opt_tmp/gid_+060_+180/3'}
+Find finished jobs: {'opt_tmp/gid_+045_+150/3'}
+Find finished jobs: {'opt_tmp/gid_-045_+150/3'}
 All optimizations converged at lowest energy. Job Finished!
-Final scan energies are written to qdata.txt
+Final scan energies and gradients are written to qdata.txt
 Final scan energies are written to scan.xyz
 Dihedral scan is finished!
  Grid ID                Energy
-  (-60, -150)          -193.6818607000
-  (-60, -120)          -193.6809479400
-  (-60, -90)           -193.6823452300
-  (-60, -60)           -193.6832919600
-  (-60, -30)           -193.6815165700
-  (-60, 150)           -193.6821880900
-  (-60, 180)           -193.6829892900
-  (-45, -150)          -193.6807169600
-  (-45, -120)          -193.6799544400
-  (-45, -90)           -193.6814406700
-  (-45, -60)           -193.6822919800
-  (-45, -30)           -193.6801031000
-  (-45, 150)           -193.6805120100
-  (-45, 180)           -193.6815965500
-  (-30, -150)          -193.6776855600
-  (-30, -120)          -193.6770897800
-  (-30, -90)           -193.6787500300
-  (-30, -60)           -193.6794239200
-  (-30, -30)           -193.6768585600
-  (-30, 150)           -193.6773164800
-  (-30, 180)           -193.6785092900
-  (-15, -150)          -193.6744892000
-  (-15, -120)          -193.6739961200
-  (-15, -90)           -193.6757265600
-  (-15, -60)           -193.6762434900
-  (-15, -30)           -193.6736856900
-  (-15, 150)           -193.6742511600
-  (-15, 180)           -193.6753618700
-  (0, -150)            -193.6730550800
-  (0, -120)            -193.6724747300
-  (0, -90)             -193.6741163800
-  (0, -60)             -193.6746880500
-  (0, -30)             -193.6723073600
-  (0, 150)             -193.6730554400
-  (0, 180)             -193.6740252800
-  (15, -150)           -193.6742507600
-  (15, -120)           -193.6734682200
-  (15, -90)            -193.6749848800
-  (15, -60)            -193.6756920500
-  (15, -30)            -193.6733087600
-  (15, 150)            -193.6744895900
-  (15, 180)            -193.6753618300
-  (30, -150)           -193.6773160700
-  (30, -120)           -193.6764224100
-  (30, -90)            -193.6778345200
-  (30, -60)            -193.6784499200
-  (30, -30)            -193.6759876900
-  (30, 150)            -193.6776859700
-  (30, 180)            -193.6785092200
-  (45, -150)           -193.6805115500
-  (45, -120)           -193.6796507900
-  (45, -90)            -193.6808838700
-  (45, -60)            -193.6812351700
-  (45, -30)            -193.6788837800
-  (45, 150)            -193.6807174700
-  (45, 180)            -193.6815965000
-  (60, -150)           -193.6821878500
-  (60, -120)           -193.6813702900
-  (60, -90)            -193.6823651600
-  (60, -60)            -193.6825977100
-  (60, -30)            -193.6805404700
-  (60, 150)            -193.6818610800
-  (60, 180)            -193.6829893300
+  (-60, -150)          -194.2935535218
+  (-60, -120)          -194.2928007701
+  (-60, -90)           -194.2941557685
+  (-60, -60)           -194.2950944233
+  (-60, -30)           -194.2935612864
+  (-60, 150)           -194.2939274366
+  (-60, 180)           -194.2945910487
+  (-45, -150)          -194.2924593459
+  (-45, -120)          -194.2919111140
+  (-45, -90)           -194.2933575538
+  (-45, -60)           -194.2941528877
+  (-45, -30)           -194.2922528179
+  (-45, 150)           -194.2922845016
+  (-45, 180)           -194.2932082100
+  (-30, -150)          -194.2897737855
+  (-30, -120)          -194.2893906719
+  (-30, -90)           -194.2909613180
+  (-30, -60)           -194.2916064914
+  (-30, -30)           -194.2894445382
+  (-30, 150)           -194.2893890933
+  (-30, 180)           -194.2904249468
+  (-15, -150)          -194.2869903667
+  (-15, -120)          -194.2866901494
+  (-15, -90)           -194.2883317333
+  (-15, -60)           -194.2889052292
+  (-15, -30)           -194.2868011192
+  (-15, 150)           -194.2867205102
+  (-15, 180)           -194.2876841819
+  (0, -150)            -194.2857235049
+  (0, -120)            -194.2853430493
+  (0, -90)             -194.2869509874
+  (0, -60)             -194.2876298847
+  (0, -30)             -194.2856947260
+  (0, 150)             -194.2857232128
+  (0, 180)             -194.2865320219
+  (15, -150)           -194.2867204916
+  (15, -120)           -194.2861597563
+  (15, -90)            -194.2876829054
+  (15, -60)            -194.2884713177
+  (15, -30)            -194.2865570603
+  (15, 150)            -194.2869904598
+  (15, 180)            -194.2876843150
+  (30, -150)           -194.2893890767
+  (30, -120)           -194.2887144706
+  (30, -90)            -194.2901008672
+  (30, -60)            -194.2907773411
+  (30, -30)            -194.2888266699
+  (30, 150)            -194.2897736985
+  (30, 180)            -194.2904249552
+  (45, -150)           -194.2922845015
+  (45, -120)           -194.2915960980
+  (45, -90)            -194.2927485979
+  (45, -60)            -194.2932139449
+  (45, -30)            -194.2913493988
+  (45, 150)            -194.2924593444
+  (45, 180)            -194.2932082077
+  (60, -150)           -194.2939275981
+  (60, -120)           -194.2932394572
+  (60, -90)            -194.2941794635
+  (60, -60)            -194.2945726596
+  (60, -30)            -194.2928876932
+  (60, 150)            -194.2935535215
+  (60, 180)            -194.2945909516
