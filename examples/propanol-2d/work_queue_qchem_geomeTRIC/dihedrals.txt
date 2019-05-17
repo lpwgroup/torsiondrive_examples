@@ -1,4 +1,0 @@
-# dihedral definition by atom indices starting from 1
-# i     j     k     l
-  1     2     7     11
-  2     7     11    12
