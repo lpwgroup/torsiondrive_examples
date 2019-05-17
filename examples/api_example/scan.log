@@ -1,4 +1,4 @@
-/home/qyd/codes/anaconda3/envs/geometric/bin/torsiondrive-api current_state.json -v
+/home/qyd/codes/anaconda3/envs/tdtest/bin/torsiondrive-api current_state.json -v
 1 initial tasks pushed to opt_queue
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
@@ -28,7 +28,7 @@
 -150                                                 
 -165                                                 
 
-First energy for grid_id (0, -15) = -193.657703
+First energy for grid_id (0, -15) = -193.6577030352
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -57,10 +57,10 @@ First energy for grid_id (0, -15) = -193.657703
 -150                                                 
 -165                                                 
 
-First energy for grid_id (0, 0) = -193.657149
-First energy for grid_id (0, -30) = -193.659044
-First energy for grid_id (15, -15) = -193.658709
-First energy for grid_id (-15, -15) = -193.658942
+First energy for grid_id (0, 0) = -193.6571493096
+First energy for grid_id (0, -30) = -193.6590439533
+First energy for grid_id (15, -15) = -193.6587085576
+First energy for grid_id (-15, -15) = -193.6589422391
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -89,14 +89,14 @@ First energy for grid_id (-15, -15) = -193.658942
 -150                                                 
 -165                                                 
 
-First energy for grid_id (0, 15) = -193.657703
-First energy for grid_id (0, -45) = -193.660458
-First energy for grid_id (15, 0) = -193.658281
-First energy for grid_id (15, -30) = -193.660006
-First energy for grid_id (30, -15) = -193.661373
-First energy for grid_id (-15, 0) = -193.658281
-First energy for grid_id (-15, -30) = -193.660332
-First energy for grid_id (-30, -15) = -193.661872
+First energy for grid_id (0, 15) = -193.6577029661
+First energy for grid_id (0, -45) = -193.6604577671
+First energy for grid_id (15, 0) = -193.6582814409
+First energy for grid_id (15, -30) = -193.6600059044
+First energy for grid_id (30, -15) = -193.6613731585
+First energy for grid_id (-15, 0) = -193.6582814419
+First energy for grid_id (-15, -30) = -193.6603324017
+First energy for grid_id (-30, -15) = -193.6618715387
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -125,18 +125,18 @@ First energy for grid_id (-30, -15) = -193.661872
 -150                                                 
 -165                                                 
 
-First energy for grid_id (0, 30) = -193.659044
-First energy for grid_id (0, -60) = -193.661324
-First energy for grid_id (15, 15) = -193.658942
-First energy for grid_id (15, -45) = -193.661450
-First energy for grid_id (30, 0) = -193.661098
-First energy for grid_id (30, -30) = -193.662553
-First energy for grid_id (45, -15) = -193.664318
-First energy for grid_id (-15, 15) = -193.658709
-First energy for grid_id (-15, -45) = -193.661823
-First energy for grid_id (-30, 0) = -193.661098
-First energy for grid_id (-30, -30) = -193.663368
-First energy for grid_id (-45, -15) = -193.665060
+First energy for grid_id (0, 30) = -193.6590439775
+First energy for grid_id (0, -60) = -193.6613243061
+First energy for grid_id (15, 15) = -193.6589422373
+First energy for grid_id (15, -45) = -193.6614498078
+First energy for grid_id (30, 0) = -193.6610979716
+First energy for grid_id (30, -30) = -193.6625525661
+First energy for grid_id (45, -15) = -193.6643178921
+First energy for grid_id (-15, 15) = -193.6587085552
+First energy for grid_id (-15, -45) = -193.6618229039
+First energy for grid_id (-30, 0) = -193.6610979725
+First energy for grid_id (-30, -30) = -193.6633683656
+First energy for grid_id (-45, -15) = -193.6650602101
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -165,22 +165,22 @@ First energy for grid_id (-45, -15) = -193.665060
 -150                                                 
 -165                                                 
 
-First energy for grid_id (0, 45) = -193.660458
-First energy for grid_id (0, -75) = -193.661365
-First energy for grid_id (15, 30) = -193.660332
-First energy for grid_id (15, -60) = -193.662299
-First energy for grid_id (30, 15) = -193.661872
-First energy for grid_id (30, -45) = -193.664002
-First energy for grid_id (45, 0) = -193.664186
-First energy for grid_id (45, -30) = -193.665328
-First energy for grid_id (60, -15) = -193.666117
-First energy for grid_id (-15, 30) = -193.660006
-First energy for grid_id (-15, -60) = -193.662810
-First energy for grid_id (-30, 15) = -193.661373
-First energy for grid_id (-30, -45) = -193.664943
-First energy for grid_id (-45, 0) = -193.664186
-First energy for grid_id (-45, -30) = -193.666571
-First energy for grid_id (-60, -15) = -193.666792
+First energy for grid_id (0, 45) = -193.6604578451
+First energy for grid_id (0, -75) = -193.6613654068
+First energy for grid_id (15, 30) = -193.6603324019
+First energy for grid_id (15, -60) = -193.6622988921
+First energy for grid_id (30, 15) = -193.661871539
+First energy for grid_id (30, -45) = -193.664002227
+First energy for grid_id (45, 0) = -193.6641855533
+First energy for grid_id (45, -30) = -193.6653281152
+First energy for grid_id (60, -15) = -193.6661171684
+First energy for grid_id (-15, 30) = -193.6600059035
+First energy for grid_id (-15, -60) = -193.6628098205
+First energy for grid_id (-30, 15) = -193.6613731587
+First energy for grid_id (-30, -45) = -193.664942753
+First energy for grid_id (-45, 0) = -193.6641856745
+First energy for grid_id (-45, -30) = -193.6665708037
+First energy for grid_id (-60, -15) = -193.6667918793
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -209,26 +209,26 @@ First energy for grid_id (-60, -15) = -193.666792
 -150                                                 
 -165                                                 
 
-First energy for grid_id (0, 60) = -193.661324
-First energy for grid_id (0, -90) = -193.660685
-First energy for grid_id (15, 45) = -193.661823
-First energy for grid_id (15, -75) = -193.662251
-First energy for grid_id (30, 30) = -193.663368
-First energy for grid_id (30, -60) = -193.664942
-First energy for grid_id (45, 15) = -193.665060
-First energy for grid_id (45, -45) = -193.666662
-First energy for grid_id (60, 0) = -193.666025
-First energy for grid_id (60, -30) = -193.666985
-First energy for grid_id (75, -15) = -193.665833
-First energy for grid_id (-15, 45) = -193.661450
-First energy for grid_id (-15, -75) = -193.662925
-First energy for grid_id (-30, 30) = -193.662553
-First energy for grid_id (-30, -60) = -193.665898
-First energy for grid_id (-45, 15) = -193.664320
-First energy for grid_id (-45, -45) = -193.667989
-First energy for grid_id (-60, 0) = -193.666025
-First energy for grid_id (-60, -30) = -193.668036
-First energy for grid_id (-75, -15) = -193.665942
+First energy for grid_id (0, 60) = -193.6613242833
+First energy for grid_id (0, -90) = -193.6606853985
+First energy for grid_id (15, 45) = -193.6618229035
+First energy for grid_id (15, -75) = -193.6622508094
+First energy for grid_id (30, 30) = -193.6633683662
+First energy for grid_id (30, -60) = -193.6649422455
+First energy for grid_id (45, 15) = -193.6650603064
+First energy for grid_id (45, -45) = -193.6666617601
+First energy for grid_id (60, 0) = -193.6660247012
+First energy for grid_id (60, -30) = -193.6669851662
+First energy for grid_id (75, -15) = -193.6658326533
+First energy for grid_id (-15, 45) = -193.6614498082
+First energy for grid_id (-15, -75) = -193.6629247445
+First energy for grid_id (-30, 30) = -193.6625525669
+First energy for grid_id (-30, -60) = -193.6658984828
+First energy for grid_id (-45, 15) = -193.6643198497
+First energy for grid_id (-45, -45) = -193.6679887865
+First energy for grid_id (-60, 0) = -193.6660247009
+First energy for grid_id (-60, -30) = -193.668035967
+First energy for grid_id (-75, -15) = -193.6659424896
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -257,30 +257,30 @@ First energy for grid_id (-75, -15) = -193.665942
 -150                                                 
 -165                                                 
 
-First energy for grid_id (0, 75) = -193.661365
-First energy for grid_id (0, -105) = -193.659747
-First energy for grid_id (15, 60) = -193.662810
-First energy for grid_id (15, -90) = -193.661503
-First energy for grid_id (30, 45) = -193.664943
-First energy for grid_id (30, -75) = -193.664962
-First energy for grid_id (45, 30) = -193.666571
-First energy for grid_id (45, -60) = -193.667622
-First energy for grid_id (60, 15) = -193.666792
-First energy for grid_id (60, -45) = -193.668133
-First energy for grid_id (75, 0) = -193.665503
-First energy for grid_id (75, -30) = -193.666761
-First energy for grid_id (90, -15) = -193.663527
-First energy for grid_id (-15, 60) = -193.662299
-First energy for grid_id (-15, -90) = -193.662248
-First energy for grid_id (-30, 45) = -193.664002
-First energy for grid_id (-30, -75) = -193.665914
-First energy for grid_id (-45, 30) = -193.665328
-First energy for grid_id (-45, -60) = -193.668717
-First energy for grid_id (-60, 15) = -193.666117
-First energy for grid_id (-60, -45) = -193.669173
-First energy for grid_id (-75, 0) = -193.665503
-First energy for grid_id (-75, -30) = -193.666922
-First energy for grid_id (-90, -15) = -193.663219
+First energy for grid_id (0, 75) = -193.6613654
+First energy for grid_id (0, -105) = -193.6597467323
+First energy for grid_id (15, 60) = -193.6628098317
+First energy for grid_id (15, -90) = -193.6615032054
+First energy for grid_id (30, 45) = -193.6649427501
+First energy for grid_id (30, -75) = -193.6649621582
+First energy for grid_id (45, 30) = -193.6665708018
+First energy for grid_id (45, -60) = -193.6676224524
+First energy for grid_id (60, 15) = -193.6667918799
+First energy for grid_id (60, -45) = -193.6681326092
+First energy for grid_id (75, 0) = -193.6655027417
+First energy for grid_id (75, -30) = -193.6667612556
+First energy for grid_id (90, -15) = -193.6635265084
+First energy for grid_id (-15, 60) = -193.662298892
+First energy for grid_id (-15, -90) = -193.6622476808
+First energy for grid_id (-30, 45) = -193.6640022255
+First energy for grid_id (-30, -75) = -193.6659137618
+First energy for grid_id (-45, 30) = -193.665328115
+First energy for grid_id (-45, -60) = -193.6687170667
+First energy for grid_id (-60, 15) = -193.6661172117
+First energy for grid_id (-60, -45) = -193.6691725783
+First energy for grid_id (-75, 0) = -193.6655027418
+First energy for grid_id (-75, -30) = -193.6669215783
+First energy for grid_id (-90, -15) = -193.6632193161
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -309,34 +309,34 @@ First energy for grid_id (-90, -15) = -193.663219
 -150                                                 
 -165                                                 
 
-First energy for grid_id (0, 90) = -193.660685
-First energy for grid_id (0, -120) = -193.659153
-First energy for grid_id (15, 75) = -193.662925
-First energy for grid_id (15, -105) = -193.660574
-First energy for grid_id (30, 60) = -193.665898
-First energy for grid_id (30, -90) = -193.664234
-First energy for grid_id (45, 45) = -193.667989
-First energy for grid_id (45, -75) = -193.667766
-First energy for grid_id (60, 30) = -193.668036
-First energy for grid_id (60, -60) = -193.668966
-First energy for grid_id (75, 15) = -193.665942
-First energy for grid_id (75, -45) = -193.667814
-First energy for grid_id (90, 0) = -193.662957
-First energy for grid_id (90, -30) = -193.664664
-First energy for grid_id (105, -15) = -193.660835
-First energy for grid_id (-15, 75) = -193.662251
-First energy for grid_id (-15, -105) = -193.661276
-First energy for grid_id (-30, 60) = -193.664942
-First energy for grid_id (-30, -90) = -193.665174
-First energy for grid_id (-45, 45) = -193.666662
-First energy for grid_id (-45, -75) = -193.668580
-First energy for grid_id (-60, 30) = -193.666985
-First energy for grid_id (-60, -60) = -193.669721
-First energy for grid_id (-75, 15) = -193.665833
-First energy for grid_id (-75, -45) = -193.667925
-First energy for grid_id (-90, 0) = -193.662957
-First energy for grid_id (-90, -30) = -193.664132
-First energy for grid_id (-105, -15) = -193.660513
+First energy for grid_id (0, 90) = -193.6606853954
+First energy for grid_id (0, -120) = -193.6591531216
+First energy for grid_id (15, 75) = -193.662924744
+First energy for grid_id (15, -105) = -193.6605742922
+First energy for grid_id (30, 60) = -193.6658984811
+First energy for grid_id (30, -90) = -193.6642340321
+First energy for grid_id (45, 45) = -193.6679887855
+First energy for grid_id (45, -75) = -193.6677656108
+First energy for grid_id (60, 30) = -193.6680359671
+First energy for grid_id (60, -60) = -193.6689659486
+First energy for grid_id (75, 15) = -193.6659424897
+First energy for grid_id (75, -45) = -193.6678135019
+First energy for grid_id (90, 0) = -193.6629568896
+First energy for grid_id (90, -30) = -193.6646640696
+First energy for grid_id (105, -15) = -193.660834664
+First energy for grid_id (-15, 75) = -193.6622508084
+First energy for grid_id (-15, -105) = -193.6612759161
+First energy for grid_id (-30, 60) = -193.6649422459
+First energy for grid_id (-30, -90) = -193.6651742239
+First energy for grid_id (-45, 45) = -193.6666617592
+First energy for grid_id (-45, -75) = -193.6685795993
+First energy for grid_id (-60, 30) = -193.6669851656
+First energy for grid_id (-60, -60) = -193.6697208974
+First energy for grid_id (-75, 15) = -193.6658326531
+First energy for grid_id (-75, -45) = -193.667925274
+First energy for grid_id (-90, 0) = -193.6629572021
+First energy for grid_id (-90, -30) = -193.66413243
+First energy for grid_id (-105, -15) = -193.6605130397
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -365,38 +365,38 @@ First energy for grid_id (-105, -15) = -193.660513
 -150                                                 
 -165                                                 
 
-First energy for grid_id (0, 105) = -193.659747
-First energy for grid_id (0, -135) = -193.659264
-First energy for grid_id (15, 90) = -193.662248
-First energy for grid_id (15, -120) = -193.660050
-First energy for grid_id (30, 75) = -193.665914
-First energy for grid_id (30, -105) = -193.663321
-First energy for grid_id (45, 60) = -193.668717
-First energy for grid_id (45, -90) = -193.667177
-First energy for grid_id (60, 45) = -193.669173
-First energy for grid_id (60, -75) = -193.669114
-First energy for grid_id (75, 30) = -193.666922
-First energy for grid_id (75, -60) = -193.668480
-First energy for grid_id (90, 15) = -193.663219
-First energy for grid_id (90, -45) = -193.665802
-First energy for grid_id (105, 0) = -193.660218
-First energy for grid_id (105, -30) = -193.662063
-First energy for grid_id (120, -15) = -193.659599
-First energy for grid_id (-15, 90) = -193.661503
-First energy for grid_id (-15, -120) = -193.660636
-First energy for grid_id (-30, 75) = -193.664962
-First energy for grid_id (-30, -105) = -193.664207
-First energy for grid_id (-45, 60) = -193.667622
-First energy for grid_id (-45, -90) = -193.667803
-First energy for grid_id (-60, 45) = -193.668133
-First energy for grid_id (-60, -75) = -193.669506
-First energy for grid_id (-75, 30) = -193.666761
-First energy for grid_id (-75, -60) = -193.668437
-First energy for grid_id (-90, 15) = -193.663529
-First energy for grid_id (-90, -45) = -193.665166
-First energy for grid_id (-105, 0) = -193.660218
-First energy for grid_id (-105, -30) = -193.661534
-First energy for grid_id (-120, -15) = -193.659603
+First energy for grid_id (0, 105) = -193.6597467287
+First energy for grid_id (0, -135) = -193.6592644205
+First energy for grid_id (15, 90) = -193.6622476766
+First energy for grid_id (15, -120) = -193.6600499795
+First energy for grid_id (30, 75) = -193.6659137572
+First energy for grid_id (30, -105) = -193.6633207538
+First energy for grid_id (45, 60) = -193.668717066
+First energy for grid_id (45, -90) = -193.6671772831
+First energy for grid_id (60, 45) = -193.6691725779
+First energy for grid_id (60, -75) = -193.669113984
+First energy for grid_id (75, 30) = -193.6669215798
+First energy for grid_id (75, -60) = -193.6684796178
+First energy for grid_id (90, 15) = -193.663219316
+First energy for grid_id (90, -45) = -193.6658020315
+First energy for grid_id (105, 0) = -193.6602181922
+First energy for grid_id (105, -30) = -193.662062691
+First energy for grid_id (120, -15) = -193.6595987695
+First energy for grid_id (-15, 90) = -193.6615032034
+First energy for grid_id (-15, -120) = -193.660636046
+First energy for grid_id (-30, 75) = -193.6649621594
+First energy for grid_id (-30, -105) = -193.6642073996
+First energy for grid_id (-45, 60) = -193.6676224522
+First energy for grid_id (-45, -90) = -193.6678029637
+First energy for grid_id (-60, 45) = -193.6681326088
+First energy for grid_id (-60, -75) = -193.6695062734
+First energy for grid_id (-75, 30) = -193.6667612559
+First energy for grid_id (-75, -60) = -193.6684373954
+First energy for grid_id (-90, 15) = -193.6635288751
+First energy for grid_id (-90, -45) = -193.6651660051
+First energy for grid_id (-105, 0) = -193.6602177505
+First energy for grid_id (-105, -30) = -193.6615336228
+First energy for grid_id (-120, -15) = -193.6596033737
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -425,42 +425,42 @@ First energy for grid_id (-120, -15) = -193.659603
 -150                       [1;41m\/[0m                        
 -165                                                 
 
-First energy for grid_id (0, 120) = -193.659153
-First energy for grid_id (0, -150) = -193.659950
-First energy for grid_id (15, 105) = -193.661276
-First energy for grid_id (15, -135) = -193.660253
-First energy for grid_id (30, 90) = -193.665174
-First energy for grid_id (30, -120) = -193.662831
-First energy for grid_id (45, 75) = -193.668580
-First energy for grid_id (45, -105) = -193.666369
-First energy for grid_id (60, 60) = -193.669721
-First energy for grid_id (60, -90) = -193.668634
-First energy for grid_id (75, 45) = -193.667925
-First energy for grid_id (75, -75) = -193.668493
-First energy for grid_id (90, 30) = -193.664132
-First energy for grid_id (90, -60) = -193.666425
-First energy for grid_id (105, 15) = -193.660515
-First energy for grid_id (105, -45) = -193.663285
-First energy for grid_id (120, 0) = -193.659125
-First energy for grid_id (120, -30) = -193.660753
-First energy for grid_id (135, -15) = -193.660648
-First energy for grid_id (-15, 105) = -193.660574
-First energy for grid_id (-15, -135) = -193.660696
-First energy for grid_id (-30, 90) = -193.664234
-First energy for grid_id (-30, -120) = -193.663614
-First energy for grid_id (-45, 75) = -193.667766
-First energy for grid_id (-45, -105) = -193.666891
-First energy for grid_id (-60, 60) = -193.668966
-First energy for grid_id (-60, -90) = -193.668718
-First energy for grid_id (-75, 45) = -193.667814
-First energy for grid_id (-75, -75) = -193.668215
-First energy for grid_id (-90, 30) = -193.664664
-First energy for grid_id (-90, -60) = -193.665742
-First energy for grid_id (-105, 15) = -193.660834
-First energy for grid_id (-105, -45) = -193.662700
-First energy for grid_id (-120, 0) = -193.659125
-First energy for grid_id (-120, -30) = -193.660790
-First energy for grid_id (-135, -15) = -193.660984
+First energy for grid_id (0, 120) = -193.6591531206
+First energy for grid_id (0, -150) = -193.659950393
+First energy for grid_id (15, 105) = -193.6612759124
+First energy for grid_id (15, -135) = -193.6602528802
+First energy for grid_id (30, 90) = -193.6651742194
+First energy for grid_id (30, -120) = -193.662830591
+First energy for grid_id (45, 75) = -193.6685795976
+First energy for grid_id (45, -105) = -193.6663690487
+First energy for grid_id (60, 60) = -193.6697208976
+First energy for grid_id (60, -90) = -193.668634234
+First energy for grid_id (75, 45) = -193.6679252735
+First energy for grid_id (75, -75) = -193.6684927828
+First energy for grid_id (90, 30) = -193.6641324269
+First energy for grid_id (90, -60) = -193.6664246738
+First energy for grid_id (105, 15) = -193.6605152695
+First energy for grid_id (105, -45) = -193.6632853525
+First energy for grid_id (120, 0) = -193.6591246218
+First energy for grid_id (120, -30) = -193.6607525053
+First energy for grid_id (135, -15) = -193.6606480437
+First energy for grid_id (-15, 105) = -193.6605742932
+First energy for grid_id (-15, -135) = -193.6606958229
+First energy for grid_id (-30, 90) = -193.6642340322
+First energy for grid_id (-30, -120) = -193.6636137573
+First energy for grid_id (-45, 75) = -193.6677656107
+First energy for grid_id (-45, -105) = -193.6668908468
+First energy for grid_id (-60, 60) = -193.6689659511
+First energy for grid_id (-60, -90) = -193.6687184963
+First energy for grid_id (-75, 45) = -193.6678135016
+First energy for grid_id (-75, -75) = -193.6682152053
+First energy for grid_id (-90, 30) = -193.6646640688
+First energy for grid_id (-90, -60) = -193.6657418907
+First energy for grid_id (-105, 15) = -193.6608344636
+First energy for grid_id (-105, -45) = -193.6626997161
+First energy for grid_id (-120, 0) = -193.659124623
+First energy for grid_id (-120, -30) = -193.660790142
+First energy for grid_id (-135, -15) = -193.6609835823
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -489,46 +489,46 @@ First energy for grid_id (-135, -15) = -193.660984
 -150                     [41m＼[0m[44m--[0m[41m／[0m                      
 -165                       [1;41m\/[0m                        
 
-First energy for grid_id (0, 135) = -193.659264
-First energy for grid_id (0, -165) = -193.660711
-First energy for grid_id (15, 120) = -193.660636
-First energy for grid_id (15, -150) = -193.661027
-First energy for grid_id (30, 105) = -193.664207
-First energy for grid_id (30, -135) = -193.663071
-First energy for grid_id (45, 90) = -193.667803
-First energy for grid_id (45, -120) = -193.665927
-First energy for grid_id (60, 75) = -193.669506
-First energy for grid_id (60, -105) = -193.667961
-First energy for grid_id (75, 60) = -193.668437
-First energy for grid_id (75, -90) = -193.667961
-First energy for grid_id (90, 45) = -193.665166
-First energy for grid_id (90, -75) = -193.666323
-First energy for grid_id (105, 30) = -193.661535
-First energy for grid_id (105, -60) = -193.663936
-First energy for grid_id (120, 15) = -193.659603
-First energy for grid_id (120, -45) = -193.661955
-First energy for grid_id (135, 0) = -193.660363
-First energy for grid_id (135, -30) = -193.661621
-First energy for grid_id (150, -15) = -193.663213
-First energy for grid_id (-15, 120) = -193.660050
-First energy for grid_id (-15, -150) = -193.661326
-First energy for grid_id (-30, 105) = -193.663321
-First energy for grid_id (-30, -135) = -193.663719
-First energy for grid_id (-45, 90) = -193.667177
-First energy for grid_id (-45, -120) = -193.666394
-First energy for grid_id (-60, 75) = -193.669114
-First energy for grid_id (-60, -105) = -193.667835
-First energy for grid_id (-75, 60) = -193.668480
-First energy for grid_id (-75, -90) = -193.667412
-First energy for grid_id (-90, 45) = -193.665802
-First energy for grid_id (-90, -75) = -193.665559
-First energy for grid_id (-105, 30) = -193.662063
-First energy for grid_id (-105, -60) = -193.663376
-First energy for grid_id (-120, 15) = -193.659599
-First energy for grid_id (-120, -45) = -193.662061
-First energy for grid_id (-135, 0) = -193.660363
-First energy for grid_id (-135, -30) = -193.662228
-First energy for grid_id (-150, -15) = -193.663611
+First energy for grid_id (0, 135) = -193.659264419
+First energy for grid_id (0, -165) = -193.660711477
+First energy for grid_id (15, 120) = -193.6606360432
+First energy for grid_id (15, -150) = -193.6610273577
+First energy for grid_id (30, 105) = -193.6642073991
+First energy for grid_id (30, -135) = -193.6630712295
+First energy for grid_id (45, 90) = -193.6678029618
+First energy for grid_id (45, -120) = -193.6659274272
+First energy for grid_id (60, 75) = -193.6695062736
+First energy for grid_id (60, -105) = -193.6679611524
+First energy for grid_id (75, 60) = -193.6684373901
+First energy for grid_id (75, -90) = -193.6679609515
+First energy for grid_id (90, 45) = -193.6651658918
+First energy for grid_id (90, -75) = -193.666323102
+First energy for grid_id (105, 30) = -193.6615353578
+First energy for grid_id (105, -60) = -193.6639361645
+First energy for grid_id (120, 15) = -193.6596033768
+First energy for grid_id (120, -45) = -193.6619547703
+First energy for grid_id (135, 0) = -193.6603633907
+First energy for grid_id (135, -30) = -193.6616207136
+First energy for grid_id (150, -15) = -193.6632129982
+First energy for grid_id (-15, 120) = -193.6600499795
+First energy for grid_id (-15, -150) = -193.6613263572
+First energy for grid_id (-30, 105) = -193.6633207529
+First energy for grid_id (-30, -135) = -193.6637187898
+First energy for grid_id (-45, 90) = -193.6671772825
+First energy for grid_id (-45, -120) = -193.6663938423
+First energy for grid_id (-60, 75) = -193.6691139869
+First energy for grid_id (-60, -105) = -193.6678350209
+First energy for grid_id (-75, 60) = -193.668479618
+First energy for grid_id (-75, -90) = -193.6674116339
+First energy for grid_id (-90, 45) = -193.6658020314
+First energy for grid_id (-90, -75) = -193.6655589599
+First energy for grid_id (-105, 30) = -193.6620626674
+First energy for grid_id (-105, -60) = -193.66337602
+First energy for grid_id (-120, 15) = -193.659598773
+First energy for grid_id (-120, -45) = -193.6620605565
+First energy for grid_id (-135, 0) = -193.6603633875
+First energy for grid_id (-135, -30) = -193.6622282829
+First energy for grid_id (-150, -15) = -193.6636107239
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -557,50 +557,50 @@ First energy for grid_id (-150, -15) = -193.663611
 -150                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
 -165                     [41m＼[0m[44m--[0m[41m／[0m                      
 
-First energy for grid_id (0, 150) = -193.659950
-First energy for grid_id (0, 180) = -193.661035
-First energy for grid_id (15, 135) = -193.660696
-First energy for grid_id (15, -165) = -193.661871
-First energy for grid_id (30, 120) = -193.663614
-First energy for grid_id (30, -150) = -193.663878
-First energy for grid_id (45, 105) = -193.666891
-First energy for grid_id (45, -135) = -193.666155
-First energy for grid_id (60, 90) = -193.668718
-First energy for grid_id (60, -120) = -193.667617
-First energy for grid_id (75, 75) = -193.668215
-First energy for grid_id (75, -105) = -193.667309
-First energy for grid_id (90, 60) = -193.665742
-First energy for grid_id (90, -90) = -193.665671
-First energy for grid_id (105, 45) = -193.662700
-First energy for grid_id (105, -75) = -193.663797
-First energy for grid_id (120, 30) = -193.660790
-First energy for grid_id (120, -60) = -193.662595
-First energy for grid_id (135, 15) = -193.660984
-First energy for grid_id (135, -45) = -193.662694
-First energy for grid_id (150, 0) = -193.662998
-First energy for grid_id (150, -30) = -193.664062
-First energy for grid_id (165, -15) = -193.665673
-First energy for grid_id (-15, 135) = -193.660253
-First energy for grid_id (-15, -165) = -193.662024
-First energy for grid_id (-30, 120) = -193.662831
-First energy for grid_id (-30, -150) = -193.664358
-First energy for grid_id (-45, 105) = -193.666369
-First energy for grid_id (-45, -135) = -193.666581
-First energy for grid_id (-60, 90) = -193.668634
-First energy for grid_id (-60, -120) = -193.667388
-First energy for grid_id (-75, 75) = -193.668493
-First energy for grid_id (-75, -105) = -193.666513
-First energy for grid_id (-90, 60) = -193.666425
-First energy for grid_id (-90, -90) = -193.664760
-First energy for grid_id (-105, 45) = -193.663285
-First energy for grid_id (-105, -75) = -193.663246
-First energy for grid_id (-120, 30) = -193.660753
-First energy for grid_id (-120, -60) = -193.662782
-First energy for grid_id (-135, 15) = -193.660648
-First energy for grid_id (-135, -45) = -193.663482
-First energy for grid_id (-150, 0) = -193.662999
-First energy for grid_id (-150, -30) = -193.664783
-First energy for grid_id (-165, -15) = -193.665910
+First energy for grid_id (0, 150) = -193.6599503914
+First energy for grid_id (0, 180) = -193.6610353943
+First energy for grid_id (15, 135) = -193.6606958193
+First energy for grid_id (15, -165) = -193.6618708553
+First energy for grid_id (30, 120) = -193.6636137537
+First energy for grid_id (30, -150) = -193.6638775653
+First energy for grid_id (45, 105) = -193.6668908457
+First energy for grid_id (45, -135) = -193.6661554151
+First energy for grid_id (60, 90) = -193.6687184968
+First energy for grid_id (60, -120) = -193.6676171224
+First energy for grid_id (75, 75) = -193.6682151997
+First energy for grid_id (75, -105) = -193.6673090246
+First energy for grid_id (90, 60) = -193.6657417368
+First energy for grid_id (90, -90) = -193.665670639
+First energy for grid_id (105, 45) = -193.6626997094
+First energy for grid_id (105, -75) = -193.6637968275
+First energy for grid_id (120, 30) = -193.6607901418
+First energy for grid_id (120, -60) = -193.6625950732
+First energy for grid_id (135, 15) = -193.6609835814
+First energy for grid_id (135, -45) = -193.6626941485
+First energy for grid_id (150, 0) = -193.6629984301
+First energy for grid_id (150, -30) = -193.6640616343
+First energy for grid_id (165, -15) = -193.665672596
+First energy for grid_id (-15, 135) = -193.6602528792
+First energy for grid_id (-15, -165) = -193.6620240634
+First energy for grid_id (-30, 120) = -193.6628305906
+First energy for grid_id (-30, -150) = -193.6643583475
+First energy for grid_id (-45, 105) = -193.6663690491
+First energy for grid_id (-45, -135) = -193.6665808125
+First energy for grid_id (-60, 90) = -193.6686342342
+First energy for grid_id (-60, -120) = -193.6673878204
+First energy for grid_id (-75, 75) = -193.6684927833
+First energy for grid_id (-75, -105) = -193.6665126844
+First energy for grid_id (-90, 60) = -193.6664246741
+First energy for grid_id (-90, -90) = -193.6647602639
+First energy for grid_id (-105, 45) = -193.6632853518
+First energy for grid_id (-105, -75) = -193.6632462546
+First energy for grid_id (-120, 30) = -193.6607525054
+First energy for grid_id (-120, -60) = -193.6627824518
+First energy for grid_id (-135, 15) = -193.6606480432
+First energy for grid_id (-135, -45) = -193.6634818337
+First energy for grid_id (-150, 0) = -193.6629989096
+First energy for grid_id (-150, -30) = -193.6647832742
+First energy for grid_id (-165, -15) = -193.6659096642
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -629,52 +629,52 @@ First energy for grid_id (-165, -15) = -193.665910
 -150                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
 -165                   [41m＼[0m[44m--[0m[1;41m><[0m[44m--[0m[41m／[0m                    
 
-First energy for grid_id (0, 165) = -193.660711
-First energy for grid_id (15, 150) = -193.661326
-First energy for grid_id (15, 180) = -193.662274
-First energy for grid_id (30, 135) = -193.663719
-First energy for grid_id (30, -165) = -193.664756
-First energy for grid_id (45, 120) = -193.666394
-First energy for grid_id (45, -150) = -193.666905
-First energy for grid_id (60, 105) = -193.667835
-First energy for grid_id (60, -135) = -193.667864
-First energy for grid_id (75, 90) = -193.667412
-First energy for grid_id (75, -120) = -193.667024
-First energy for grid_id (90, 75) = -193.665559
-First energy for grid_id (90, -105) = -193.664929
-First energy for grid_id (105, 60) = -193.663376
-First energy for grid_id (105, -90) = -193.663064
-First energy for grid_id (120, 45) = -193.662061
-First energy for grid_id (120, -75) = -193.662425
-First energy for grid_id (135, 30) = -193.662228
-First energy for grid_id (135, -60) = -193.663258
-First energy for grid_id (150, 15) = -193.663612
-First energy for grid_id (150, -45) = -193.665000
-First energy for grid_id (165, 0) = -193.665398
-First energy for grid_id (165, -30) = -193.666520
-First energy for grid_id (180, -15) = -193.666719
-First energy for grid_id (-15, 150) = -193.661027
-First energy for grid_id (-15, 180) = -193.662274
-First energy for grid_id (-30, 135) = -193.663071
-First energy for grid_id (-30, -165) = -193.665020
-First energy for grid_id (-45, 120) = -193.665927
-First energy for grid_id (-45, -150) = -193.667256
-First energy for grid_id (-60, 105) = -193.667961
-First energy for grid_id (-60, -135) = -193.667631
-First energy for grid_id (-75, 90) = -193.667961
-First energy for grid_id (-75, -120) = -193.666075
-First energy for grid_id (-90, 75) = -193.666323
-First energy for grid_id (-90, -105) = -193.663854
-First energy for grid_id (-105, 60) = -193.663936
-First energy for grid_id (-105, -90) = -193.662466
-First energy for grid_id (-120, 45) = -193.661955
-First energy for grid_id (-120, -75) = -193.662674
-First energy for grid_id (-135, 30) = -193.661621
-First energy for grid_id (-135, -60) = -193.664163
-First energy for grid_id (-150, 15) = -193.663215
-First energy for grid_id (-150, -45) = -193.665934
-First energy for grid_id (-165, 0) = -193.665398
-First energy for grid_id (-165, -30) = -193.666958
+First energy for grid_id (0, 165) = -193.6607114775
+First energy for grid_id (15, 150) = -193.6613263554
+First energy for grid_id (15, 180) = -193.6622741545
+First energy for grid_id (30, 135) = -193.6637187888
+First energy for grid_id (30, -165) = -193.6647559021
+First energy for grid_id (45, 120) = -193.6663938421
+First energy for grid_id (45, -150) = -193.6669047869
+First energy for grid_id (60, 105) = -193.6678350209
+First energy for grid_id (60, -135) = -193.667863681
+First energy for grid_id (75, 90) = -193.6674116287
+First energy for grid_id (75, -120) = -193.6670241646
+First energy for grid_id (90, 75) = -193.6655588345
+First energy for grid_id (90, -105) = -193.6649291523
+First energy for grid_id (105, 60) = -193.66337602
+First energy for grid_id (105, -90) = -193.6630643367
+First energy for grid_id (120, 45) = -193.6620605592
+First energy for grid_id (120, -75) = -193.6624246177
+First energy for grid_id (135, 30) = -193.6622282803
+First energy for grid_id (135, -60) = -193.6632580741
+First energy for grid_id (150, 15) = -193.6636117379
+First energy for grid_id (150, -45) = -193.6649997445
+First energy for grid_id (165, 0) = -193.6653983802
+First energy for grid_id (165, -30) = -193.6665204341
+First energy for grid_id (180, -15) = -193.6667185072
+First energy for grid_id (-15, 150) = -193.6610273574
+First energy for grid_id (-15, 180) = -193.6622740133
+First energy for grid_id (-30, 135) = -193.6630712273
+First energy for grid_id (-30, -165) = -193.6650199226
+First energy for grid_id (-45, 120) = -193.6659274278
+First energy for grid_id (-45, -150) = -193.6672561088
+First energy for grid_id (-60, 105) = -193.6679611514
+First energy for grid_id (-60, -135) = -193.6676311445
+First energy for grid_id (-75, 90) = -193.6679609511
+First energy for grid_id (-75, -120) = -193.6660751097
+First energy for grid_id (-90, 75) = -193.6663231012
+First energy for grid_id (-90, -105) = -193.6638535331
+First energy for grid_id (-105, 60) = -193.6639361639
+First energy for grid_id (-105, -90) = -193.6624664201
+First energy for grid_id (-120, 45) = -193.6619547702
+First energy for grid_id (-120, -75) = -193.6626735883
+First energy for grid_id (-135, 30) = -193.6616207128
+First energy for grid_id (-135, -60) = -193.6641633455
+First energy for grid_id (-150, 15) = -193.6632150975
+First energy for grid_id (-150, -45) = -193.6659338579
+First energy for grid_id (-165, 0) = -193.6653983711
+First energy for grid_id (-165, -30) = -193.6669577636
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -703,50 +703,50 @@ First energy for grid_id (-165, -30) = -193.666958
 -150               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
 -165                 [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                  
 
-First energy for grid_id (15, 165) = -193.662024
-First energy for grid_id (30, 150) = -193.664358
-First energy for grid_id (30, 180) = -193.665211
-First energy for grid_id (45, 135) = -193.666581
-First energy for grid_id (45, -165) = -193.667716
-First energy for grid_id (60, 120) = -193.667388
-First energy for grid_id (60, -150) = -193.668542
-First energy for grid_id (75, 105) = -193.666513
-First energy for grid_id (75, -135) = -193.667323
-First energy for grid_id (90, 90) = -193.664760
-First energy for grid_id (90, -120) = -193.664612
-First energy for grid_id (105, 75) = -193.663246
-First energy for grid_id (105, -105) = -193.662239
-First energy for grid_id (120, 60) = -193.662782
-First energy for grid_id (120, -90) = -193.661643
-First energy for grid_id (135, 45) = -193.663482
-First energy for grid_id (135, -75) = -193.663036
-First energy for grid_id (150, 30) = -193.664783
-First energy for grid_id (150, -60) = -193.665464
-First energy for grid_id (165, 15) = -193.665910
-First energy for grid_id (165, -45) = -193.667413
-First energy for grid_id (180, 0) = -193.666336
-First energy for grid_id (180, -30) = -193.667653
-First energy for grid_id (-15, 165) = -193.661871
-First energy for grid_id (-30, 150) = -193.663878
-First energy for grid_id (-30, 180) = -193.665211
-First energy for grid_id (-45, 135) = -193.666155
-First energy for grid_id (-45, -165) = -193.667922
-First energy for grid_id (-60, 120) = -193.667617
-First energy for grid_id (-60, -150) = -193.668374
-First energy for grid_id (-75, 105) = -193.667309
-First energy for grid_id (-75, -135) = -193.666376
-First energy for grid_id (-90, 90) = -193.665671
-First energy for grid_id (-90, -120) = -193.663429
-First energy for grid_id (-105, 75) = -193.663797
-First energy for grid_id (-105, -105) = -193.661561
-First energy for grid_id (-120, 60) = -193.662595
-First energy for grid_id (-120, -90) = -193.661910
-First energy for grid_id (-135, 45) = -193.662694
-First energy for grid_id (-135, -75) = -193.664037
-First energy for grid_id (-150, 30) = -193.664062
-First energy for grid_id (-150, -60) = -193.666530
-First energy for grid_id (-165, 15) = -193.665672
-First energy for grid_id (-165, -45) = -193.667990
+First energy for grid_id (15, 165) = -193.6620240614
+First energy for grid_id (30, 150) = -193.6643583476
+First energy for grid_id (30, 180) = -193.6652110851
+First energy for grid_id (45, 135) = -193.6665808129
+First energy for grid_id (45, -165) = -193.6677161177
+First energy for grid_id (60, 120) = -193.6673878191
+First energy for grid_id (60, -150) = -193.6685422025
+First energy for grid_id (75, 105) = -193.6665126777
+First energy for grid_id (75, -135) = -193.6673228882
+First energy for grid_id (90, 90) = -193.6647602097
+First energy for grid_id (90, -120) = -193.6646124877
+First energy for grid_id (105, 75) = -193.6632462542
+First energy for grid_id (105, -105) = -193.6622394856
+First energy for grid_id (120, 60) = -193.6627824555
+First energy for grid_id (120, -90) = -193.6616433034
+First energy for grid_id (135, 45) = -193.6634818328
+First energy for grid_id (135, -75) = -193.6630359333
+First energy for grid_id (150, 30) = -193.664783402
+First energy for grid_id (150, -60) = -193.6654637632
+First energy for grid_id (165, 15) = -193.6659096607
+First energy for grid_id (165, -45) = -193.6674133998
+First energy for grid_id (180, 0) = -193.6663363101
+First energy for grid_id (180, -30) = -193.6676525482
+First energy for grid_id (-15, 165) = -193.6618708556
+First energy for grid_id (-30, 150) = -193.6638775643
+First energy for grid_id (-30, 180) = -193.6652109977
+First energy for grid_id (-45, 135) = -193.6661554147
+First energy for grid_id (-45, -165) = -193.6679224698
+First energy for grid_id (-60, 120) = -193.6676171215
+First energy for grid_id (-60, -150) = -193.6683735769
+First energy for grid_id (-75, 105) = -193.6673090244
+First energy for grid_id (-75, -135) = -193.6663761547
+First energy for grid_id (-90, 90) = -193.665670639
+First energy for grid_id (-90, -120) = -193.6634286075
+First energy for grid_id (-105, 75) = -193.6637968281
+First energy for grid_id (-105, -105) = -193.6615609613
+First energy for grid_id (-120, 60) = -193.6625950738
+First energy for grid_id (-120, -90) = -193.6619097404
+First energy for grid_id (-135, 45) = -193.6626941477
+First energy for grid_id (-135, -75) = -193.6640369053
+First energy for grid_id (-150, 30) = -193.6640618719
+First energy for grid_id (-150, -60) = -193.6665303177
+First energy for grid_id (-165, 15) = -193.6656722688
+First energy for grid_id (-165, -45) = -193.6679899499
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
@@ -775,46 +775,46 @@ First energy for grid_id (-165, -45) = -193.667990
 -150             [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m              
 -165               [41m＼[0m[44m--[0m[41m＼[0m[44m--[0m[44m--[0m[44m--[0m[41m／[0m[44m--[0m[41m／[0m                
 
-First energy for grid_id (30, 165) = -193.665020
-First energy for grid_id (45, 150) = -193.667256
-First energy for grid_id (45, 180) = -193.668126
-First energy for grid_id (60, 135) = -193.667631
-First energy for grid_id (60, -165) = -193.669220
-First energy for grid_id (75, 120) = -193.666075
-First energy for grid_id (75, -150) = -193.668001
-First energy for grid_id (90, 105) = -193.663854
-First energy for grid_id (90, -135) = -193.664945
-First energy for grid_id (105, 90) = -193.662466
-First energy for grid_id (105, -120) = -193.661878
-First energy for grid_id (120, 75) = -193.662674
-First energy for grid_id (120, -105) = -193.660778
-First energy for grid_id (135, 60) = -193.664163
-First energy for grid_id (135, -90) = -193.662217
-First energy for grid_id (150, 45) = -193.665934
-First energy for grid_id (150, -75) = -193.665187
-First energy for grid_id (165, 30) = -193.666958
-First energy for grid_id (165, -60) = -193.667828
-First energy for grid_id (180, 15) = -193.666723
-First energy for grid_id (180, -45) = -193.668591
-First energy for grid_id (-30, 165) = -193.664756
-First energy for grid_id (-45, 150) = -193.666905
-First energy for grid_id (-45, 180) = -193.668126
-First energy for grid_id (-60, 135) = -193.667864
-First energy for grid_id (-60, -165) = -193.669136
-First energy for grid_id (-75, 120) = -193.667024
-First energy for grid_id (-75, -150) = -193.667235
-First energy for grid_id (-90, 105) = -193.664929
-First energy for grid_id (-90, -135) = -193.663785
-First energy for grid_id (-105, 90) = -193.663064
-First energy for grid_id (-105, -120) = -193.661134
-First energy for grid_id (-120, 75) = -193.662425
-First energy for grid_id (-120, -105) = -193.661009
-First energy for grid_id (-135, 60) = -193.663258
-First energy for grid_id (-135, -90) = -193.663283
-First energy for grid_id (-150, 45) = -193.665000
-First energy for grid_id (-150, -75) = -193.666362
-First energy for grid_id (-165, 30) = -193.666520
-First energy for grid_id (-165, -60) = -193.668496
+First energy for grid_id (30, 165) = -193.6650200475
+First energy for grid_id (45, 150) = -193.6672561096
+First energy for grid_id (45, 180) = -193.6681261559
+First energy for grid_id (60, 135) = -193.6676311446
+First energy for grid_id (60, -165) = -193.6692201875
+First energy for grid_id (75, 120) = -193.6660751144
+First energy for grid_id (75, -150) = -193.6680008789
+First energy for grid_id (90, 105) = -193.663853513
+First energy for grid_id (90, -135) = -193.6649447367
+First energy for grid_id (105, 90) = -193.6624664189
+First energy for grid_id (105, -120) = -193.6618778647
+First energy for grid_id (120, 75) = -193.6626735877
+First energy for grid_id (120, -105) = -193.6607779322
+First energy for grid_id (135, 60) = -193.6641633463
+First energy for grid_id (135, -90) = -193.6622169892
+First energy for grid_id (150, 45) = -193.6659339541
+First energy for grid_id (150, -75) = -193.6651870603
+First energy for grid_id (165, 30) = -193.6669577459
+First energy for grid_id (165, -60) = -193.6678275134
+First energy for grid_id (180, 15) = -193.6667234055
+First energy for grid_id (180, -45) = -193.6685914792
+First energy for grid_id (-30, 165) = -193.6647559012
+First energy for grid_id (-45, 150) = -193.6669047863
+First energy for grid_id (-45, 180) = -193.6681261306
+First energy for grid_id (-60, 135) = -193.6678636803
+First energy for grid_id (-60, -165) = -193.6691362365
+First energy for grid_id (-75, 120) = -193.6670241632
+First energy for grid_id (-75, -150) = -193.6672353063
+First energy for grid_id (-90, 105) = -193.6649291481
+First energy for grid_id (-90, -135) = -193.663784674
+First energy for grid_id (-105, 90) = -193.6630643374
+First energy for grid_id (-105, -120) = -193.6611339527
+First energy for grid_id (-120, 75) = -193.6624246181
+First energy for grid_id (-120, -105) = -193.6610086529
+First energy for grid_id (-135, 60) = -193.663258074
+First energy for grid_id (-135, -90) = -193.663282895
+First energy for grid_id (-150, 45) = -193.6649995446
+First energy for grid_id (-150, -75) = -193.6663622315
+First energy for grid_id (-165, 30) = -193.6665201153
+First energy for grid_id (-165, -60) = -193.6684955042
 --== Ramachandran Plot of Optimization Status ==--
 --== Blue: Optimized, Green: Found Lower, Red: Next ==--
     -165  -120   -75   -30    15    60   105   150
