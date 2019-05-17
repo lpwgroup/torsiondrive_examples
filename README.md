@@ -41,7 +41,7 @@ tar xf opt_tmp.tar.gz
 
 8. install the quantum chemistry software, for psi4:
 ```
-conda install -c psi4 psi4
+conda install -c psi4 psi4 dftd3 gcp
 ```
 
 9. run the example:
