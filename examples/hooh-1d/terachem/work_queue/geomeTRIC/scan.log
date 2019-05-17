@@ -1,4 +1,4 @@
-/home/qyd/codes/anaconda3/envs/geometric/bin/torsiondrive-launch run.in dihedrals.txt -g 15 -e terachem --wq_port 50124 -v
+/home/qyd/codes/anaconda3/envs/tdtest/bin/torsiondrive-launch run.in dihedrals.txt -g 15 -e terachem --wq_port 50124 -v
 Master process started!
 1 initial tasks pushed to opt_queue
 Scan Status at 0 s
@@ -6,30 +6,30 @@ Scan Status at 0 s
 
 Launching new job at opt_tmp/gid_-120/1
 Find finished jobs: {'opt_tmp/gid_-120/1'}
-First energy for grid_id (-120,) = -151.534555
-Scan Status at 48 s
+First energy for grid_id (-120,) = -151.5345548844
+Scan Status at 51 s
  - - [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - - - - -
 
 Launching new job at opt_tmp/gid_-135/1
 Launching new job at opt_tmp/gid_-105/1
 Find finished jobs: {'opt_tmp/gid_-135/1'}
 Find finished jobs: {'opt_tmp/gid_-105/1'}
-First energy for grid_id (-105,) = -151.534326
-First energy for grid_id (-135,) = -151.534338
-Scan Status at 62 s
+First energy for grid_id (-105,) = -151.5343257586
+First energy for grid_id (-135,) = -151.5343094267
+Scan Status at 64 s
  - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - - - -
 
 Launching new job at opt_tmp/gid_-120/2
 Launching new job at opt_tmp/gid_-090/1
 Launching new job at opt_tmp/gid_-150/1
 Launching new job at opt_tmp/gid_-120/3
-Find finished jobs: {'opt_tmp/gid_-090/1'}
-Find finished jobs: {'opt_tmp/gid_-150/1'}
-Find finished jobs: {'opt_tmp/gid_-120/3'}
 Find finished jobs: {'opt_tmp/gid_-120/2'}
-First energy for grid_id (-90,) = -151.533387
-First energy for grid_id (-150,) = -151.533922
-Scan Status at 93 s
+Find finished jobs: {'opt_tmp/gid_-120/3'}
+Find finished jobs: {'opt_tmp/gid_-150/1'}
+Find finished jobs: {'opt_tmp/gid_-090/1'}
+First energy for grid_id (-90,) = -151.5333872213
+First energy for grid_id (-150,) = -151.5339002765
+Scan Status at 251 s
  [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - - -
 
 Launching new job at opt_tmp/gid_-105/2
@@ -37,128 +37,169 @@ Launching new job at opt_tmp/gid_-075/1
 Launching new job at opt_tmp/gid_-165/1
 Launching new job at opt_tmp/gid_-135/2
 Find finished jobs: {'opt_tmp/gid_-165/1'}
+Find finished jobs: {'opt_tmp/gid_-075/1'}
 Find finished jobs: {'opt_tmp/gid_-105/2'}
 Find finished jobs: {'opt_tmp/gid_-135/2'}
-Find finished jobs: {'opt_tmp/gid_-075/1'}
-First energy for grid_id (-75,) = -151.531585
-First energy for grid_id (-165,) = -151.533557
-Scan Status at 124 s
- [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - [0;33m+[0m
+First energy for grid_id (-75,) = -151.5315497059
+Energy for grid_id (-135,) decreased from -151.5343094267 to -151.5343385025
+First energy for grid_id (-165,) = -151.5335403251
+Scan Status at 480 s
+ [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - [0;33m+[0m
 
 Launching new job at opt_tmp/gid_-090/2
 Launching new job at opt_tmp/gid_-060/1
-Launching new job at opt_tmp/gid_+180/1
 Launching new job at opt_tmp/gid_-150/2
+Launching new job at opt_tmp/gid_-120/4
+Launching new job at opt_tmp/gid_+180/1
+Launching new job at opt_tmp/gid_-150/3
+Find finished jobs: {'opt_tmp/gid_+180/1'}
+Find finished jobs: {'opt_tmp/gid_-120/4'}
 Find finished jobs: {'opt_tmp/gid_-060/1'}
+Find finished jobs: {'opt_tmp/gid_-150/3'}
 Find finished jobs: {'opt_tmp/gid_-090/2'}
 Find finished jobs: {'opt_tmp/gid_-150/2'}
-Find finished jobs: {'opt_tmp/gid_+180/1'}
-First energy for grid_id (180,) = -151.533412
-First energy for grid_id (-60,) = -151.529010
-Scan Status at 152 s
- [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m
+First energy for grid_id (180,) = -151.5334075905
+First energy for grid_id (-60,) = -151.5289986419
+Energy for grid_id (-150,) decreased from -151.5339002765 to -151.5339219954
+Scan Status at 1512 s
+ [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_+165/1
 Launching new job at opt_tmp/gid_-165/2
 Launching new job at opt_tmp/gid_-075/2
 Launching new job at opt_tmp/gid_-045/1
-Find finished jobs: {'opt_tmp/gid_+165/1'}
+Launching new job at opt_tmp/gid_-165/3
+Launching new job at opt_tmp/gid_-135/3
+Find finished jobs: {'opt_tmp/gid_-135/3'}
 Find finished jobs: {'opt_tmp/gid_-045/1'}
-Find finished jobs: {'opt_tmp/gid_-165/2'}
 Find finished jobs: {'opt_tmp/gid_-075/2'}
-First energy for grid_id (165,) = -151.533557
-First energy for grid_id (-45,) = -151.526023
-Scan Status at 176 s
- [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m
+Find finished jobs: {'opt_tmp/gid_-165/2'}
+Find finished jobs: {'opt_tmp/gid_+165/1'}
+Find finished jobs: {'opt_tmp/gid_-165/3'}
+First energy for grid_id (165,) = -151.5335565829
+First energy for grid_id (-45,) = -151.5259855859
+Energy for grid_id (-165,) decreased from -151.5335403251 to -151.5335571239
+Scan Status at 2273 s
+ [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m
 
 Launching new job at opt_tmp/gid_+150/1
 Launching new job at opt_tmp/gid_+180/2
 Launching new job at opt_tmp/gid_-060/2
 Launching new job at opt_tmp/gid_-030/1
-Find finished jobs: {'opt_tmp/gid_-060/2'}
+Launching new job at opt_tmp/gid_+180/3
+Launching new job at opt_tmp/gid_-150/4
+Find finished jobs: {'opt_tmp/gid_-150/4'}
 Find finished jobs: {'opt_tmp/gid_+180/2'}
-Find finished jobs: {'opt_tmp/gid_+150/1'}
 Find finished jobs: {'opt_tmp/gid_-030/1'}
-First energy for grid_id (150,) = -151.533922
-First energy for grid_id (-30,) = -151.523205
-Scan Status at 207 s
+Find finished jobs: {'opt_tmp/gid_-060/2'}
+Find finished jobs: {'opt_tmp/gid_+150/1'}
+Find finished jobs: {'opt_tmp/gid_+180/3'}
+First energy for grid_id (150,) = -151.5339125362
+First energy for grid_id (-30,) = -151.5231893052
+Scan Status at 2549 s
  [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_+135/1
 Launching new job at opt_tmp/gid_+165/2
 Launching new job at opt_tmp/gid_-045/2
 Launching new job at opt_tmp/gid_-015/1
-Find finished jobs: {'opt_tmp/gid_-045/2'}
-Find finished jobs: {'opt_tmp/gid_-015/1'}
-Find finished jobs: {'opt_tmp/gid_+165/2'}
 Find finished jobs: {'opt_tmp/gid_+135/1'}
-First energy for grid_id (135,) = -151.534339
-First energy for grid_id (-15,) = -151.521181
-Scan Status at 237 s
+Find finished jobs: {'opt_tmp/gid_-015/1'}
+Find finished jobs: {'opt_tmp/gid_-045/2'}
+Find finished jobs: {'opt_tmp/gid_+165/2'}
+First energy for grid_id (135,) = -151.534321153
+First energy for grid_id (-15,) = -151.5211692352
+Scan Status at 3039 s
  [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_+120/1
 Launching new job at opt_tmp/gid_+150/2
 Launching new job at opt_tmp/gid_-030/2
 Launching new job at opt_tmp/gid_+000/1
-Find finished jobs: {'opt_tmp/gid_-030/2'}
-Find finished jobs: {'opt_tmp/gid_+000/1'}
 Find finished jobs: {'opt_tmp/gid_+120/1'}
 Find finished jobs: {'opt_tmp/gid_+150/2'}
-First energy for grid_id (0,) = -151.520433
-First energy for grid_id (120,) = -151.534556
-Scan Status at 268 s
- [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+Find finished jobs: {'opt_tmp/gid_+000/1'}
+Find finished jobs: {'opt_tmp/gid_-030/2'}
+First energy for grid_id (0,) = -151.520433277
+First energy for grid_id (120,) = -151.5345559471
+Energy for grid_id (-30,) decreased from -151.5231893052 to -151.5232053109
+Scan Status at 3222 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_-015/2
 Launching new job at opt_tmp/gid_+015/1
 Launching new job at opt_tmp/gid_+105/1
 Launching new job at opt_tmp/gid_+135/2
-Find finished jobs: {'opt_tmp/gid_-015/2'}
-Find finished jobs: {'opt_tmp/gid_+105/1'}
-Find finished jobs: {'opt_tmp/gid_+015/1'}
-Find finished jobs: {'opt_tmp/gid_+135/2'}
-First energy for grid_id (15,) = -151.521161
-First energy for grid_id (105,) = -151.534326
-Scan Status at 300 s
- [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+Launching new job at opt_tmp/gid_-045/3
+Launching new job at opt_tmp/gid_-015/3
+Find finished jobs: {'opt_tmp/gid_+015/1', 'opt_tmp/gid_-015/2'}
+Find finished jobs: {'opt_tmp/gid_+105/1', 'opt_tmp/gid_+135/2'}
+Find finished jobs: {'opt_tmp/gid_-045/3'}
+Find finished jobs: {'opt_tmp/gid_-015/3'}
+First energy for grid_id (15,) = -151.5211613051
+First energy for grid_id (105,) = -151.5343261569
+Energy for grid_id (135,) decreased from -151.534321153 to -151.5343388485
+Energy for grid_id (-15,) decreased from -151.5211692352 to -151.521180937
+Energy for grid_id (-45,) decreased from -151.5259855859 to -151.5260229819
+Scan Status at 3343 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_+000/2
 Launching new job at opt_tmp/gid_+030/1
 Launching new job at opt_tmp/gid_+090/1
 Launching new job at opt_tmp/gid_+120/2
-Find finished jobs: {'opt_tmp/gid_+030/1'}
-Find finished jobs: {'opt_tmp/gid_+120/2'}
-Find finished jobs: {'opt_tmp/gid_+090/1'}
+Launching new job at opt_tmp/gid_+120/3
+Launching new job at opt_tmp/gid_+150/3
+Launching new job at opt_tmp/gid_-030/3
+Launching new job at opt_tmp/gid_+000/3
+Launching new job at opt_tmp/gid_-060/3
+Launching new job at opt_tmp/gid_-030/4
 Find finished jobs: {'opt_tmp/gid_+000/2'}
-First energy for grid_id (30,) = -151.523188
-First energy for grid_id (90,) = -151.533388
-Scan Status at 332 s
- [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+Find finished jobs: {'opt_tmp/gid_+030/1'}
+Find finished jobs: {'opt_tmp/gid_+120/2', 'opt_tmp/gid_+090/1'}
+Find finished jobs: {'opt_tmp/gid_+150/3'}
+Find finished jobs: {'opt_tmp/gid_+120/3'}
+Find finished jobs: {'opt_tmp/gid_+000/3', 'opt_tmp/gid_-030/3'}
+Find finished jobs: {'opt_tmp/gid_-060/3'}
+Find finished jobs: {'opt_tmp/gid_-030/4'}
+First energy for grid_id (30,) = -151.5231878973
+First energy for grid_id (90,) = -151.5333873545
+Energy for grid_id (-60,) decreased from -151.5289986419 to -151.5290108779
+Scan Status at 3476 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_+015/2
 Launching new job at opt_tmp/gid_+045/1
 Launching new job at opt_tmp/gid_+075/1
 Launching new job at opt_tmp/gid_+105/2
-Find finished jobs: {'opt_tmp/gid_+075/1'}
-Find finished jobs: {'opt_tmp/gid_+015/2'}
+Launching new job at opt_tmp/gid_-075/3
+Launching new job at opt_tmp/gid_-045/4
 Find finished jobs: {'opt_tmp/gid_+045/1'}
+Find finished jobs: {'opt_tmp/gid_+015/2'}
+Find finished jobs: {'opt_tmp/gid_+075/1'}
 Find finished jobs: {'opt_tmp/gid_+105/2'}
-First energy for grid_id (45,) = -151.526022
-First energy for grid_id (75,) = -151.531584
-Scan Status at 364 s
- [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+Find finished jobs: {'opt_tmp/gid_-045/4'}
+Find finished jobs: {'opt_tmp/gid_-075/3'}
+First energy for grid_id (45,) = -151.5260219449
+First energy for grid_id (75,) = -151.5315850786
+Energy for grid_id (-75,) decreased from -151.5315497059 to -151.531584492
+Scan Status at 3505 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_+030/2
 Launching new job at opt_tmp/gid_+060/1
 Launching new job at opt_tmp/gid_+060/2
 Launching new job at opt_tmp/gid_+090/2
+Launching new job at opt_tmp/gid_-090/3
+Launching new job at opt_tmp/gid_-060/4
+Find finished jobs: {'opt_tmp/gid_+060/1'}
 Find finished jobs: {'opt_tmp/gid_+030/2'}
 Find finished jobs: {'opt_tmp/gid_+060/2'}
-Find finished jobs: {'opt_tmp/gid_+060/1'}
 Find finished jobs: {'opt_tmp/gid_+090/2'}
-First energy for grid_id (60,) = -151.529013
-Scan Status at 395 s
+Find finished jobs: {'opt_tmp/gid_-090/3'}
+Find finished jobs: {'opt_tmp/gid_-060/4'}
+First energy for grid_id (60,) = -151.5290128273
+Scan Status at 3534 s
  [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
 
 Launching new job at opt_tmp/gid_+045/2
@@ -166,31 +207,31 @@ Launching new job at opt_tmp/gid_+075/2
 Find finished jobs: {'opt_tmp/gid_+045/2'}
 Find finished jobs: {'opt_tmp/gid_+075/2'}
 All optimizations converged at lowest energy. Job Finished!
-Final scan energies are written to qdata.txt
+Final scan energies and gradients are written to qdata.txt
 Final scan energies are written to scan.xyz
 Dihedral scan is finished!
  Grid ID                Energy
-  (-165,)              -151.5335570559
-  (-150,)              -151.5339219302
-  (-135,)              -151.5343383324
-  (-120,)              -151.5345548858
-  (-105,)              -151.5343257381
-  (-90,)               -151.5333872166
-  (-75,)               -151.5315851065
-  (-60,)               -151.5290103478
-  (-45,)               -151.5260227457
-  (-30,)               -151.5232054313
-  (-15,)               -151.5211807438
-  (0,)                 -151.5204332140
-  (15,)                -151.5211607042
-  (30,)                -151.5231875148
-  (45,)                -151.5260221713
-  (60,)                -151.5290132497
-  (75,)                -151.5315844599
-  (90,)                -151.5333883771
-  (105,)               -151.5343258515
-  (120,)               -151.5345561248
-  (135,)               -151.5343391745
-  (150,)               -151.5339219420
-  (165,)               -151.5335570947
-  (180,)               -151.5334116976
+  (-165,)              -151.5335571239
+  (-150,)              -151.5339219954
+  (-135,)              -151.5343385025
+  (-120,)              -151.5345548844
+  (-105,)              -151.5343257586
+  (-90,)               -151.5333872213
+  (-75,)               -151.5315844920
+  (-60,)               -151.5290108779
+  (-45,)               -151.5260229819
+  (-30,)               -151.5232053109
+  (-15,)               -151.5211809370
+  (0,)                 -151.5204332770
+  (15,)                -151.5211613051
+  (30,)                -151.5231878973
+  (45,)                -151.5260219449
+  (60,)                -151.5290128273
+  (75,)                -151.5315850786
+  (90,)                -151.5333873545
+  (105,)               -151.5343261569
+  (120,)               -151.5345559471
+  (135,)               -151.5343388485
+  (150,)               -151.5339125362
+  (165,)               -151.5335565829
+  (180,)               -151.5334075905
