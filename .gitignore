@@ -1,2 +1,4 @@
 **/opt_tmp/
 **/worker.log
+# the try/ folder contains examples not-ready-yet
+try/
