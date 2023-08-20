@@ -1,0 +1,1 @@
+torsiondrive-launch -e ase -g 15 -v -c ase_options.txt --wq_port 50124 start.xyz dihedrals.txt 2>&1 | tee scan.log

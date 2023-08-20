@@ -1,0 +1,241 @@
+/home/leeping/opt/miniconda3/envs/main/bin/torsiondrive-launch -e ase -g 15 -v -c ase_options.txt --wq_port 50124 start.xyz dihedrals.txt
+Work Queue listening on 50124
+Master process started!
+1 initial tasks pushed to opt_queue
+Scan Status at 0 s
+ - - - [0;33m+[0m - - - - - - - - - - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_-120/1
+warning: this work queue manager is visible to the public.
+warning: you should set a password with the --password option.
+warning: using plain-text when communicating with workers.
+warning: use encryption with a key and cert when creating the manager.
+Sun Aug 20 05:40:20 2023: 0/0 workers busy; 0/1 jobs complete
+Sun Aug 20 05:40:48 2023: 1/8 workers busy; 0/1 jobs complete
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 1) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_-120/1'}
+First energy for grid_id (-120,) = -9.053101808726
+Scan Status at 32 s
+ - - [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_-135/1
+Launching new job at opt_tmp/gid_-105/1
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 2) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_-135/1'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 3) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Sun Aug 20 05:40:58 2023: 0/8 workers busy; 3/3 jobs complete
+Find finished jobs: {'opt_tmp/gid_-105/1'}
+First energy for grid_id (-105,) = -9.052305336834
+First energy for grid_id (-135,) = -9.05372165867
+Scan Status at 39 s
+ - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_-120/2
+Launching new job at opt_tmp/gid_-090/1
+Launching new job at opt_tmp/gid_-150/1
+Launching new job at opt_tmp/gid_-120/3
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 4) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 6) finished successfully on host bright.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 5) finished successfully on host bright.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_-120/2', 'opt_tmp/gid_-090/1', 'opt_tmp/gid_-150/1'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 7) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_-120/3'}
+First energy for grid_id (-90,) = -9.051207979386
+First energy for grid_id (-150,) = -9.054213732945
+Scan Status at 47 s
+ [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - - -
+
+Launching new job at opt_tmp/gid_-105/2
+Launching new job at opt_tmp/gid_-075/1
+Launching new job at opt_tmp/gid_-165/1
+Launching new job at opt_tmp/gid_-135/2
+Sun Aug 20 05:41:09 2023: 4/8 workers busy; 7/11 jobs complete
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 10) finished successfully on host bright.ucdavis.edu (5 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 11) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 9) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_-135/2', 'opt_tmp/gid_-075/1', 'opt_tmp/gid_-165/1'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 8) finished successfully on host bright.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_-105/2'}
+First energy for grid_id (-75,) = -9.049681307865
+First energy for grid_id (-165,) = -9.054548876052
+Scan Status at 55 s
+ [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - - - [0;33m+[0m
+
+Launching new job at opt_tmp/gid_-090/2
+Launching new job at opt_tmp/gid_-060/1
+Launching new job at opt_tmp/gid_+180/1
+Launching new job at opt_tmp/gid_-150/2
+Sun Aug 20 05:41:19 2023: 4/8 workers busy; 11/15 jobs complete
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 12) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 14) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 13) finished successfully on host bright.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_-060/1', 'opt_tmp/gid_+180/1', 'opt_tmp/gid_-090/2'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 15) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_-150/2'}
+First energy for grid_id (180,) = -9.054669731989
+First energy for grid_id (-60,) = -9.047704260275
+Scan Status at 63 s
+ [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - - - [0;33m+[0m [0;36mo[0m
+
+Launching new job at opt_tmp/gid_+165/1
+Launching new job at opt_tmp/gid_-165/2
+Launching new job at opt_tmp/gid_-075/2
+Launching new job at opt_tmp/gid_-045/1
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 16) finished successfully on host bright.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 19) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 17) finished successfully on host bright.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_-165/2', 'opt_tmp/gid_-045/1', 'opt_tmp/gid_+165/1'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 18) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Sun Aug 20 05:41:29 2023: 0/8 workers busy; 19/19 jobs complete
+Find finished jobs: {'opt_tmp/gid_-075/2'}
+First energy for grid_id (165,) = -9.054548876708
+First energy for grid_id (-45,) = -9.045455160958
+Scan Status at 71 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m
+
+Launching new job at opt_tmp/gid_+150/1
+Launching new job at opt_tmp/gid_+180/2
+Launching new job at opt_tmp/gid_-060/2
+Launching new job at opt_tmp/gid_-030/1
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 22) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 21) finished successfully on host bright.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 20) finished successfully on host bright.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_+180/2', 'opt_tmp/gid_+150/1', 'opt_tmp/gid_-060/2'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 23) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_-030/1'}
+First energy for grid_id (150,) = -9.054213733121
+First energy for grid_id (-30,) = -9.043318721282
+Scan Status at 79 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m
+
+Launching new job at opt_tmp/gid_+135/1
+Launching new job at opt_tmp/gid_+165/2
+Launching new job at opt_tmp/gid_-045/2
+Launching new job at opt_tmp/gid_-015/1
+Sun Aug 20 05:41:40 2023: 4/8 workers busy; 23/27 jobs complete
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 25) finished successfully on host bright.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 26) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 27) finished successfully on host bright.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_+165/2', 'opt_tmp/gid_-045/2', 'opt_tmp/gid_-015/1'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 24) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_+135/1'}
+First energy for grid_id (135,) = -9.053721658625
+First energy for grid_id (-15,) = -9.041773360676
+Scan Status at 87 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m
+
+Launching new job at opt_tmp/gid_+120/1
+Launching new job at opt_tmp/gid_+150/2
+Launching new job at opt_tmp/gid_-030/2
+Launching new job at opt_tmp/gid_+000/1
+Sun Aug 20 05:41:50 2023: 4/8 workers busy; 27/31 jobs complete
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 31) finished successfully on host bright.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 29) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 28) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_+000/1', 'opt_tmp/gid_+120/1', 'opt_tmp/gid_+150/2'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 30) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_-030/2'}
+First energy for grid_id (0,) = -9.04120876923
+First energy for grid_id (120,) = -9.05310180329
+Scan Status at 95 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+
+Launching new job at opt_tmp/gid_-015/2
+Launching new job at opt_tmp/gid_+015/1
+Launching new job at opt_tmp/gid_+105/1
+Launching new job at opt_tmp/gid_+135/2
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 33) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 35) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Sun Aug 20 05:42:00 2023: 1/8 workers busy; 34/35 jobs complete
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 34) finished successfully on host bright.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_+015/1', 'opt_tmp/gid_+135/2', 'opt_tmp/gid_+105/1'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 32) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_-015/2'}
+First energy for grid_id (15,) = -9.041773357588
+First energy for grid_id (105,) = -9.052305337184
+Scan Status at 103 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - - - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+
+Launching new job at opt_tmp/gid_+000/2
+Launching new job at opt_tmp/gid_+030/1
+Launching new job at opt_tmp/gid_+090/1
+Launching new job at opt_tmp/gid_+120/2
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 37) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 39) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 38) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_+030/1', 'opt_tmp/gid_+120/2', 'opt_tmp/gid_+090/1'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 36) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Sun Aug 20 05:42:10 2023: 0/8 workers busy; 39/39 jobs complete
+Find finished jobs: {'opt_tmp/gid_+000/2'}
+First energy for grid_id (30,) = -9.04331872218
+First energy for grid_id (90,) = -9.051207979383
+Scan Status at 111 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m - [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+
+Launching new job at opt_tmp/gid_+015/2
+Launching new job at opt_tmp/gid_+045/1
+Launching new job at opt_tmp/gid_+075/1
+Launching new job at opt_tmp/gid_+105/2
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 41) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 42) finished successfully on host bright.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_+075/1', 'opt_tmp/gid_+045/1'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 43) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 40) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_+105/2', 'opt_tmp/gid_+015/2'}
+First energy for grid_id (45,) = -9.045455215683
+First energy for grid_id (75,) = -9.049681307875
+Scan Status at 118 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+
+Launching new job at opt_tmp/gid_+030/2
+Launching new job at opt_tmp/gid_+060/1
+Launching new job at opt_tmp/gid_+060/2
+Launching new job at opt_tmp/gid_+090/2
+Sun Aug 20 05:42:21 2023: 4/8 workers busy; 43/47 jobs complete
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 44) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_+030/2'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 46) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 45) finished successfully on host chem9210.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_+060/2', 'opt_tmp/gid_+060/1'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 47) finished successfully on host chem9210.ucdavis.edu (5 seconds)
+Find finished jobs: {'opt_tmp/gid_+090/2'}
+First energy for grid_id (60,) = -9.047704260288
+Scan Status at 126 s
+ [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;33m+[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m [0;36mo[0m
+
+Launching new job at opt_tmp/gid_+045/2
+Launching new job at opt_tmp/gid_+075/2
+Sun Aug 20 05:42:31 2023: 1/8 workers busy; 48/49 jobs complete
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 48) finished successfully on host bright.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_+045/2'}
+Command 'geometric-optimize --prefix tdrive --qccnv yes --reset yes --epsilon 0.0 --enforce 0.1 --qdata yes --engine ase input.xyz constraints.txt 2>&1' (task 49) finished successfully on host bright.ucdavis.edu (4 seconds)
+Find finished jobs: {'opt_tmp/gid_+075/2'}
+All optimizations converged at lowest energy. Job Finished!
+Final scan energies and gradients are written to qdata.txt
+Final scan energies are written to scan.xyz
+Dihedral scan is finished!
+ Grid ID                Energy
+        (-165,)        -9.0545488761
+        (-150,)        -9.0542137329
+        (-135,)        -9.0537216587
+        (-120,)        -9.0531018087
+        (-105,)        -9.0523053368
+         (-90,)        -9.0512079794
+         (-75,)        -9.0496813079
+         (-60,)        -9.0477042603
+         (-45,)        -9.0454551610
+         (-30,)        -9.0433187213
+         (-15,)        -9.0417733607
+          (0,)         -9.0412087692
+         (15,)         -9.0417733576
+         (30,)         -9.0433187222
+         (45,)         -9.0454552157
+         (60,)         -9.0477042603
+         (75,)         -9.0496813079
+         (90,)         -9.0512079794
+         (105,)        -9.0523053372
+         (120,)        -9.0531018033
+         (135,)        -9.0537216586
+         (150,)        -9.0542137331
+         (165,)        -9.0545488767
+         (180,)        -9.0546697320

@@ -1,0 +1,3 @@
+$options
+ase-class xtb.ase.calculator.XTB
+ase-kwargs {"method":"GFN2-xTB"}
