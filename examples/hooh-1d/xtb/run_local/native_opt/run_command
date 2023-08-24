@@ -1,0 +1,1 @@
+torsiondrive-launch hooh.xyz dihedrals.txt -g 15 -e xtb -v --native_opt
